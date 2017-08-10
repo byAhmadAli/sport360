@@ -1,0 +1,21 @@
+{
+	"compile": {
+		"ltr": {
+			"assets/css/en/common.css": "assets/sass/build/en/common.scss",
+			"assets/css/en/home.css": "assets/sass/build/en/home.scss"
+
+		},
+		"rtl": {
+			"assets/css/ar/common.css": "assets/sass/build/ar/common.scss",
+			"assets/css/ar/home.css": "assets/sass/build/ar/home.scss"
+
+		}
+	},
+	"optimize": {
+		"dist/en/css/common.css": "assets/css/en/common.css",
+		"dist/ar/css/common.css": "assets/css/ar/common.css",
+		"dist/en/css/home.css": "assets/css/en/home.css",
+		"dist/ar/css/home.css": "assets/css/ar/home.css"
+	}
+}
+

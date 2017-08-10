@@ -1,0 +1,12 @@
+// settings
+@import "../../variables";
+@import "settings";
+
+// Components
+@imports
+  "../../components/slick",
+  "../../components/slick-theme";
+
+// Page
+@import 
+  "../../pages/home";
