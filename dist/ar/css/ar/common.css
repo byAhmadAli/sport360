@@ -11200,6 +11200,11 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
 .starter {
   /*margin-top: 70px;*/
   margin-top: 40px;
