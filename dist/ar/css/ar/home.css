@@ -480,6 +480,11 @@
 .pic-link {
   margin-bottom: 10px;
   margin-top: 20px;
+  position: relative;
+}
+
+.pic-link.larg {
+  margin-top: 20px;
 }
 
 .centerdiv {
