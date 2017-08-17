@@ -176,7 +176,7 @@ $slick-opacity-not-active: 0.25 !default;
                 font-size: 14px;
                 line-height: 20px;
                 text-align: center;
-                color: #{$gray-dark};
+                color: #{$colors(gray-dark)};
                 opacity: $slick-opacity-not-active;
                 -webkit-font-smoothing: antialiased;
                 -moz-osx-font-smoothing: grayscale;
@@ -184,7 +184,7 @@ $slick-opacity-not-active: 0.25 !default;
         }
         &.slick-active button:before {
             content: '\f111';
-            color: #{$gray-dark};
+            color: #{$colors(gray-dark)};
             opacity: $slick-opacity-default;
         }
     }
