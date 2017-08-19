@@ -1,0 +1,727 @@
+.club-title {
+    margin-top: 15px;
+}
+
+.club-title span {
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(115, 115, 115);
+    line-height: 1.2;
+}
+
+.club-title .separator {
+    font-size: 15px;
+    font-family: "Roboto";
+    color: black;
+    line-height: 1.2;
+}
+
+.publisher-name {
+    color: rgb(238, 30, 39);
+    font-size: 14px;
+    font-family: "Roboto";
+    margin: auto 7px;
+}
+
+.time {
+    color: #bcbcbc;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: "Roboto";
+}
+
+.main-container {
+    margin-top: 16px;
+    padding-bottom: 16px;
+}
+
+.videostarter {
+    background: #252525;
+}
+
+.facebook-time {
+    color: rgb(118, 118, 118);
+    font-size: 13px;
+    font-family: "Roboto";
+}
+
+.article-container {
+    margin-top: 5px;
+}
+
+.article-subject {
+    background: rgb(255, 255, 255);
+}
+
+.articlemaintitle {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 38px;
+    color: black;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.article-head {
+    font-size: 14px;
+    margin-bottom: 30px;
+    margin: auto 10px;
+    color: rgb(188, 188, 188);
+}
+
+.video-content {
+    padding: 10px;
+    padding-bottom: 35px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    margin-bottom: 23px;
+}
+
+.smGlobalBtn {
+    /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #ddd;
+    /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius: 27px;
+    -webkit-border-radius: 27px;
+}
+
+
+/* facebook button class*/
+
+.facebookBtn {
+    background: #4060A5;
+}
+
+.facebookBtn:before {
+    /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a";
+    /* add facebook icon */
+}
+
+.facebookBtn:hover {
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5;
+    /* change the border color on mouse hover */
+}
+
+
+/* twitter button class*/
+
+.twitterBtn {
+    background: #00ABE3;
+}
+
+.twitterBtn:before {
+    font-family: "FontAwesome";
+    content: "\f099";
+    /* add twitter icon */
+}
+
+.twitterBtn:hover {
+    color: #00ABE3;
+    background: #fff;
+    border-color: #00ABE3;
+}
+
+
+/* google plus button class*/
+
+.googleplusBtn {
+    background: #e64522;
+}
+
+.googleplusBtn:before {
+    font-family: "FontAwesome";
+    content: "\f0d5";
+    /* add googleplus icon */
+}
+
+.googleplusBtn:hover {
+    color: #e64522;
+    background: #fff;
+    border-color: #e64522;
+}
+
+
+/* linkedin button class*/
+
+.linkedinBtn {
+    background: #0094BC;
+}
+
+.linkedinBtn:before {
+    font-family: "FontAwesome";
+    content: "\f0e1";
+    /* add linkedin icon */
+}
+
+.linkedinBtn:hover {
+    color: #0094BC;
+    background: #fff;
+    border-color: #0094BC;
+}
+
+
+/* pinterest button class*/
+
+.pinterestBtn {
+    background: #cb2027;
+}
+
+.pinterestBtn:before {
+    font-family: "FontAwesome";
+    content: "\f0d2";
+    /* add pinterest icon */
+}
+
+.pinterestBtn:hover {
+    color: #cb2027;
+    background: #fff;
+    border-color: #cb2027;
+}
+
+
+/* tumblr button class*/
+
+.tumblrBtn {
+    background: #3a5876;
+}
+
+.tumblrBtn:before {
+    font-family: "FontAwesome";
+    content: "\f173";
+    /* add tumblr icon */
+}
+
+.tumblrBtn:hover {
+    color: #3a5876;
+    background: #fff;
+    border-color: #3a5876;
+}
+
+
+/* rss button class*/
+
+.rssBtn {
+    background: #e88845;
+}
+
+.rssBtn:before {
+    font-family: "FontAwesome";
+    content: "\f09e";
+    /* add rss icon */
+}
+
+.rssBtn:hover {
+    color: #e88845;
+    background: #fff;
+    border-color: #e88845;
+}
+
+.fade-out {
+    /*    max-height: 200px;*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    content: "";
+    position: relative;
+}
+
+.read-more {
+    width: 188px;
+    height: 53px;
+    background: #ec1a2e;
+    border: none;
+    color: white;
+}
+
+#paragraph-seemore-pointer {
+    position: relative;
+}
+
+#paragraph-seemore-pointer:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    #{$default-float}: 0;
+    top: 0;
+    background: linear-gradient(to bottom right, transparent, white);
+}
+
+.read-more-line {
+    border: none;
+    height: 1px;
+    background-color: rgb(188, 188, 188);
+    text-align: center;
+}
+
+.continue-reading {
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    color: rgb(188, 188, 188);
+    padding: 0px;
+    padding-top: 5px;
+}
+
+.sub-row {
+    margin: 24px auto;
+}
+
+.centerdiv {
+    text-align: center;
+    margin: 30px auto;
+}
+
+.v-item {
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    /*width: 200px;*/
+    height: 270px;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    margin-#{$default-float}: 0px !important;
+}
+
+.v-item h3 {
+    margin-#{$default-float}: 10px !important;
+    margin-#{$opposite-direction}: 10px !important;
+    padding: 0px !important;
+}
+
+.v-item h3 a {
+    font-size: 14px;
+    color: black;
+    font-weight: 600;
+}
+
+.facebook-comment {
+    width: 100%;
+    height: 50px;
+    background: white;
+    border: 1px solid;
+    border-color: rgb(194, 194, 194);
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.comments-header {
+    size: 14px;
+    font-weight: 900;
+}
+
+.separator {
+    margin: 0px;
+}
+
+.comment-add {
+    height: 120px;
+    background: white;
+    width: 100%;
+    resize: none;
+    font-size: 13px;
+}
+
+.img-profile {
+    width: 45px;
+    height: 45px;
+}
+
+.no-padding {
+    padding: 0px;
+}
+
+.commentor-name {
+    font-size: 13px;
+    font-weight: 900;
+}
+
+.comment {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.facebook-like-comment {
+    font-size: 13px;
+    color: rgb(62, 99, 163);
+}
+
+.verticalLine {
+    border-#{$default-float}: solid;
+    font-size: 15px;
+    font-family: "Roboto";
+    border-color: rgb(225, 225, 225);
+}
+
+.related {
+    background: white;
+    padding: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+.related-button {
+    font-size: 14px;
+    background: white;
+    border: solid;
+    border-width: 1px;
+    padding: 3px 10px;
+    border-color: rgb(215, 215, 215);
+    margin: 5px 5px;
+}
+
+.more-tag-button {
+    font-size: 14px;
+    background: #ec1a2e;
+    border: solid;
+    border-width: 1px;
+    padding: 3px 10px;
+    color: white;
+    border-color: rgb(215, 215, 215);
+    margin: 5px 5px;
+}
+
+.alllivesection {
+    /* border: solid 1px #000; */
+    padding: 15px 25px;
+    color: white;
+    background-color: #ec1a2e;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-block;
+    margin: 60px auto;
+    border-radius: 5px;
+}
+
+.alllivesection>i {
+    color: black;
+}
+
+.paragraph {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+
+/*.content {
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+}*/
+
+.content {
+    height: 435px;
+}
+
+.firstparagraph {
+    margin-top: 54px;
+}
+
+.aricle-cntent {
+    padding: 65px 10px;
+    background-color: white;
+    margin-bottom: 23px;
+}
+
+.video-row {
+    margin-top: 40px;
+}
+
+.more_icon {
+    display: inline-block;
+}
+
+.show_icon {
+    display: none;
+}
+
+.under_line {
+    text-decoration: underline;
+}
+
+h2.maintitle {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 34px;
+    color: #202020;
+    padding-bottom: 10px;
+    padding-top: 15px;
+}
+
+.mostpop {
+    margin-top: 35px;
+}
+
+.read-more-button {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.inlineads {
+    margin-top: 10px;
+}
+
+.relatedtext {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/*.subtitle {
+    font-size: 22.5px;
+    font-weight: 900;
+}*/
+
+h2.relatedmaintitle {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 34px;
+    color: #202020;
+    padding-bottom: 16px;
+    padding-top: 15px;
+}
+
+.comment-unit {
+    margin-bottom: 15px;
+}
+
+.popular {
+    font-size: 27px;
+    font-weight: 900;
+}
+
+.tags-and-sections {
+    font-size: 26px;
+    font-weight: 900;
+}
+
+.show_icon_inside {
+    display: none;
+}
+
+.more_icon_inside {
+    display: inline-block;
+}
+
+.inner.pull-#{$default-float} {
+    margin-top: 105px;
+}
+.pull-#{$default-float} {
+    margin-top: 10px;
+}
+
+.slider {
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+.relatednews {
+    margin-top: 50px;
+}
+
+h2.relatedmaintitle {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 34px;
+    color: #202020;
+    padding-bottom: 16px;
+    padding-top: 15px;
+}
+
+.main-button {
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center !important;
+}
+
+.main-button span {
+    display: table;
+    margin: 0 auto;
+}
+
+.related-head {
+    background: white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+}
+
+.head-related {
+    width: 690px;
+    margin-#{$default-float}: 1px;
+}
+
+.head-related-mobile {
+    margin-#{$default-float}: 1px;
+    margin-#{$opposite-direction}: 1px;
+    /*width: 289px;*/
+}
+
+.tags-area {
+    display: inline-block;
+}
+
+.tag {
+    background-color: white;
+    padding-bottom: 12px !important;
+    padding-top: 12px !important;
+}
+
+.sections-area {
+    display: none;
+}
+
+.section {
+    background-color: #f1f1f1;
+    padding-bottom: 12px !important;
+    padding-top: 12px !important;
+}
+
+
+/** tablet **/
+
+@media only screen and (min-width: 620px) and (max-width: 991px) {
+    .articlemaintitle {
+        font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 28px;
+        line-height: 34px;
+        color: black;
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    .club-title span {
+        font-size: 14px;
+        font-family: "Roboto";
+        color: #727272;
+        line-height: 1.2;
+    }
+    .main_img {
+        width: 690px;
+    }
+    .related_img {
+        width: 360px !important;
+    }
+    .v-item {
+        background: #fff;
+        box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important;
+        height: 270px;
+        margin-top: 15px;
+        margin-bottom: 6px;
+        margin-#{$default-float}: 0px !important;
+    }
+    .relatednews .related {
+        height: 328px;
+        width: 670px;
+        margin-#{$default-float}: 3px;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .articlemaintitle {
+        font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 26px;
+        color: black;
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    .club-title span {
+        font-size: 14px;
+        font-family: "Roboto";
+        color: #727272;
+        line-height: 1.2;
+    }
+    .v-item {
+        background: #fff;
+        box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important;
+        height: 250px;
+        margin-top: 15px;
+        margin-bottom: 6px;
+        margin-#{$default-float}: 0px !important;
+    }
+    .relatednews .related {
+        padding-top: 0px;
+        height: 270px;
+    }
+    .most-mobile {
+        padding-#{$default-float}: 4px !important;
+        padding-#{$opposite-direction}: 4px !important;
+    }
+    .v-item h3 {
+        margin-#{$default-float}: 0px !important;
+        margin-#{$opposite-direction}: 10px !important;
+        padding: 0px !important;
+    }
+    .v-item h3 a {
+        font-size: 12px;
+        color: black;
+        font-weight: 600;
+        line-height: 10px;
+    }
+    .no-padding {
+        padding: 15px;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 619px) {
+    .articlemaintitle {
+        font-family: 'Roboto';
+        font-weight: 900;
+        font-size: 22px;
+        line-height: 26px;
+        color: black;
+        padding-bottom: 10px;
+        padding-top: 15px;
+    }
+    .club-title span {
+        font-size: 14px;
+        font-family: "Roboto";
+        color: #727272;
+        line-height: 1.2;
+    }
+    .v-item {
+        background: #fff;
+        box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important;
+        height: 250px;
+        margin-top: 15px;
+        margin-bottom: 6px;
+        margin-#{$default-float}: 0px !important;
+    }
+    .v-item h3 {
+        margin-#{$default-float}: 0px !important;
+        margin-#{$opposite-direction}: 10px !important;
+        padding: 0px !important;
+    }
+    .v-item h3 a {
+        font-size: 12px;
+        color: black;
+        font-weight: 600;
+        line-height: 10px;
+    }
+    .most-mobile {
+        padding-#{$default-float}: 4px !important;
+        padding-#{$opposite-direction}: 4px !important;
+    }
+    .relatednews .related {
+        padding-top: 0px;
+        height: 270px;
+    }
+    .no-padding {
+        padding: 15px;
+    }
+}

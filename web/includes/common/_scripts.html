@@ -9,3 +9,8 @@
 <script src="../js/libs/tether/tether.min.js"></script>
 
 <script type="text/javascript" src="../js/app.js"></script>
+{{#file page.file}}
+<script type="text/javascript" src="../js/{{page.file}}.js"></script>
+{{else}}
+<script type="text/javascript" src="../js/{{basename}}.js"></script>
+{{/file}}

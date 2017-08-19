@@ -2,20 +2,29 @@
 	"compile": {
 		"ltr": {
 			"assets/css/en/common.css": "assets/sass/build/en/common.scss",
-			"assets/css/en/home.css": "assets/sass/build/en/home.scss"
-
+			"assets/css/en/home.css": "assets/sass/build/en/home.scss",
+			"assets/css/en/video.css": "assets/sass/build/en/video.scss",
+			"assets/css/en/article.css": "assets/sass/build/en/article.scss",
+			"assets/css/en/section.css": "assets/sass/build/en/section.scss"
 		},
 		"rtl": {
 			"assets/css/ar/common.css": "assets/sass/build/ar/common.scss",
-			"assets/css/ar/home.css": "assets/sass/build/ar/home.scss"
-
+			"assets/css/ar/home.css": "assets/sass/build/ar/home.scss",
+			"assets/css/ar/video.css": "assets/sass/build/ar/video.scss",
+			"assets/css/ar/article.css": "assets/sass/build/ar/article.scss",
+			"assets/css/ar/section.css": "assets/sass/build/ar/section.scss"
 		}
 	},
 	"optimize": {
 		"dist/en/css/common.css": "assets/css/en/common.css",
 		"dist/ar/css/common.css": "assets/css/ar/common.css",
 		"dist/en/css/home.css": "assets/css/en/home.css",
-		"dist/ar/css/home.css": "assets/css/ar/home.css"
+		"dist/ar/css/home.css": "assets/css/ar/home.css",
+		"dist/en/css/video.css": "assets/css/en/video.css",
+		"dist/ar/css/video.css": "assets/css/ar/video.css",
+		"dist/en/css/article.css": "assets/css/en/article.css",
+		"dist/ar/css/article.css": "assets/css/ar/article.css",
+		"dist/en/css/section.css": "assets/css/en/section.css",
+		"dist/ar/css/section.css": "assets/css/ar/section.css"
 	}
 }
-
