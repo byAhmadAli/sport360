@@ -158,8 +158,8 @@ module.exports = function(grunt) {
             {
                 expand: true,
                 cwd : 'libs/' ,
-                src: ['uikit/js/**/*', 'slick-carousel/slick/*.js', 'jquery/dist/*.js', 
-                  'jquery.countdown/dist/*.js', 'bootstrap-sass/assets/javascripts/**/*.js'],
+                src: ['slick-carousel/slick/*.js', 'jquery/dist/*.js', 
+                  'jquery.countdown/dist/*.js', 'bootstrap/dist/js/*.js'],
                 dest: 'dist/js/libs'
             }
         ]
