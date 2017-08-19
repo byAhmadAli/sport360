@@ -1,0 +1,215 @@
+.navbar-inverse{
+	padding: 0;
+    height: 58px;
+    padding-#{$opposite-direction}: 16px;
+	padding-#{$default-float}: 19px;
+	border-radius: 0;
+	border: none;
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+	#{$default-float}: 0;
+	.burger-menu{
+		padding: 17px 0;
+		margin: 0;
+		background: transparent;
+		border: none;
+		width: 24px;
+		height: 58px;
+		line-height: 34px;
+		cursor: pointer;
+		margin-#{$opposite-direction}: 6px;
+		float: #{$default-float};
+		span{
+			font-size: 20px;
+			color: #fff;
+		}
+	}
+	.navbar-brand{
+		float: #{$default-float};
+		width: 132px;
+		padding: 11px 0;
+		margin: 0;
+		margin-#{$opposite-direction}: 21px;
+		height: 58px;
+	}
+	.navbar-form{
+		width: 560px;
+		height: 42px;
+		background-color: rgba(255, 255, 255, 0.1);
+		margin-#{$opposite-direction}: 224px;
+		position: relative;
+		padding: 0;
+		.form-control{
+			width: 100%;
+			height: 42px;
+			margin: 0;
+			padding: 12px 23px 9px;
+			color: #fff;
+			background: transparent;
+			border-radius: 0;
+			outline: none;
+			border: none;
+			font-size: 16px;
+			font-weight: 600;
+			&:focus, &:hover{
+				outline: none;
+				border: none;
+				box-shadow: none;
+			}
+			&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+				color: #fff;
+			}
+			&::-moz-placeholder { /* Firefox 19+ */
+				color: #fff;
+			}
+			&:-ms-input-placeholder { /* IE 10+ */
+				color: #fff;
+			}
+			&:-moz-placeholder { /* Firefox 18- */
+				color: #fff;
+			}
+		}
+		.search-btn{
+			position: absolute;
+			cursor: pointer;
+			padding: 0;
+			margin: 0;
+			background: transparent;
+			border: none;
+			width: 24px;
+			height: 24px;
+			#{$opposite-direction}: 24px;
+			top: 11px;
+			span{
+				font-size: 20px;
+				color: rgba(255, 255, 255, 0.7);
+				&:hover{
+					color: rgba(255, 255, 255, 1);
+				}
+			}
+		}
+	}
+	.navbar-actions-menu{
+		text-align: #{$opposite-direction};
+		padding: 16px 0;
+		.navbar-nav{
+			li{
+				a{
+					color: rgba(255, 255, 255, 0.7);
+					text-transform: capitalize;
+					font-size: 16px;
+					font-weight: 600;
+					padding: 3px 16px;
+					&:hover{
+						color: rgba(255, 255, 255, 1);
+					}
+					&.btn{
+						border-radius: 0;
+						border: none;
+						&:hover{
+							background-color: darken($brand-primary, 15%);
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.main-menu{
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	#{$default-float}: 0;
+	padding-top: 58px;
+	width: 58px;
+	height: 100%;
+	background-color: #fff;
+	box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
+	transition: all 0.3s ease-in-out;
+	&.opened{
+		width: 200px;
+		overflow: hidden;
+		.menu-items{
+			li{
+				a{
+					white-space: nowrap;
+					padding: 8px 16px;
+					text-decoration: none;
+					i{
+						margin-#{$opposite-direction}: 16px;
+						float: #{$default-float}
+					}
+					.title{
+						position: static;
+						font-size: 14px;
+						font-weight: bold;
+						line-height: 2;
+						background-color: transparent;
+						padding: 0;
+						color: $gray-base;
+						font-family: Roboto;
+						height: auto;
+						font-weight: normal;
+						transition: none;
+						display: block;
+					}
+				}
+				&.active{
+					a{
+						.title{
+							color: $brand-primary;
+						}
+					}
+				}
+			}
+		}
+	}
+	.menu-items{
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li{
+			a{
+				transition: all 0.3s ease-in-out;
+				padding: 17px;
+				font-size: 22px;
+				line-height: 16px;
+				float: #{$default-float};
+				width: 100%;
+				color: $gray-base;
+				position: relative;
+				.title{
+					position: absolute;
+					#{$default-float}: 67px;
+					background-color: rgba(45, 45, 46, 0.7);
+					padding: 5px 16px;
+					font-size: 12px;
+					font-weight: 500;
+					line-height: 1.75;
+					color: #fff;
+					font-family: Roboto;
+					bottom: 0;
+					top: 0;
+					margin: auto;
+					height: 32px;
+					display: none;
+					
+				}
+				&:hover{
+					background-color: #f5f6f7;
+					.title{
+						display: block;
+					}
+				}
+			}
+			&.active{
+				a{
+					color: $brand-primary;
+					background-color: rgba(45, 127, 223, 0.05);
+				}
+			}	
+		}
+	}
+}

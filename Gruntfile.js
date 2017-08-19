@@ -17,7 +17,7 @@ module.exports = function(grunt) {
   //var pagesMap = grunt.file.readJSON('assets/library/pages/pagesMap.json');
   var sassLtr = {
 		options: {
-			includePaths: ['libs/bootstrap/scss', 'libs/font-awesome/scss'],
+			includePaths: ['libs/bootstrap-sass/assets/stylesheets', 'libs/font-awesome/scss'],
 			outputStyle: 'expanded',
 			line_comments: 'true'
 		},
@@ -158,7 +158,7 @@ module.exports = function(grunt) {
             {
                 expand: true,
                 cwd : 'libs/' ,
-                src: ['slick-carousel/slick/*.js', 'jquery/dist/*.js', 'bootstrap/dist/js/**/*.js'],
+                src: ['slick-carousel/slick/*.js', 'jquery/dist/*.js', 'bootstrap-sass/assets/javascripts/**/*.js'],
                 dest: 'dist/js/libs'
             }
         ]

@@ -3,15 +3,11 @@
 <title>Sport360 {{page.title}}</title>
 
 <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Roboto" />
+<link href="https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700&amp;subset=devanagari" rel="stylesheet">
 
-{{#file page.slider}}
-<link rel="stylesheet" href="../js/libs/owl.carousel/owl.carousel.min.css">
-<link rel="stylesheet" href="../js/libs/owl.carousel/owl.theme.default.min.css">
-{{/file}}
-
-<link rel="stylesheet" type="text/css" href="css/{{lang}}/common.css">
+<link rel="stylesheet" type="text/css" href="css/{{lang}}/common.css" />
 {{#file page.file}}
-<link rel="stylesheet" type="text/css" href="css/{{lang}}/{{page.file}}.css">
+<link rel="stylesheet" type="text/css" href="css/{{lang}}/{{page.file}}.css" />
 {{else}}
-<link rel="stylesheet" type="text/css" href="css/{{lang}}/{{basename}}.css">
+<link rel="stylesheet" type="text/css" href="css/{{lang}}/{{basename}}.css" />
 {{/file}}
