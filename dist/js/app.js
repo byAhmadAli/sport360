@@ -1,21 +1,19 @@
 $(document).ready(function () {
-    /*$(window).scroll(function () {
-        var distanceFromTop = $(document).scrollTop();
-        if (distanceFromTop + 200 >= $('#head').height()) {
-            $('#sticky').addClass('fixed');
-        } else {
-            $('#sticky').removeClass('fixed');
-        }
-
-        if (distanceFromTop - 100 >= $('.secondhead').height()) {
-            $('#sticky').removeClass('fixed');
-        }
-    });*/
-    $("#sidebar").stick_in_parent();
+    $("#sidebar").stick_in_parent({
+        offset_top: $("#masthead").height()
+    });
+    ao = "";
+    ai = "";
+    if ($(window).width() < 960) {
+        ao = "slideOutUp";
+        ai = "slideInUp";
+    }
     $('.results.owl-carousel').owlCarousel({
         loop: true,
         autoplay: true,
         nav: true,
+        animateOut: ao,
+        animateIn: ai,
         responsiveClass: true,
         responsive: {
             0: {
@@ -23,8 +21,8 @@ $(document).ready(function () {
                 nav: true
             },
             600: {
-                items: 2,
-                nav: false
+                items: 1,
+                nav: true,
             },
             1000: {
                 items: 3,
@@ -32,7 +30,7 @@ $(document).ready(function () {
                 loop: false
             }
         }
-    })
+    });
     $('.owl-carousel').owlCarousel({
         loop: true,
         autoplay: true,
@@ -56,10 +54,16 @@ $(document).ready(function () {
     })
     $(".owl-prev").html('<i class="fa fa-chevron-left fa-2x"></i>');
     $(".owl-next").html('<i class="fa fa-chevron-right fa-2x"></i>');
-
+    if ($(window).width() < 960) {
+        $(".owl-prev").css({
+            display: "none"
+        });
+    }
     $(".toggle-menu .show_hide_menu").click(function () {
         $("body").toggleClass("noscroll");
-        $("#menu").slideDown({ duration: 500 });
+        $("#menu").slideDown({
+            duration: 500
+        });
         $('.show_hide_menu').css('display', 'none');
         $('.open-menu').css('display', 'none');
         $('.close-menu').css('display', 'block');

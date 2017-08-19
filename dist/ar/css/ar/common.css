@@ -11249,27 +11249,19 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
 }
 
 h2.maintitle {
-  /* font-size: 28px;
-	    font: 'roboto' bold 27px black !important;*/
   font-family: 'Roboto';
-  font-weight: bold;
-  font-size: 34px;
+  font-weight: 900;
+  font-size: 26px;
   color: #202020;
-  /*font-weight: 900;
-	    color: #000;*/
   padding-bottom: 10px;
   padding-top: 15px;
 }
 
 h2.clubs {
-  /* font-size: 28px;
-	    font: 'roboto' bold 27px black !important;*/
   font-family: 'Roboto';
-  font-weight: bold;
+  font-weight: 900;
   font-size: 34px;
-  color: #252525;
-  /*font-weight: 900;
-	    color: #000;*/
+  color: #202020;
   padding-bottom: 10px;
   padding-top: 15px;
 }
@@ -11312,12 +11304,6 @@ h3.title {
   bottom: 0;
   background: rgba(0, 0, 0, 0.2);
   background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.2) 100%);
-  /* background: -webkit-gradient(right top, right bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.5)));
-	    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
-	    background: -o-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
-	    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
-	    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 100%);
-	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0);*/
 }
 
 h3.title a {
@@ -11331,10 +11317,17 @@ h3.title a:hover {
   text-decoration: none;
 }
 
+h3.title a.v {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 900;
+  line-height: 36px;
+}
+
 h3.title em {
-  font-size: 16px;
-  font-weight: normal;
-  color: #bcbcbc;
+  font-size: 14px;
+  font-weight: 400;
+  color: #bbbbbb;
   text-decoration: none;
   font-style: normal;
   display: block;
@@ -11360,15 +11353,6 @@ h4.title {
   margin: 0;
   width: 100%;
   bottom: 0;
-  /*background: rgba(0, 0, 0, 0.1);
-	    background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);*/
-  /*  background: -webkit-gradient(right top, right bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.5)));
-	    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-	    background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-	    background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-	    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-	    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0);
-	*/
 }
 
 h4.title a {
@@ -11385,17 +11369,18 @@ h4.title a:hover {
 
 h4.title em {
   font-size: 14px;
-  font-weight: 300;
-  color: #ccc;
+  font-weight: 400;
+  color: #727272;
   text-decoration: none;
   font-style: normal;
   display: block;
   margin: 5px 0 0;
+  line-height: 18px;
 }
 
 h4 em {
   font-size: 14px;
-  font-weight: normal;
+  font-weight: 400;
   color: #727272;
   text-decoration: none;
   font-style: normal;
@@ -11505,8 +11490,9 @@ ul.stories .story .img-pic {
 
 .v-item h3 a {
   font-size: 16px;
-  color: black;
+  color: #202020;
   font-weight: bold;
+  line-height: 20px;
 }
 
 .v-item h3 a:hover {
@@ -11549,7 +11535,7 @@ ul.stories .story .img-pic {
 }
 
 .photoitem h4 {
-  font-size: 14px;
+  font-size: 15px;
   line-height: 18px;
   margin-right: 159px;
   padding: 10px 10px;
