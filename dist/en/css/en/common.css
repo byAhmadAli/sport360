@@ -11230,12 +11230,13 @@ body * {
 
 .card .card-image .badge {
   position: absolute;
-  width: 33px;
-  height: 33px;
+  width: 43px;
+  height: 45px;
   background-color: #78909c;
   border-radius: 0;
   top: -8px;
   left: 16px;
+  border-radius-left: 3px;
 }
 
 .card .card-image .badge:before {
@@ -11248,6 +11249,17 @@ body * {
   position: absolute;
   left: -8px;
   top: 0px;
+}
+
+.card .card-image .badge:after {
+  content: '';
+  border: solid #78909c;
+  border-width: 16.5px;
+  position: absolute;
+  width: 0;
+  border-color: #78909c #78909c transparent #78909c;
+  left: 0;
+  bottom: -17px;
 }
 
 .card .card-details h3 {
