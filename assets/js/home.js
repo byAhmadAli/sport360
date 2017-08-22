@@ -2,20 +2,12 @@ $(document).ready(function () {
     $("#sidebar").stick_in_parent({
         offset_top: $("#masthead").height()
     });
-    /*ao = "";
-    ai = "";
-    if ($(window).width() < 960) {
-        ao = "slideOutUp";
-        ai = "slideInUp";
-    }*/
     var url = window.location.href.includes("/en");
     $('.results.owl-carousel').owlCarousel({
         rtl: !url,
         loop: true,
         autoplay: true,
         nav: true,
-        /*animateOut: ao,
-        animateIn: ai,*/
         responsiveClass: true,
         responsive: {
             0: {

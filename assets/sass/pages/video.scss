@@ -41,16 +41,7 @@ $url_9: url(../../assets/fonts/icomoon.woff?235t6z);
 $url_10: url(../../assets/fonts/icomoon.eot?#iefix235t6z);
 $url_11: url(../../assets/fonts/icomoon.ttf?235t6z);
 $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
-@import url('https://fonts.google.com/specimen/Roboto?selection.family=Roboto:300,400,900');
-@font-face {
-    font-family: 'Myriad Pro';
-    src: url('../fonts/Myriad-Pro_31655.ttf') format('truetype');
-}
 
-@font-face {
-    font-family: 'Myriad Pro Regular';
-    src: url('../fonts/MyriadPro-Regular.otf') format('opentype');
-}
 .offset-1 {
     margin-#{$default-float}: 6% !important;
 }
@@ -330,7 +321,6 @@ h2.relatedmaintitle {
 
 .comment {
     font-size: 13px;
-    font-family: Myriad Pro Regular;
 }
 
 .related {

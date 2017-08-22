@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* Slider */
-@import url("https://fonts.google.com/specimen/Roboto?selection.family=Roboto:300,400,900");
 .slider {
   background: transparent !important;
 }
@@ -286,16 +285,6 @@
   opacity: 0.75;
 }
 
-@font-face {
-  font-family: 'Myriad Pro';
-  src: url("../fonts/Myriad-Pro_31655.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: 'Myriad Pro Regular';
-  src: url("../fonts/MyriadPro-Regular.otf") format("opentype");
-}
-
 .offset-1 {
   margin-right: 6% !important;
 }
@@ -575,7 +564,6 @@ h2.relatedmaintitle {
 
 .comment {
   font-size: 13px;
-  font-family: Myriad Pro Regular;
 }
 
 .related {

@@ -12429,6 +12429,12 @@ div.level > ul > li {
   font-size: 15px;
 }
 
+.toggle-container {
+  height: 40px;
+  background: #e1e1e1;
+  text-align: center;
+}
+
 .loader {
   display: block;
   width: 122px;

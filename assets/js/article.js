@@ -2,6 +2,7 @@ $(document).ready(function () {
     $el = $('#paragraph-seemore-pointer');
     var bottom = $el.position().top + $el.outerHeight(true);
     $(".fade-out").css("max-height", bottom + 'px');
+    var url = window.location.href.includes("/en");
     $('#owl-carousel-3').owlCarousel({
         loop: true,
         autoplay: true,
@@ -24,6 +25,7 @@ $(document).ready(function () {
         }
     });
     $('#owl-carousel-1').owlCarousel({
+        rtl: !url,
         loop: true,
         autoplay: true,
         nav: true,
@@ -64,8 +66,16 @@ $(document).ready(function () {
         }
     });
 
-    $(".owl-prev").html('<i class="fa fa-chevron-left fa-2x"></i>');
-    $(".owl-next").html('<i class="fa fa-chevron-right fa-2x"></i>');
+    if (url) {
+        $(".owl-prev").html('<i class="fa fa-chevron-left fa-2x"></i>');
+        $(".owl-next").html('<i class="fa fa-chevron-right fa-2x"></i>');
+    } else {
+        $(".owl-prev").html('<i class="fa fa-chevron-right fa-2x"></i>');
+        $(".owl-next").html('<i class="fa fa-chevron-left fa-2x"></i>');
+    }
+    $("#toogle-details").click(function () {
+        $(".matchdetils").toggle();
+    });
 
     $("#read-more").click(function () {
         $("#paragraph-seemore-pointer").append('<style>#paragraph-seemore-pointer:before{content:none}</style>');
