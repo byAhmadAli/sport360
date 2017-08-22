@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* Slider */
+@import url("https://fonts.google.com/specimen/Roboto?selection.family=Roboto:300,400,900");
 .slider {
   background: transparent !important;
 }
@@ -285,6 +286,16 @@
   opacity: 0.75;
 }
 
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url("../fonts/Myriad-Pro_31655.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'Myriad Pro Regular';
+  src: url("../fonts/MyriadPro-Regular.otf") format("opentype");
+}
+
 .offset-1 {
   margin-right: 6% !important;
 }
@@ -356,7 +367,7 @@ h2.maintitle {
 .vbigicon {
   width: 100px;
   height: 100px;
-  background: url(../img/vbigcicon.png) no-repeat center center;
+  background: url(../../images/vbigcicon.png) no-repeat center center;
   top: 120px;
   right: 290px;
   z-index: 99;
@@ -668,7 +679,7 @@ h2.relatedmaintitle {
 .vsicon {
   width: 100px;
   height: 100px;
-  background: url(../img/video-icon.png) no-repeat center center;
+  background: url(../../images/video-icon.png) no-repeat center center;
   top: 20px;
   right: 95px;
   z-index: 99;

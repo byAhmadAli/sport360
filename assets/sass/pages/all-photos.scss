@@ -1,0 +1,37 @@
+.photo_title {
+    color: black;
+    font-weight: 900;
+    font-size: 38px;
+}
+.v-item {
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
+    height: 350px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.killermain {
+    margin-top: 50px;
+}
+/** tablet **/
+
+@media only screen and (min-width: 620px) and (max-width: 991px) {
+    .killermain {
+        margin-bottom: 50px;
+        margin-top: 0px;
+    }
+}
+/** mobile **/
+@media only screen and (max-width: 420px) {
+    .killermain {
+        margin-bottom: 50px;
+        margin-top: 0px;
+    }
+}
+/** mobile **/
+@media only screen and (min-width: 320px) and (max-width: 619px) {
+    .killermain {
+        margin-bottom: 50px;
+        margin-top: 0px;
+    }
+}
