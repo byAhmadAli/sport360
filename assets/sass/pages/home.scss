@@ -101,7 +101,8 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
     padding: 70px 0;
     height: 159px;
     text-align: center;
-    a {
+    border-radius: 4px;
+    span {
         color: $color_black_haze_approx;
         font-size: 18px;
         font-weight: 600;
@@ -130,13 +131,21 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
 .extend-height{
     flex: 1 1 auto;
 }
+.toggle-container {
+    height: 40px;
+    background: rgb(225,225,225);
+    text-align: center;
+}
+.seeall img {
+    padding-#{$default-float}: 10px;
+}
 @media only screen and(min-width: 620px) and(max-width: 991px) {
     .pic-md-link {
-        margin-#{$default-float}: 15px;
+        margin-#{$default-float}: 10px;
         margin-top: 19px;
         position: relative;
         > a > img {
-            width: 689px;
+            width: 720px;
         }
     }
     .alllive {

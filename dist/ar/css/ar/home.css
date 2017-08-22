@@ -349,15 +349,16 @@
   padding: 70px 0;
   height: 159px;
   text-align: center;
+  border-radius: 4px;
 }
 
-.darken a {
+.darken span {
   color: #f7f7f7;
   font-size: 18px;
   font-weight: 600;
 }
 
-.darken a i {
+.darken span i {
   color: #313131;
   margin: 0 10px;
   position: relative;
@@ -384,14 +385,24 @@
   flex: 1 1 auto;
 }
 
+.toggle-container {
+  height: 40px;
+  background: #e1e1e1;
+  text-align: center;
+}
+
+.seeall img {
+  padding-right: 10px;
+}
+
 @media only screen and (min-width: 620px) and (max-width: 991px) {
   .pic-md-link {
-    margin-right: 15px;
+    margin-right: 10px;
     margin-top: 19px;
     position: relative;
   }
   .pic-md-link > a > img {
-    width: 689px;
+    width: 720px;
   }
   .alllive {
     border: solid 1px #000;

@@ -11377,7 +11377,7 @@ h3 em {
 
 h4.title {
   font-weight: 900;
-  font-size: 20px;
+  font-size: 18px;
   color: #ffffff;
   position: absolute;
   padding: 10px;
@@ -11501,14 +11501,15 @@ ul.stories .story .img-pic {
 .v-item {
   background: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  height: 310px;
+  height: 300px;
   margin-top: 15px;
   margin-bottom: 15px;
   margin-right: 5px;
 }
 
 .v-item h3 {
-  padding: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
   line-height: 16px;
 }
 
@@ -12600,6 +12601,12 @@ div.level > ul > li {
 }
 
 @media only screen and (min-width: 620px) and (max-width: 991px) {
+  h3.title a.v {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 18px;
+  }
   .pic-link {
     margin-bottom: 20px;
     margin-top: 20px;
@@ -12720,6 +12727,12 @@ div.level > ul > li {
     color: #252525;
     font-size: 28px;
   }
+  .fa-chevron-left {
+    display: none;
+  }
+  .fa-chevron-right {
+    display: none;
+  }
   .mobbanner {
     max-width: 90%;
     margin-right: 120px;
@@ -12735,8 +12748,9 @@ div.level > ul > li {
   }
   h3.title a {
     color: #ffffff;
-    font-size: 22px;
-    font-weight: bold;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 18px;
   }
   h3.title em {
     font-size: 14px;
@@ -12768,9 +12782,9 @@ div.level > ul > li {
     padding: 5px 10px;
   }
   div.stories .story h4 a {
-    font-size: 20px;
+    font-size: 16px;
     color: #000;
-    font-weight: 600;
+    font-weight: bold;
   }
   div.stories .story .img-pic {
     float: right;
@@ -12819,27 +12833,21 @@ div.level > ul > li {
   .v-item {
     height: 330px;
   }
-  .owl-nav .owl-next {
-    position: absolute;
-    left: 50%;
-    top: 0px;
-    transform: rotate(90deg);
-  }
 }
 
 @media only screen and (width: 414px) {
   .v-item {
     height: 330px;
   }
-  .owl-nav .owl-next {
-    position: absolute;
-    left: 50%;
-    top: 0px;
-    transform: rotate(90deg);
-  }
 }
 
 @media only screen and (max-width: 420px) {
+  h3.title a.v {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 18px;
+  }
   #meta-nav {
     list-style: none;
     position: absolute;
@@ -12952,8 +12960,11 @@ div.level > ul > li {
     height: 480px;
     margin-top: 65px;
   }
-  .fa-2x {
-    display: block;
+  .fa-chevron-left {
+    display: none;
+  }
+  .fa-chevron-right {
+    display: none;
   }
   .mobbanner {
     margin-left: 15px;
@@ -13015,6 +13026,12 @@ div.level > ul > li {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 619px) {
+  h3.title a.v {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 18px;
+  }
   #meta-nav {
     list-style: none;
     position: absolute;
@@ -13120,8 +13137,11 @@ div.level > ul > li {
   .toggle-menu {
     margin-top: 7%;
   }
-  .fa-2x {
-    display: block;
+  .fa-chevron-left {
+    display: none;
+  }
+  .fa-chevron-right {
+    display: none;
   }
   .v {
     font-size: 16px;

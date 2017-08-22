@@ -21,7 +21,7 @@ $(document).ready(function () {
                 nav: true
             },
             600: {
-                items: 1,
+                items: 2,
                 nav: true,
             },
             1000: {
@@ -54,9 +54,8 @@ $(document).ready(function () {
     })
     $(".owl-prev").html('<i class="fa fa-chevron-left fa-2x"></i>');
     $(".owl-next").html('<i class="fa fa-chevron-right fa-2x"></i>');
-    if ($(window).width() < 960) {
-        $(".owl-prev").css({
-            display: "none"
-        });
-    }
+    $("#toogle-details").click(function () {
+        $(".matchdetils").toggle();
+    });
+
 });
