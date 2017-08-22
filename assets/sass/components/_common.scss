@@ -43,8 +43,8 @@ $url_11: url(../../assets/fonts/icomoon.ttf?235t6z);
 $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
 
 .container {
-     padding-right: 0px; 
-     padding-left: 0px; 
+     padding-#{$opposite-direction}: 0px; 
+     padding-#{$default-float}: 0px; 
 }
 .starter {
     margin-top: 40px;
@@ -130,7 +130,7 @@ h2{
 	&.maintitle {
 	    font-family: 'Roboto';
 	    font-weight: 900;
-	    font-size: 26px;
+	    font-size: 34px;
 	    color: #202020;
 	    padding-bottom: 10px;
 	    padding-top: 15px;
@@ -138,7 +138,7 @@ h2{
 	&.clubs {
 	    font-family: 'Roboto';
 	    font-weight: 900;
-	    font-size: 34px;
+	    font-size: 26px;
 	    color: #202020;
 	    padding-bottom: 10px;
 	    padding-top: 15px;
@@ -164,14 +164,21 @@ h2{
 	    color: #000;
 	}
 }
-
+h3.most {
+    font-size: 27px !important;
+    font-weight: 900;
+    margin-top: 18px;
+}
 h3{
 	&.title {
 	    font-weight: 600;
 	    font-size: 33px;
 	    color: #ffffff;
 	    position: absolute;
-	    padding: 0px 0px 15px 20px;
+        padding-top: 0px;
+        padding-#{$opposite-direction}: 0px;
+        padding-bottom: 15px;
+        padding-#{$default-float}: 20px;
 	    margin: 0;
 	    width: 100%;
 	    bottom: 0;
@@ -220,7 +227,7 @@ h4{
 	    font-size: 18px;
 	    color: #ffffff;
 	    position: absolute;
-	    padding: 10px;
+        padding: 10px;
 	    margin: 0;
 	    width: 100%;
 	    bottom: 0;
@@ -313,7 +320,7 @@ ul{
 			    line-height: 18px;
 			    margin-#{$default-float}: 130px;
 			    max-width: 260px;
-			    padding: 5px 10px;
+                padding: 5px 10px;
 			    a {
 				    font-size: 15px;
 				    color: black;
@@ -340,6 +347,7 @@ ul{
     margin-bottom: 15px;
     margin-#{$default-float}: 5px;
     h3 {
+        padding-top:4px;
         padding-#{$default-float}: 10px;
         padding-#{$opposite-direction}: 10px;
 	    line-height: 16px;
@@ -905,7 +913,7 @@ li.subscribe > div {
 }
 .fa-play {
     font-size: 9px !important;
-    padding-left: 10px;
+    padding-#{$default-float}: 10px;
 }
 .form-control {
     //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
@@ -1055,13 +1063,22 @@ li.subscribe > div {
 .levelOne {
     background: $color_cape_cod_approx;
     color: $white;
-    padding: 0 3px 0 15px;
+    padding-top: 0px;
+    padding-#{$opposite-direction}: 3px;
+    padding-bottom: 0px;
+    padding-#{$default-float}: 15px;
 }
 .levelTwo {
-    padding: 0 3px 0 15px;
+    padding-top: 0px;
+    padding-#{$opposite-direction}: 3px;
+    padding-bottom: 0px;
+    padding-#{$default-float}: 15px;
 }
 .levelThree {
-    padding: 0 3px 0 15px;
+   padding-top: 0px;
+   padding-#{$opposite-direction}: 3px;
+   padding-bottom: 0px;
+   padding-#{$default-float}: 15px;
     display: none;
 }
 .dropdown-divider {
@@ -1118,7 +1135,10 @@ div {
         background: $color_cardinal_approx;
     }
     &.level > ul > li {
-        padding: 10px 0 10px 10px;
+        padding-top: 10px;
+        padding-#{$opposite-direction}: 0px;
+        padding-bottom: 10px;
+        padding-#{$default-float}: 10px;
         font-size: 15px;
     }
 }
@@ -1563,13 +1583,33 @@ div {
     .v-item {
         height: 330px;
     }
+    .container {
+        padding-#{$opposite-direction}: 10px;
+        padding-#{$default-float}: 10px;
+    }
 }
 @media only screen and(width: 414px) {
     .v-item {
         height: 330px;
     }
+    .container {
+        padding-#{$opposite-direction}: 10px;
+        padding-#{$default-float}: 10px;
+    }
 }
 @media only screen and(max-width: 420px) {
+    .v-item {
+        margin-#{$default-float}:0px; 
+    }
+    .pic-link {
+        margin-bottom: 10px;
+        margin-top: 5px;
+        position: relative;
+    }
+    .container {
+        padding-#{$opposite-direction}: 10px;
+        padding-#{$default-float}: 10px;
+    }
     h3.title a.v {
         color: #ffffff;
         font-size: 18px;
@@ -1605,8 +1645,8 @@ div {
             font-size: 28px;
             color: $color_shark_approx;
             padding-bottom: 14px;
-            padding-top: 24px;
-            margin-#{$default-float}: 10px;
+            padding-top: 6px;
+            margin-#{$default-float}: 0px;
         }
         &.score {
             font-size: 30px;
@@ -1626,16 +1666,16 @@ div {
             font-weight: 900;
             color: $black;
             padding-bottom: 14px;
-            padding-#{$default-float}: 10px;
+            padding-#{$default-float}: 0px;
         }
         &.maintitleclub {
             margin-#{$default-float}: 20px;
             font-size: 26px;
             font-weight: 900;
             color: $black;
-            padding-bottom: 14px;
-            padding-top: 33px;
-            padding-#{$default-float}: 10px;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            padding-#{$default-float}: 0px;
         }
         &.maintitlevideo {
             font-size: 26px;
@@ -1764,6 +1804,18 @@ div {
     }
 }
 @media only screen and(min-width: 320px) and(max-width: 619px) {
+    .v-item {
+        margin-#{$default-float}:0px; 
+    }
+    .container {
+        padding-#{$opposite-direction}: 10px;
+        padding-#{$default-float}: 10px;
+    }
+    .pic-link {
+        margin-bottom: 10px;
+        margin-top: 5px;
+        position: relative;
+    }
     h3.title a.v {
         color: #ffffff;
         font-size: 18px;
@@ -1799,8 +1851,8 @@ div {
             font-size: 28px;
             color: $color_shark_approx;
             padding-bottom: 14px;
-            padding-top: 24px;
-            margin-#{$default-float}: 10px;
+            padding-top: 6px;
+            margin-#{$default-float}: 0px;
         }
         &.score {
             font-size: 30px;
@@ -1820,16 +1872,16 @@ div {
             font-weight: 900;
             color: $black;
             padding-bottom: 14px;
-            padding-#{$default-float}: 10px;
+            padding-#{$default-float}: 0px;
         }
         &.maintitleclub {
             margin-#{$default-float}: 20px;
             font-size: 28px;
             font-weight: 900;
             color: $black;
-            padding-bottom: 14px;
-            padding-top: 33px;
-            padding-#{$default-float}: 10px;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            padding-#{$default-float}: 0px;
         }
         &.maintitlevideo {
             font-size: 26px;

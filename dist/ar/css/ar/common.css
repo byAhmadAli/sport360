@@ -11201,8 +11201,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 }
 
 .container {
-  padding-right: 0px;
   padding-left: 0px;
+  padding-right: 0px;
 }
 
 .starter {
@@ -11286,7 +11286,7 @@ figure:hover img {
 h2.maintitle {
   font-family: 'Roboto';
   font-weight: 900;
-  font-size: 26px;
+  font-size: 34px;
   color: #202020;
   padding-bottom: 10px;
   padding-top: 15px;
@@ -11295,7 +11295,7 @@ h2.maintitle {
 h2.clubs {
   font-family: 'Roboto';
   font-weight: 900;
-  font-size: 34px;
+  font-size: 26px;
   color: #202020;
   padding-bottom: 10px;
   padding-top: 15px;
@@ -11324,12 +11324,21 @@ h2.score {
   color: #000;
 }
 
+h3.most {
+  font-size: 27px !important;
+  font-weight: 900;
+  margin-top: 18px;
+}
+
 h3.title {
   font-weight: 600;
   font-size: 33px;
   color: #ffffff;
   position: absolute;
-  padding: 0px 0px 15px 20px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  padding-right: 20px;
   margin: 0;
   width: 100%;
   bottom: 0;
@@ -11508,6 +11517,7 @@ ul.stories .story .img-pic {
 }
 
 .v-item h3 {
+  padding-top: 4px;
   padding-right: 10px;
   padding-left: 10px;
   line-height: 16px;
@@ -12151,7 +12161,7 @@ li.subscribe > div a:hover {
 
 .fa-play {
   font-size: 9px !important;
-  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .form-control {
@@ -12322,15 +12332,24 @@ li.subscribe > div a:hover {
 .levelOne {
   background: #404040;
   color: #ffffff;
-  padding: 0 3px 0 15px;
+  padding-top: 0px;
+  padding-left: 3px;
+  padding-bottom: 0px;
+  padding-right: 15px;
 }
 
 .levelTwo {
-  padding: 0 3px 0 15px;
+  padding-top: 0px;
+  padding-left: 3px;
+  padding-bottom: 0px;
+  padding-right: 15px;
 }
 
 .levelThree {
-  padding: 0 3px 0 15px;
+  padding-top: 0px;
+  padding-left: 3px;
+  padding-bottom: 0px;
+  padding-right: 15px;
   display: none;
 }
 
@@ -12403,7 +12422,10 @@ div.levelOne > ul > li:hover {
 }
 
 div.level > ul > li {
-  padding: 10px 0 10px 10px;
+  padding-top: 10px;
+  padding-left: 0px;
+  padding-bottom: 10px;
+  padding-right: 10px;
   font-size: 15px;
 }
 
@@ -12833,15 +12855,35 @@ div.level > ul > li {
   .v-item {
     height: 330px;
   }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media only screen and (width: 414px) {
   .v-item {
     height: 330px;
   }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
 }
 
 @media only screen and (max-width: 420px) {
+  .v-item {
+    margin-right: 0px;
+  }
+  .pic-link {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    position: relative;
+  }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
   h3.title a.v {
     color: #ffffff;
     font-size: 18px;
@@ -12874,8 +12916,8 @@ div.level > ul > li {
     font-size: 28px;
     color: #252525;
     padding-bottom: 14px;
-    padding-top: 24px;
-    margin-right: 10px;
+    padding-top: 6px;
+    margin-right: 0px;
   }
   h2.score {
     font-size: 30px;
@@ -12895,16 +12937,16 @@ div.level > ul > li {
     font-weight: 900;
     color: #000;
     padding-bottom: 14px;
-    padding-right: 10px;
+    padding-right: 0px;
   }
   h2.maintitleclub {
     margin-right: 20px;
     font-size: 26px;
     font-weight: 900;
     color: #000;
-    padding-bottom: 14px;
-    padding-top: 33px;
-    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
   }
   h2.maintitlevideo {
     font-size: 26px;
@@ -13026,6 +13068,18 @@ div.level > ul > li {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 619px) {
+  .v-item {
+    margin-right: 0px;
+  }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .pic-link {
+    margin-bottom: 10px;
+    margin-top: 5px;
+    position: relative;
+  }
   h3.title a.v {
     color: #ffffff;
     font-size: 18px;
@@ -13058,8 +13112,8 @@ div.level > ul > li {
     font-size: 28px;
     color: #252525;
     padding-bottom: 14px;
-    padding-top: 24px;
-    margin-right: 10px;
+    padding-top: 6px;
+    margin-right: 0px;
   }
   h2.score {
     font-size: 30px;
@@ -13079,16 +13133,16 @@ div.level > ul > li {
     font-weight: 900;
     color: #000;
     padding-bottom: 14px;
-    padding-right: 10px;
+    padding-right: 0px;
   }
   h2.maintitleclub {
     margin-right: 20px;
     font-size: 28px;
     font-weight: 900;
     color: #000;
-    padding-bottom: 14px;
-    padding-top: 33px;
-    padding-right: 10px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
   }
   h2.maintitlevideo {
     font-size: 26px;
