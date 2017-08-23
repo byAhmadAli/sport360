@@ -1187,6 +1187,7 @@ div {
         }
     }
 }
+
 @-moz-keyframes move {
     0% {
         //Instead of the line below you could use @include transform($scale, $rotate, $transx, $transy, $skewx, $skewy, $originx, $originy)

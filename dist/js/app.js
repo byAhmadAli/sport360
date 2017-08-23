@@ -46,8 +46,17 @@ $(document).ready(function () {
         $(".levelOne,.levelTwo").css("display", "none");
         $(".levelThree").css("display", "block");
     });
-    $(".fa-arrow-left").click(function () {
-        $(".levelOne,.levelTwo").css("display", "block");
-        $(".levelThree").css("display", "none");
-    });
+    var url = window.location.href.includes("/en");
+    if(url){
+        $(".fa-arrow-left").click(function () {
+            $(".levelOne,.levelTwo").css("display", "block");
+            $(".levelThree").css("display", "none");
+        });
+    } else {
+        $(".fa-arrow-right").click(function () {
+            $(".levelOne,.levelTwo").css("display", "block");
+            $(".levelThree").css("display", "none");
+        });
+    }
+    
 });

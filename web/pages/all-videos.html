@@ -1,5 +1,5 @@
-  <!-- Page Content -->
-  <div class="container starter">
+<!-- Page Content -->
+<div class="container starter">
     <!-- for lg and xl devices -->
     <div class="row">
         <div class="col-md-12 ads hidden-md-down">
@@ -23,17 +23,20 @@
 
     <div class="row">
         <!-- for xl , lg , md , sm ,xs  devices -->
-        <div class="col-sm-2" style="width:30%">
-            <span class="sort">Sort by:</span>
-        </div>
-        <div class="col-sm-10" style="width:70%">
-            <div class="form-group">
-                <select class="form-control">
-                       <option>Most Popular</option>
-                       <option>2</option>
-                       <option>3</option>
-                       <option>4</option>
-                 </select>
+        <div class="col-sm-12">
+            <div class="form-group row">
+                <label for="example-text-input" class="col-4 col-form-label">Sort by:</label>
+                <div class="col-8 btn btn-default btn-select btn-select-light sort">
+                    <input type="hidden" class="btn-select-input" id="" name="" value="" />
+                    <span class="btn-select-value">Most Popular</span>
+                    <span class='btn-select-arrow fa fa-sort-desc'></span>
+                    <ul>
+                        <li>Option 1</li>
+                        <li>Option 2</li>
+                        <li>Option 3</li>
+                        <li>Option 4</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
