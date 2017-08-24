@@ -12585,10 +12585,10 @@ div.level > ul > li {
     margin-left: 800px;
   }
   #masthead:not(.thin) {
-    height: 75px;
+    height: 72px;
   }
   #masthead:not(.thin) .logo {
-    height: 75px;
+    height: 72px;
     width: 210px;
   }
   #masthead:not(.thin) #dynamic-header {
