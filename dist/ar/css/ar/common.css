@@ -11513,8 +11513,8 @@ ul.stories .story .img-pic {
   background: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   height: 285px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   /*margin-right: 5px;*/
 }
 
@@ -11576,6 +11576,7 @@ ul.stories .story .img-pic {
 
 .pic-link.larg {
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 img {
