@@ -312,6 +312,11 @@
   /*margin: 20px 0 10px;*/
 }
 
+.secLead {
+  margin-left: 3px;
+  margin-top: 30px !important;
+}
+
 .videos .seeall {
   margin-top: 5px;
   display: block;
