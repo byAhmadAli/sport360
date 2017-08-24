@@ -11272,6 +11272,7 @@ figure {
   overflow: hidden;
   position: relative;
   vertical-align: top;
+  margin: 0 0 0.1rem !important;
 }
 
 figure img {
@@ -12427,6 +12428,10 @@ div.level > ul > li {
   padding-bottom: 10px;
   padding-right: 10px;
   font-size: 15px;
+}
+
+.arr {
+  margin-right: 10px;
 }
 
 .toggle-container {

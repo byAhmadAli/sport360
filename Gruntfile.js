@@ -267,5 +267,5 @@ module.exports = function(grunt) {
 	grunt.registerTask('buildCSSLtr', ['cssBuild', 'sass:ltr', 'bless:dev']);
 	grunt.registerTask('buildCSSRtl', ['cssBuild', 'sass:rtl', 'bless:dev']);
 
- 	grunt.registerTask('default', ['log', 'hash', 'clean:dist', 'build-en','build-ar', 'copy', 'clean:build', 'clean:buildLtr', 'clean:buildRtl']);
+   grunt.registerTask('default',['log', 'hash', 'clean:dist', 'build-en','build-ar', 'copy', 'clean:build', 'clean:buildLtr', 'clean:buildRtl']);
 };
