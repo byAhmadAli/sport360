@@ -335,7 +335,7 @@ ul{
     height: 300px;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-#{$default-float}: 5px;
+   /*margin-#{$default-float}: 5px;*/
     h3 {
         padding-top:4px;
         padding-#{$default-float}: 10px;
@@ -381,7 +381,7 @@ ul{
 	}
 }
 .pic-link {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     margin-top: 20px;
     position: relative;
 }

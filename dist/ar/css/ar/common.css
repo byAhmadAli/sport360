@@ -11515,7 +11515,7 @@ ul.stories .story .img-pic {
   height: 300px;
   margin-top: 15px;
   margin-bottom: 15px;
-  margin-right: 5px;
+  /*margin-right: 5px;*/
 }
 
 .v-item h3 {
@@ -11569,7 +11569,7 @@ ul.stories .story .img-pic {
 }
 
 .pic-link {
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   margin-top: 20px;
   position: relative;
 }
