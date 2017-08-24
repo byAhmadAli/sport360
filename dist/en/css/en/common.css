@@ -12242,8 +12242,13 @@ li.subscribe > div a:hover {
   top: -100px;
 }
 
+.results {
+  width: 883px;
+}
+
 .results.owl-carousel .owl-stage-outer {
   box-shadow: inset -12px 0 5px -4px rgba(0, 0, 0, 0.25);
+  height: 193px;
 }
 
 .club {
