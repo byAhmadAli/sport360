@@ -659,7 +659,7 @@ li.subscribe > div {
 #menu {
     overflow-y: scroll;
     height: 600px;
-    margin-top: 80px;
+    margin-top: 5px;
     overflow-x: hidden;
     display: none;
     background: $white;
@@ -1390,7 +1390,11 @@ div {
         .logo {
             float: #{$default-float};
             background-image: $url_7;
-            background-position: 30px 8px;
+            top: 10px;
+            #{$default-float}: 30px;
+            /*top: 10px;
+            #{$default-float}: 20px;*/
+            background-position: 0px 0px;
             width: 61px;
             background-color: $white;
             background-repeat: no-repeat;
@@ -1398,8 +1402,8 @@ div {
         &:not(.thin) {
             height: 60px;
             .logo {
-                height: 48px;
-                width: 188px;
+                height: 40px;
+                width: 155px;
             }
             #dynamic-header {
                 height: 60px;
@@ -1439,7 +1443,7 @@ div {
     #menu {
         overflow-y: scroll;
         height: 1024px;
-        margin-top: 65px;
+        margin-top: 25px;
     }
     .fti {
         margin: 5px;
@@ -1703,7 +1707,9 @@ div {
         .logo {
             float: #{$default-float};
             background-image: $url_8;
-            background-position: 8px 8px;
+            top: 2px;
+            #{$default-float}: 5px;
+            background-position: 0px 0px;
             background-size: auto auto;
             width: 61px;
             background-color: $white;
@@ -1712,8 +1718,8 @@ div {
         &:not(.thin) {
             height: 50px;
             .logo {
-                height: 48px;
-                width: 178px;
+                height: 40px;
+                width: 126px;
             }
             #dynamic-header {
                 height: 50px;
@@ -1733,7 +1739,7 @@ div {
     #menu {
         overflow-y: scroll;
         height: 480px;
-        margin-top: 65px;
+        margin-top: 5px;
     }
     .fa-chevron-left{
         display: none;
@@ -1900,7 +1906,7 @@ div {
     #menu {
         overflow-y: scroll;
         height: 430px;
-        margin-top: 55px;
+        margin-top: 5px;
         ul.topics > li > ul {
             //Instead of the line below you could use @include columns($width-and-count)
             columns: 2;
@@ -1910,7 +1916,9 @@ div {
         .logo {
             float: #{$default-float};
             background-image: $url_8;
-            background-position: 8px 8px;
+            top: 2px;
+            #{$default-float}: 5px;
+            background-position: 0px 0px;
             background-size: auto auto;
             width: 61px;
             background-color: $white;
@@ -1919,8 +1927,8 @@ div {
         &:not(.thin) {
             height: 50px;
             .logo {
-                height: 48px;
-                width: 178px;
+                height: 40px;
+                width: 126px;
             }
             #dynamic-header {
                 height: 50px;

@@ -91,7 +91,7 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
     background: #fff;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
     height: 364px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .s-item h3 {
     padding: 10px;
@@ -188,19 +188,27 @@ h3 p {
         margin-top: 50px;
     }
     .club-title-section {
-        margin-top: 0px;
+        margin-top: 15px;
     }
     .pic-link img {
-        width: 690px;
+        width: 720px;
+    }
+    .v-item {
+        margin-left: 0px;
+        margin-top: 20px;
+        height: 305px;
     }
     .v-item img {
-        width: 330px;
+        width: 350px;
     }
     .s-item {
         background: #fff;
         box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
-        height: 310px;
+        height: 305px;
         margin-top: 20px;
+    }
+    .s-item img {
+        width: 350px;
     }
 }
 @media only screen and (max-width: 619px) and (min-width: 320px) {

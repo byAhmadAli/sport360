@@ -11886,7 +11886,7 @@ li.subscribe > div a:hover {
 #menu {
   overflow-y: scroll;
   height: 600px;
-  margin-top: 80px;
+  margin-top: 5px;
   overflow-x: hidden;
   display: none;
   background: #ffffff;
@@ -12683,7 +12683,11 @@ div.level > ul > li {
   #masthead .logo {
     float: left;
     background-image: url(../../images/logo_mobile.png);
-    background-position: 30px 8px;
+    top: 10px;
+    left: 30px;
+    /*top: 10px;
+            left: 20px;*/
+    background-position: 0px 0px;
     width: 61px;
     background-color: #ffffff;
     background-repeat: no-repeat;
@@ -12692,8 +12696,8 @@ div.level > ul > li {
     height: 60px;
   }
   #masthead:not(.thin) .logo {
-    height: 48px;
-    width: 188px;
+    height: 40px;
+    width: 155px;
   }
   #masthead:not(.thin) #dynamic-header {
     height: 60px;
@@ -12729,7 +12733,7 @@ div.level > ul > li {
   #menu {
     overflow-y: scroll;
     height: 1024px;
-    margin-top: 65px;
+    margin-top: 25px;
   }
   .fti {
     margin: 5px;
@@ -12982,7 +12986,9 @@ div.level > ul > li {
   #masthead .logo {
     float: left;
     background-image: url(../../images/rsz_logo.jpg);
-    background-position: 8px 8px;
+    top: 2px;
+    left: 5px;
+    background-position: 0px 0px;
     background-size: auto auto;
     width: 61px;
     background-color: #ffffff;
@@ -12992,8 +12998,8 @@ div.level > ul > li {
     height: 50px;
   }
   #masthead:not(.thin) .logo {
-    height: 48px;
-    width: 178px;
+    height: 40px;
+    width: 126px;
   }
   #masthead:not(.thin) #dynamic-header {
     height: 50px;
@@ -13011,7 +13017,7 @@ div.level > ul > li {
   #menu {
     overflow-y: scroll;
     height: 480px;
-    margin-top: 65px;
+    margin-top: 5px;
   }
   .fa-chevron-left {
     display: none;
@@ -13170,7 +13176,7 @@ div.level > ul > li {
   #menu {
     overflow-y: scroll;
     height: 430px;
-    margin-top: 55px;
+    margin-top: 5px;
   }
   #menu ul.topics > li > ul {
     columns: 2;
@@ -13178,7 +13184,9 @@ div.level > ul > li {
   #masthead .logo {
     float: left;
     background-image: url(../../images/rsz_logo.jpg);
-    background-position: 8px 8px;
+    top: 2px;
+    left: 5px;
+    background-position: 0px 0px;
     background-size: auto auto;
     width: 61px;
     background-color: #ffffff;
@@ -13188,8 +13196,8 @@ div.level > ul > li {
     height: 50px;
   }
   #masthead:not(.thin) .logo {
-    height: 48px;
-    width: 178px;
+    height: 40px;
+    width: 126px;
   }
   #masthead:not(.thin) #dynamic-header {
     height: 50px;

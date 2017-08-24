@@ -22,76 +22,79 @@
 <body>
 	<!-- Navigation -->
 <header id="masthead" class="masthead">
-
-    <a href="#e" title="Home">
+    <div class="row">
+        <!--<a href="#e" title="Home">
         <span class="logo"></span>
-    </a>
+    </a>-->
+        <div class="col-md-2">
+            <span class="logo"></span>
+        </div>
 
-    <ol id="meta-nav" class="tynt-no-right-position">
-        <li class="edition">
-            <!-- for lg,xl -->
-            <a href="javascript:void(0)" data-toggle="dropdown" title="Edition" class="hidden-md-down">
+        <ol id="meta-nav" class="tynt-no-right-position">
+            <li class="edition">
+                <!-- for lg,xl -->
+                <a href="javascript:void(0)" data-toggle="dropdown" title="Edition" class="hidden-md-down">
                 <img src="images/flag_uk.png"/>
                 <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-            <!-- for md -->
-            <a href="javascript:void(0)" data-toggle="dropdown" title="Edition" class="hidden-sm-down hidden-lg-up">
+                <!-- for md -->
+                <a href="javascript:void(0)" data-toggle="dropdown" title="Edition" class="hidden-sm-down hidden-lg-up">
                 <img src="images/flag_tablet.png"/>
                 <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-            <!-- for sm,xs -->
-            <a href="javascript:void(0)" data-toggle="dropdown" title="Edition" class="hidden-md-up">
+                <!-- for sm,xs -->
+                <a href="javascript:void(0)" data-toggle="dropdown" title="Edition" class="hidden-md-up">
                 <img src="images/flag_mobile.png"/>
                 <i class="fa fa-caret-down" aria-hidden="true"></i></a>
 
-            <ul class="dropdown-menu">
-                <li>
-                    <a href="javascript:void(0)" data-edition="UK">UK Edition <span class="icon-check"></span></a>
-                </li>
-                <li>
-                    <a href="javascript:void(0)" data-edition="US">US Edition </a>
-                </li>
-            </ul>
-        </li>
-        <li class="subscribe hidden-sm-down">
-            <div class="navbar-btn navbar-btn-right">
-                <a class="btn subscribe-btn" href="#" title="subscribe" target="_blank">
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="javascript:void(0)" data-edition="UK">UK Edition <span class="icon-check"></span></a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" data-edition="US">US Edition </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="subscribe hidden-sm-down">
+                <div class="navbar-btn navbar-btn-right">
+                    <a class="btn subscribe-btn" href="#" title="subscribe" target="_blank">
                     <img src="images/envelope_dektop.png"/><span>&nbsp;&nbsp Subscribe</span></a>
-            </div>
-        </li>
-        <li class="search">
-            <a href="#" data-toggle="dropdown" title="Search">
+                </div>
+            </li>
+            <li class="search">
+                <a href="#" data-toggle="dropdown" title="Search">
+                    <!-- for lg,xl -->
+                    <img src="images/search.png" class="hidden-md-down" />
+                    <!-- for md -->
+                    <img src="images/search_tablet.png" class="hidden-sm-down hidden-lg-up" />
+                    <!-- for sm,xs -->
+                    <img src="images/search_mobile.png" class="hidden-md-up" />
+                </a>
+                <ul class="dropdown-menu menu-search" role="menu">
+                    <li class="search-menu">
+                        <form class="navbar-form navbar-left" role="search">
+                            <div class="">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                        </form>
+                    </li>
+                </ul>
+            </li>
+            <li class="toggle-menu">
                 <!-- for lg,xl -->
-                <img src="images/search.png" class="hidden-md-down" />
+                <a href="#" title="Toggle menu" class="hidden-md-down open-menu"><img src="images/menu.png" class="hidden-md-down show_hide_menu" /></a>
+                <a href="#" title="Toggle menu" class="hidden-md-down close-menu"><img src="images/x-close_desktop.png" class="hidden-md-down show_hide_close_menu" /></a>
+
                 <!-- for md -->
-                <img src="images/search_tablet.png" class="hidden-sm-down hidden-lg-up" />
+                <a href="#" title="Toggle menu" class="hidden-sm-down hidden-lg-up open-menu"><img src="images/menu_tablet.png" class="hidden-sm-down hidden-lg-up show_hide_menu" /></a>
+                <a href="#" title="Toggle menu" class="hidden-sm-down hidden-lg-up close-menu"><img src="images/x-close_mobile.png" class="hidden-sm-down hidden-lg-up show_hide_close_menu" /></a>
+
                 <!-- for sm,xs -->
-                <img src="images/search_mobile.png" class="hidden-md-up" />
-            </a>
-            <ul class="dropdown-menu menu-search" role="menu">
-                <li class="search-menu">
-                    <form class="navbar-form navbar-left" role="search">
-                        <div class="">
-                            <input type="text" class="form-control" placeholder="Search">
-                        </div>
-                    </form>
-                </li>
-            </ul>
-        </li>
-        <li class="toggle-menu">
-            <!-- for lg,xl -->
-            <a href="#" title="Toggle menu" class="hidden-md-down open-menu"><img src="images/menu.png" class="hidden-md-down show_hide_menu" /></a>
-            <a href="#" title="Toggle menu" class="hidden-md-down close-menu"><img src="images/x-close_desktop.png" class="hidden-md-down show_hide_close_menu" /></a>
-
-            <!-- for md -->
-            <a href="#" title="Toggle menu" class="hidden-sm-down hidden-lg-up open-menu"><img src="images/menu_tablet.png" class="hidden-sm-down hidden-lg-up show_hide_menu" /></a>
-            <a href="#" title="Toggle menu" class="hidden-sm-down hidden-lg-up close-menu"><img src="images/x-close_mobile.png" class="hidden-sm-down hidden-lg-up show_hide_close_menu" /></a>
-
-            <!-- for sm,xs -->
-            <a href="#" title="Toggle menu" class="hidden-md-up open-menu"><img src="images/menu_mobile.png" class="hidden-md-up show_hide_menu" /></a>
-            <a href="#" title="Toggle menu" class="hidden-md-up close-menu"><img src="images/x-close_mobile.png" class="hidden-md-up show_hide_close_menu" /></a>
-        </li>
-    </ol>
-
-    <div id="menu">
+                <a href="#" title="Toggle menu" class="hidden-md-up open-menu"><img src="images/menu_mobile.png" class="hidden-md-up show_hide_menu" /></a>
+                <a href="#" title="Toggle menu" class="hidden-md-up close-menu"><img src="images/x-close_mobile.png" class="hidden-md-up show_hide_close_menu" /></a>
+            </li>
+        </ol>
+    </div>
+    <div id="menu" class="container-fluied">
         <!-- for ms,sm,xs devices -->
         <div class="hidden-lg-up">
             <div class="row">
@@ -1002,7 +1005,7 @@
 
         <!-- for md,sm,xs devices -->
         <div class="col-md-12 hidden-lg-up all">
-            <a class="seeall" href="#e">ALL PHOTOS <img src="images/play.png" /></a>
+            <a class="seeall" href="#e">ALL PHOTOS <i class="fa fa-caret-right arr"></i></a>
         </div>
         <div class="col-md-12 hidden-lg-up centerdiv" style="margin-top: 20px">
             <img src="images/killer.jpg" />
