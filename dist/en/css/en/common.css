@@ -11290,8 +11290,8 @@ h2.maintitle {
   font-weight: 900;
   font-size: 34px;
   color: #202020;
-  padding-bottom: 10px;
-  padding-top: 15px;
+  /*padding-bottom: 20px;
+	    padding-top: 15px;*/
 }
 
 h2.clubs {
@@ -11300,7 +11300,7 @@ h2.clubs {
   font-size: 26px;
   color: #202020;
   padding-bottom: 10px;
-  padding-top: 15px;
+  padding-top: 5px;
 }
 
 h2.more {
@@ -11509,6 +11509,11 @@ ul.stories .story .img-pic {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.images {
+  margin-top: 18px;
+  margin-bottom: 20px;
 }
 
 .v-item {
