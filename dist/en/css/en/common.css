@@ -12308,6 +12308,7 @@ li.subscribe > div a:hover {
   display: block;
   margin-bottom: 0;
   text-align: left;
+  font-style: normal;
 }
 
 .detilslink {
