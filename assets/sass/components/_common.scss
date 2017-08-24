@@ -78,7 +78,6 @@ a:hover {
 *:first-child+html .clearfix {
     zoom: 1;
 }
-
 body {
 	direction: #{$text-direction};
     background: #f9f9f9;
@@ -86,19 +85,16 @@ body {
     -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
 }
-
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4{
 	font-family: #{$font-family};
 }
-
 .centerdiv {
     text-align: center;
 }
-
 .ads {
-    margin: 27px 0;
+    margin-top: 37px; 
+    margin-bottom: 22px;
 }
-
 #Frame {
     height: 40px;
     background: $url_0 no-repeat center center;
