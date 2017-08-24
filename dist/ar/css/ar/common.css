@@ -11316,8 +11316,10 @@ h2.maintitlevideo {
   font-size: 28px;
   font-weight: 900;
   color: white;
-  padding-bottom: 10px;
-  padding-top: 15px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  /*padding-bottom: 10px;
+	    padding-top: 15px;*/
 }
 
 h2.score {
