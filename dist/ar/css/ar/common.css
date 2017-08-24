@@ -11317,7 +11317,7 @@ h2.maintitlevideo {
   font-weight: 900;
   color: white;
   margin-top: 30px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   /*padding-bottom: 10px;
 	    padding-top: 15px;*/
 }
@@ -11572,7 +11572,7 @@ ul.stories .story .img-pic {
 
 .pic-link {
   margin-bottom: 5px;
-  margin-top: 20px;
+  /* margin-top: 20px;*/
   position: relative;
 }
 
