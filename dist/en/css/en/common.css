@@ -12288,6 +12288,8 @@ li.subscribe > div a:hover {
 }
 
 .goals em {
+  width: 78px;
+  height: 28px;
   font-size: 12px;
   font-weight: 500;
   color: #ffffff;
