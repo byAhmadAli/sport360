@@ -130,6 +130,7 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
 }
 .extend-height{
     flex: 1 1 auto;
+    margin-#{$default-float}: 10px;
 }
 .seeall img {
     padding-#{$default-float}: 10px;
