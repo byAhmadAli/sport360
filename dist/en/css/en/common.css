@@ -11590,7 +11590,7 @@ img {
   padding: 15px 25px;
   color: #202020;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: bold;
   display: inline-block;
   margin: 60px auto;
   border-radius: 5px;
@@ -12284,16 +12284,18 @@ li.subscribe > div a:hover {
 .goals b span {
   color: #252525;
   font-size: 28px;
+  font-weight: 400;
 }
 
 .goals em {
   font-size: 12px;
-  font-weight: medium;
+  font-weight: 500;
   color: #ffffff;
   background: #f26c4f;
   padding: 5px 7px;
   display: inline-block;
   border-radius: 5px;
+  font-style: normal;
 }
 
 .datetime {
@@ -12760,10 +12762,12 @@ div.level > ul > li {
   }
   .goals em {
     font-size: 12px;
+    font-weight: 500 !important;
     color: #ffffff;
     background: #f26c4f;
     display: inline-block;
     border-radius: 5px;
+    font-style: normal !important;
   }
   .goals b {
     font-size: 30px;
