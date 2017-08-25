@@ -12270,7 +12270,9 @@ li.subscribe > div a:hover {
 }
 
 .result {
-  padding: 15px;
+  /*padding: 15px;*/
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .matchdetils {
@@ -12665,6 +12667,12 @@ div.level > ul > li {
 }
 
 @media only screen and (min-width: 620px) and (max-width: 991px) {
+  .datetime {
+    float: left;
+    font-size: 12px;
+    color: #252525;
+    margin-right: 140px;
+  }
   h3.title a.v {
     color: #ffffff;
     font-size: 18px;
