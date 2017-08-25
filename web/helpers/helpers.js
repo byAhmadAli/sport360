@@ -1,4 +1,11 @@
 module.exports.register = function(Handlebars, options) {
+  Handlebars.registerHelper('times', function(n, block) {
+    var accum = '';
+    for(var i = 0; i < n; ++i)
+      accum += block.fn(i);
+    return accum;
+  });
+
   Handlebars.registerHelper('if_even', function(conditional, options) {
     if((conditional % 2) == 0) {
       return options.fn(this);

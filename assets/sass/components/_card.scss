@@ -6,17 +6,19 @@
 		img{
 			width: 100%;
 		}
-		&:after{
-			content: ' ';
-			position: absolute;
-			width: 278px;
-			height: 154px;
-			box-shadow: 0 0 24px 0 rgba(45, 45, 46, 0.32);
-			left: 0;
-			right: 0;
-			margin: auto;
-			top: 20px;
-			z-index: -1;
+		&.big{
+			&:after{
+				content: ' ';
+				position: absolute;
+				width: 278px;
+				height: 154px;
+				box-shadow: 0 0 24px 0 rgba(45, 45, 46, 0.32);
+				left: 0;
+				right: 0;
+				margin: auto;
+				top: 20px;
+				z-index: -1;
+			}
 		}
 		.time{
 			position: absolute;
@@ -37,33 +39,66 @@
 		.badge{
 			position: absolute;
 			width: 43px;
-			height: 45px;
-			background-color: #78909c;
+			height: 7px;
+			background-color: #ffc107;
+			display: block;
 			border-radius: 0;
 			top: -8px;
 			left: 16px;
-			border-radius-left: 3px;
+			border-top-right-radius: 3px;
+			z-index: 2;
+			padding: 0 2px;
+			.sep{
+				height: 1px;
+				background-color: rgba(255, 255, 255, 0.7);
+				display: block;
+				width: 100%;
+				margin: 2px 0;
+			}
+			&.back{
+				background-color: rgba(45, 45, 46, 0.2);
+				left: 14px;
+				top: -6px;
+				z-index: 1;
+				&:before{
+					border-color: transparent transparent rgba(0, 0, 0, 0.25) transparent;
+				}
+				&:after{
+					border-color: rgba(45, 45, 46, 0.2) rgba(45, 45, 46, 0.2) transparent rgba(45, 45, 46, 0.2);
+				}
+			}
 			&:before{
 				content: ' ';
 				width: 0;
 				height: 0;
 				border-style: solid;
 				border-width: 0 0 7.7px 8px;
-				border-color: transparent transparent #576b75 transparent;
+				border-color: transparent transparent #b89131 transparent;
 				position: absolute;
 				left: -8px;
 				top: 0px;
 			}
 			&:after{
 				content: '';
-				border: solid #78909c;
+				border: solid #ffc107;
 				border-width: 17px;
 				position: absolute;
 				width: 0;
-				border-color: #78909c #78909c transparent #78909c;
+				border-color: #ffc107 #ffc107 transparent #ffc107;
 				left: 0;
 				bottom: -34px;
 				zoom: 1.27;
+			}
+		}
+	}
+	&.big{
+		.card-details{
+			h3{
+				a{
+					font-size: 22px;
+					letter-spacing: -0.6px;
+					line-height: 1.33;
+				}
 			}
 		}
 	}
@@ -72,10 +107,10 @@
 			margin: 0;
 			margin-bottom: 14px;
 			a{
-				font-size: 24px;
+				font-size: 16px;
 				font-weight: bold;
-				line-height: 1.33;
-				letter-spacing: -0.6px;
+				line-height: 1.11;
+  				letter-spacing: -0.5px;
 				color: $gray-base;
 				text-decoration: none;
 				&:hover{
@@ -87,25 +122,28 @@
 			position: relative;
 			float: #{$default-float};
 			width: 100%;
-			.avatar{
-				width: 32px;
-				height: 32px;
-				border-radius: 50%;
-				overflow: hidden;
-				float: #{$default-float};
-				margin-#{$opposite-direction}: 16px;
-				img{
-					width: 100%;
-				}
-			}
 			.author-details{
 				float: #{$default-float};
+				width: 100%;
+				.avatar{
+					width: 32px;
+					height: 32px;
+					border-radius: 50%;
+					overflow: hidden;
+					float: #{$default-float};
+					margin-#{$opposite-direction}: 16px;
+					img{
+						width: 100%;
+					}
+				}
 				.author-name{
+					display: block;
+					height: 21px;
 					a{
 						font-family: Roboto;
 						font-size: 12px;
 						line-height: 1.4;
-						display: block;
+						float: #{$default-float};
 						color: $gray-base;
 						&:hover{
 							color: darken($gray-base, 15%);
@@ -119,17 +157,130 @@
 					margin-#{$opposite-direction}: 16px;
 					color: lighten($gray-base, 30%);
 				}
+				.profile-details{
+					z-index: 99;
+					position: absolute;
+					#{$default-float}: 0;
+					top: 20px;
+					padding-top: 25px;
+					display: none;
+					&.show, &:hover{
+						display: block;
+					}
+					.profile-top-section{
+						width: 100%;
+						height: 120px;
+						background-size: cover;
+						position: relative;
+						color: #fff;
+						padding: 16px;
+						&:before{
+							content: ' ';
+							position: absolute;
+							width: 100%;
+							height: 100%;
+							background-color: rgba(0, 0, 0, 0.7); 
+							left: 0;
+							top: 0;
+						}
+						.profile-avatar{
+							width: 64px;
+							height: 64px;
+							border-radius: 50%;
+							overflow: hidden;
+							float: #{$default-float};
+							margin-#{$opposite-direction}: 16px;
+							z-index: 2;
+							position: relative;
+							color: #fff;
+							img{
+								width: 100%;
+							}
+						}
+						.profile-name{
+							z-index: 2;
+							position: relative;
+							display: block;
+							margin-bottom: 4px;
+							a{
+								font-size: 26px;
+								font-weight: bold;
+								line-height: 0.92;
+								letter-spacing: -0.3px;
+								color: #fff;
+								&:hover{
+									color: darken(#fff, 15%);
+								}
+							}
+						}
+						.profile-followers{
+							z-index: 2;
+							position: relative;
+							font-family: Roboto;
+							font-size: 14px;
+							line-height: 1.43;
+							color: rgba(255, 255, 255, 0.7);
+							margin-#{$opposite-direction}: 16px;
+							margin-bottom: 14px;
+							display: block;
+						}
+						.profile-follower{
+							z-index: 2;
+							position: relative;
+							display: block;
+						}
+					}
+					.profile-bottom-section{
+						padding: 16px;
+						background: #fff;
+						p{
+							font-family: Roboto;
+							font-size: 14px;
+							line-height: 1.57;
+						}
+					}
+				}
 			}
 			.post-action{
-				a{
-					position: absolute;
+				position: absolute;
+				#{$opposite-direction}: 0;
+				bottom: 6px;
+				width: 24px;
+				height: 24px;
+				> a{
 					color: lighten($gray-base, 70%);
-					width: 24px;
-					height: 24px;
-					bottom: 6px;
-					#{$opposite-direction}: 0;
 					text-align: center;
 					font-size: 20px;
+				}
+				.dropdown-menu{
+					background-color: #ffffff;
+					box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.25);
+					width: 240px;
+					right: 0;
+					left: auto;
+					padding: 0;
+					margin: 6px 0;
+					li{
+						a{
+							padding: 16px;
+							font-family: Roboto;
+							font-size: 14px;
+							float: #{$default-float};
+							width: 100%;
+							i{
+								margin-#{$opposite-direction}: 19px;
+								color: rgba(0, 0, 0, 0.5);
+								font-size: 20px;
+								float: #{$default-float};
+							}
+							span{
+								float: #{$default-float};
+							}
+							&:hover{
+								background-color: rgba(0, 0, 0, 0.05);
+							}
+						}
+					}
 				}
 			}
 		}

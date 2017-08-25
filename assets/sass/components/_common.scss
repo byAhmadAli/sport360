@@ -17,8 +17,9 @@ body {
 .section{
 	position: relative;
 	padding-top: 91px;
-	&:before{
-		content: 'Editor’s Picks';
+	> h2{
+		margin: 0;
+		padding: 0;
 		position: absolute;
 		opacity: 0.15;
 		font-size: 100px;
@@ -26,8 +27,9 @@ body {
 		font-weight: bold;
 		text-align: #{$default-float};
 		color: #272d47;
-		top: 0;
-		#{$default-float}: -25px;
+		top: 15px;
+		#{$default-float}: -20px;
+		font-family: Rajdhani;
 	}
 	.box{
 		min-height: 300px;
