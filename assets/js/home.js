@@ -56,16 +56,19 @@ $(document).ready(function () {
     }
     if ($(window).width() < 960) {
         $(".matchdetils").css("display", "none");
+        $(".results.owl-carousel .owl-stage-outer").css("height", "130px");
     }
     var flag = false;
     $("#toogle-details-down").click(function () {
         $(".up").css("display", "block");
         $(".down").css("display", "none");
+        $(".results.owl-carousel .owl-stage-outer").css("height", "195px");
         $(".matchdetils").slideToggle();
     });
     $("#toogle-details-up").click(function () {
         $(".up").css("display", "none");
         $(".down").css("display", "block");
+        $(".results.owl-carousel .owl-stage-outer").css("height", "130px");
         $(".matchdetils").slideToggle();
     });
 });
