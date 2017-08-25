@@ -41,9 +41,11 @@ $url_9: url(../../assets/fonts/icomoon.woff?235t6z);
 $url_10: url(../../assets/fonts/icomoon.eot?#iefix235t6z);
 $url_11: url(../../assets/fonts/icomoon.ttf?235t6z);
 $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
+
 .tag_title {
     font-size: 38px;
     font-weight: 900;
+    margin-bottom: 15px;
 }
 
 .tag_title p {
@@ -267,6 +269,12 @@ h3 p {
         margin-top: 26px;
         margin-right: 50px;
     }
+    .tag_title {
+        font-size: 30px;
+        font-weight: 900;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
 }
 
 @media only screen and (max-width: 619px) and (min-width: 320px) {
@@ -278,6 +286,12 @@ h3 p {
     }
     .club-title-section {
         margin-top: 15px;
+    }
+    .tag_title {
+        font-size: 22px;
+        font-weight: 900;
+        margin-bottom: 15px;
+        margin-top: 20px;
     }
 }
 
@@ -297,4 +311,10 @@ h3 p {
     margin-bottom: 10px;
     margin-top: 10px;
    }
+   .tag_title {
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
 }
