@@ -1480,6 +1480,15 @@ div {
     .fti {
         margin: 5px;
     }
+    .club {
+        float: #{$default-float};
+        width: 33%;
+        height: 33%;
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+        color: $color_shark_approx;
+    }
     .images {
         margin-top: 15px;
     }
