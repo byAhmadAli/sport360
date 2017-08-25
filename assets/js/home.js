@@ -47,15 +47,20 @@ $(document).ready(function () {
             }
         }
     })
-    if(url){
+    if (url) {
         $(".owl-prev").html('<i class="fa fa-chevron-left fa-2x"></i>');
         $(".owl-next").html('<i class="fa fa-chevron-right fa-2x"></i>');
     } else {
         $(".owl-prev").html('<i class="fa fa-chevron-right fa-2x"></i>');
         $(".owl-next").html('<i class="fa fa-chevron-left fa-2x"></i>');
     }
+    if ($(window).width() < 960) {
+        $(".matchdetils").css("display","none");
+       // $(".results.owl-carousel .owl-stage-outer").css('height','150px');
+        $(".toggle-container").html('<i class="fa fa-chevron-up fa-2x" id="toogle-details"></i>');
+    }
     $("#toogle-details").click(function () {
-        $(".matchdetils").toggle();
+        /*$(".matchdetils").toggle();*/
+        $(".matchdetils").slideToggle();
     });
-
 });
