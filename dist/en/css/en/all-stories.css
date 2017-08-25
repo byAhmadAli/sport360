@@ -429,8 +429,13 @@ h3 p {
 }
 
 .secAds {
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 50px;
+}
+
+.firstAds {
+  margin-top: 50px;
+  margin-bottom: 60px;
 }
 
 .slider {
