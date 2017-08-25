@@ -200,16 +200,27 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
     }
 }
 @media only screen and(max-width: 420px) {
+    .videoPic {
+        margin-bottom: 5px;
+    }
+    .blackvideos {
+        background: #252525;
+        margin-top: 25px;
+    }
+    .newline {
+        margin-top: 25px;
+    }
     .smallmob {
         padding-#{$default-float}: 10px;
     }
     .secondhead {
-        margin-top: 8px;
+        margin-top: 10px;
     }
     .seeall {
         display: block;
         border: solid 1px $black;
         padding: 15px;
+        margin-top: 0px;
         text-align: center;
         background: $white;
         color: $black;
@@ -231,7 +242,8 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
             font-size: 14px;
             //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
             border-radius: 5px;
-            margin-bottom: 40px;
+            margin-bottom: 32px;
+            margin-top: 10px;
         }
         h3.title {
             font-size: 20px;
@@ -241,11 +253,21 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
         overflow: hidden;
         padding: 20px 0 20px;
         border: solid 1px transparent;
-        margin: 20px 0;
+        margin: 10px 0;
         border-width: 1px 0;
     }
 }
 @media only screen and(min-width: 320px) and(max-width: 619px) {
+    .videoPic {
+        margin-bottom: 5px;
+    }
+    .newline {
+        margin-top: 25px;
+    }
+    .blackvideos {
+        background: #252525;
+        margin-top: 25px;
+    }
     .smallmob {
         padding-#{$default-float}: 10px;
     }
@@ -256,6 +278,7 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
         display: block;
         border: solid 1px $black;
         padding: 15px;
+        margin-top: 0px;
         text-align: center;
         background: $white;
         color: $black;
@@ -269,7 +292,7 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
         overflow: hidden;
         padding: 20px 0 20px;
         border: solid 1px transparent;
-        margin: 20px 0;
+        margin: 10px 0;
         border-width: 1px 0;
     }
     .videos .seeall {
@@ -283,6 +306,7 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
         font-size: 14px;
         //Instead of the line below you could use @include border-radius($radius, $vertical-radius)
         border-radius: 5px;
-        margin-bottom: 40px;
+        margin-bottom: 32px;
+        margin-top: 10px;
     }
 }

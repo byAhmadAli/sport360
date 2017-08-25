@@ -1659,6 +1659,11 @@ div {
         padding-#{$default-float}: 10px;
     }
 }
+@media only screen and(width: 360px) {
+.v-item {
+    height:306px;
+}
+}
 @media only screen and(width: 414px) {
     .v-item {
         height: 330px;
@@ -1669,12 +1674,23 @@ div {
     }
 }
 @media only screen and(max-width: 420px) {
+    .all{
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    .photoitem {
+      margin-bottom: 15px;
+    }
+    .images {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
     .v-item {
         margin-#{$default-float}:0px; 
     }
     .pic-link {
-        margin-bottom: 10px;
-        margin-top: 5px;
+        margin-bottom: 15px;
+        margin-top: 10px;
         position: relative;
     }
     .container {
@@ -1729,14 +1745,15 @@ div {
             font-size: 26px;
             font-weight: 900;
             color: $color_log_cabin_approx;
-            padding-bottom: 10px;
-            padding-top: 15px;
+            padding-bottom: 0px;
+            padding-top: 0px;
         }
         &.maintitlemost {
             font-size: 28px;
             font-weight: 900;
             color: $black;
-            padding-bottom: 14px;
+            padding-bottom: 0px;
+            margin-bottom: 5px;
             padding-#{$default-float}: 0px;
         }
         &.maintitleclub {
@@ -1744,7 +1761,7 @@ div {
             font-size: 26px;
             font-weight: 900;
             color: $black;
-            padding-bottom: 0px;
+            padding-bottom: 5px;
             padding-top: 0px;
             padding-#{$default-float}: 0px;
         }
@@ -1753,8 +1770,10 @@ div {
             font-weight: 900;
             color: $color_black_haze_approx;
             padding-bottom: 14px;
-            padding-top: 18px;
-            lighting-color: 24px;
+            padding-top: 0px;
+            margin-top: 15px;
+            margin-bottom: 5px;
+            lighting-color: 0px;
         }
     }
     .mobimgban {
@@ -1843,7 +1862,7 @@ div {
         //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
         box-shadow: 0 1px 3px $black_20;
         height: 90px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         position: relative;
         overflow: hidden;
         h4 a {
@@ -1877,6 +1896,17 @@ div {
     }
 }
 @media only screen and(min-width: 320px) and(max-width: 619px) {
+    .all{
+        margin-top: 5px;
+        margin-bottom: 15px;
+    }
+    .photoitem {
+        margin-bottom: 15px;
+      }
+    .images {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
     .v-item {
         margin-#{$default-float}:0px; 
     }
@@ -1885,8 +1915,8 @@ div {
         padding-#{$default-float}: 10px;
     }
     .pic-link {
-        margin-bottom: 10px;
-        margin-top: 5px;
+        margin-bottom: 15px;
+        margin-top: 10px;
         position: relative;
     }
     h3.title a.v {
@@ -1937,14 +1967,15 @@ div {
             font-size: 26px;
             font-weight: 900;
             color: $color_log_cabin_approx;
-            padding-bottom: 10px;
-            padding-top: 15px;
+            padding-bottom: 0px;
+            padding-top: 0px;
         }
         &.maintitlemost {
             font-size: 28px;
             font-weight: 900;
             color: $black;
-            padding-bottom: 14px;
+            padding-bottom: 0px;
+            margin-bottom: 5px;
             padding-#{$default-float}: 0px;
         }
         &.maintitleclub {
@@ -1952,7 +1983,7 @@ div {
             font-size: 28px;
             font-weight: 900;
             color: $black;
-            padding-bottom: 0px;
+            padding-bottom: 5px;
             padding-top: 0px;
             padding-#{$default-float}: 0px;
         }
@@ -1960,8 +1991,10 @@ div {
             font-size: 26px;
             font-weight: 900;
             color: $color_black_haze_approx;
-            padding-bottom: 14px;
-            padding-top: 18px;
+            padding-bottom: 0px;
+            padding-top: 0px;
+            margin-top: 15px;
+            margin-bottom: 5px;
             lighting-color: 24px;
         }
     }
@@ -2045,7 +2078,7 @@ div {
         //Instead of the line below you could use @include box-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
         box-shadow: 0 1px 3px $black_20;
         height: 110px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
         position: relative;
         overflow: hidden;
         h4 a {
