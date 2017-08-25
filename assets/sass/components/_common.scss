@@ -1664,6 +1664,11 @@ div {
     height:306px;
 }
 }
+@media only screen and(width: 375px) {
+    .v-item {
+        height:306px;
+    }
+    }
 @media only screen and(width: 414px) {
     .v-item {
         height: 330px;
