@@ -12706,7 +12706,7 @@ div.level > ul > li {
     float: left;
     background-image: url(../../images/logo_mobile.png);
     top: 10px;
-    left: 30px;
+    left: 25px;
     /*top: 10px;
             left: 20px;*/
     background-position: 0px 0px;
@@ -12732,7 +12732,7 @@ div.level > ul > li {
   #meta-nav {
     list-style: none;
     position: absolute;
-    right: 40px;
+    right: 25px;
     top: 0;
     left: auto !important;
   }
@@ -12762,6 +12762,9 @@ div.level > ul > li {
   }
   .images {
     margin-top: 15px;
+  }
+  h4 em {
+    margin-top: 5px;
   }
   .owl-carousel {
     margin-top: 5px;

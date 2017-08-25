@@ -1406,7 +1406,7 @@ div {
             float: #{$default-float};
             background-image: $url_7;
             top: 10px;
-            #{$default-float}: 30px;
+            #{$default-float}: 25px;
             /*top: 10px;
             #{$default-float}: 20px;*/
             background-position: 0px 0px;
@@ -1433,7 +1433,7 @@ div {
     #meta-nav {
         list-style: none;
         position: absolute;
-        #{$opposite-direction}: 40px;
+        #{$opposite-direction}: 25px;
         top: 0;
         #{$default-float}: auto !important;
         > li {
@@ -1465,6 +1465,9 @@ div {
     }
     .images {
         margin-top: 15px;
+    }
+    h4 em {
+        margin-top: 5px;
     }
     .owl-carousel {
         margin-top: 5px;
