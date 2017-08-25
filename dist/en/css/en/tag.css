@@ -502,6 +502,14 @@ h3 p {
   .s-item img {
     width: 350px;
   }
+  .killermain {
+    margin-top: 26px;
+    margin-left: 40px;
+  }
+  .killermainsmd {
+    margin-top: 26px;
+    margin-right: 50px;
+  }
 }
 
 @media only screen and (max-width: 619px) and (min-width: 320px) {
