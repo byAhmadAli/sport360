@@ -12667,11 +12667,17 @@ div.level > ul > li {
 }
 
 @media only screen and (min-width: 620px) and (max-width: 991px) {
+  .all {
+    margin-bottom: 10px;
+  }
+  .photoitem {
+    margin-bottom: 15px;
+  }
   .datetime {
     float: left;
     font-size: 12px;
     color: #252525;
-    margin-right: 140px;
+    margin-left: 140px;
   }
   h3.title a.v {
     color: #ffffff;
@@ -12680,43 +12686,51 @@ div.level > ul > li {
     line-height: 18px;
   }
   .pic-link {
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
   }
   h2.maintitlevideo {
     font-size: 26px;
     font-weight: 900;
     color: #f7f7f7;
-    padding-bottom: 14px;
-    padding-top: 18px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 15px;
+    margin-bottom: 0px;
     lighting-color: 24px;
   }
   h2.more {
     font-size: 28px;
     font-weight: 900;
     color: #252525;
-    padding-bottom: 14px;
-    padding-top: 24px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    margin-top: 8px;
+    margin-bottom: 15px;
   }
   h2.maintitle {
     font-size: 26px;
     font-weight: 900;
     color: #202020;
     padding-bottom: 10px;
+    padding-top: 25px;
   }
   h2.maintitlemost {
     font-size: 28px;
     font-weight: 900;
     color: #000;
-    padding-bottom: 14px;
+    padding-bottom: 0px;
+    margin-top: 34px;
   }
   h2.maintitleclub {
     margin-right: 20px;
     font-size: 26px;
     font-weight: 900;
     color: #000;
-    padding-bottom: 14px;
-    padding-top: 33px;
+    margin-top: 34px;
+    margin-bottom: 15px;
+    /*padding-bottom: 14px;
+            padding-top: 33px;*/
     padding-right: 10px;
   }
   #masthead .logo {
@@ -12787,7 +12801,8 @@ div.level > ul > li {
     color: #252525;
   }
   .images {
-    margin-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
   h4 em {
     margin-top: 5px;
@@ -12865,7 +12880,7 @@ div.level > ul > li {
     background: #ffffff;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
     height: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     position: relative;
     overflow: hidden;
   }

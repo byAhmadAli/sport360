@@ -150,6 +150,20 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
             width: 720px;
         }
     }
+    .newline {
+        margin-top: 20px;
+    }
+    .videoPic {
+        margin-bottom: 0px; 
+   }
+   .videos .seeall {
+    margin-top: 20px;
+    margin-bottom: 30px;
+   }
+    .blackvideos {
+        background: #252525;
+        margin-top: 25px;
+    }
     .alllive {
         border: solid 1px $black;
         padding: 10px 20px;
@@ -162,9 +176,9 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
     }
     .borders {
         overflow: hidden;
-        padding: 20px 0 40px;
+        padding: 0px 0 0px;
         border: solid 1px transparent;
-        margin: 20px 0;
+        margin: 0px 0;
         border-width: 1px 0;
     }
     .tablestoties {
