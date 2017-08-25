@@ -532,7 +532,6 @@ h2.relatedmaintitle {
   width: 100%;
   resize: none;
   font-size: 14px;
-  font-family: Myriad Pro Regular;
 }
 
 .no-padding {
@@ -554,7 +553,6 @@ h2.relatedmaintitle {
 .commentor-name {
   font-size: 13px;
   font-weight: bold;
-  font-family: Myriad Pro Regular;
 }
 
 .facebook-like-comment {
@@ -686,6 +684,14 @@ h2.relatedmaintitle {
   margin-right: 1px;
   margin-left: 1px;
   /*width: 289px;*/
+}
+
+.commentAdd {
+  padding-right: 0px;
+}
+
+.commenter {
+  margin-right: 10px;
 }
 
 /** tablet **/

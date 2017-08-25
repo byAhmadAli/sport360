@@ -860,6 +860,14 @@ h2.relatedmaintitle {
   padding-top: 12px !important;
 }
 
+.commentAdd {
+  padding-right: 0px;
+}
+
+.commenter {
+  margin-right: 10px;
+}
+
 /** tablet **/
 @media only screen and (min-width: 620px) and (max-width: 991px) {
   .articlemaintitle {

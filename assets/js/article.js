@@ -4,6 +4,7 @@ $(document).ready(function () {
     $(".fade-out").css("max-height", bottom + 'px');
     var url = window.location.href.includes("/en");
     $('#owl-carousel-3').owlCarousel({
+        rtl: !url,
         loop: true,
         autoplay: true,
         nav: true,
@@ -47,6 +48,7 @@ $(document).ready(function () {
         }
     });
     $('.owl-carousel').owlCarousel({
+        rtl: !url,
         loop: true,
         autoplay: true,
         responsive: {
