@@ -60,14 +60,12 @@ $(document).ready(function () {
     }
     var flag = false;
     $("#toogle-details-down").click(function () {
-        //$(".up").css("display", "block").slideDown('5000');
         $(".up").slideDown('5000');
         $(".down").css("display", "none");
         $(".results.owl-carousel .owl-stage-outer").css("height", "195px");
         $(".matchdetils").slideDown('slow');
     });
     $("#toogle-details-up").click(function () {
-        //$(".down").css("display", "block").slideDown('5000');
         $(".down").slideDown('5000');
         $(".up").css("display", "none");
         $(".results.owl-carousel .owl-stage-outer").css("height", "130px");
