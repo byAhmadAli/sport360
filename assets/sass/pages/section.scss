@@ -59,7 +59,6 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
 }
 
 .alllivesection {
-    /*border: solid 1px #000;*/
     padding: 15px 25px;
     color: white;
     background-color: #ec1a2e;
@@ -68,6 +67,8 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
     display: inline-block;
     margin: 60px auto;
     border-radius: 5px;
+    width: 210px;
+    height: 55px;
 }
 
 .alllivesection>i {
@@ -198,6 +199,9 @@ h3 p {
 
 .stories {
     margin-top: 35px !important;
+}
+.pic-link {
+    margin-bottom: 10px;
 }
 
 @media only screen and (width: 412px) {
