@@ -141,14 +141,14 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
 .seeall img {
     padding-#{$default-float}: 10px;
 }
+.clubslist .result {
+    padding-top: 25px;
+    padding-bottom: 25px; 
+}
+.owl-carousel.clubslist {
+    height: 195px;
+}
 @media only screen and(min-width: 620px) and(max-width: 991px) {
-    .clubslist .result {
-        padding-top: 25px;
-        padding-bottom: 25px; 
-    }
-    .owl-carousel.clubslist {
-        height: 195px;
-    }
     .pic-md-link {
         margin-#{$default-float}: 10px;
         margin-top: 19px;
@@ -207,13 +207,6 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
     }
 }
 @media only screen and(max-width: 420px) {
-    .clubslist .result {
-        padding-top: 25px;
-        padding-bottom: 25px; 
-    }
-    .owl-carousel.clubslist {
-        height: 195px;
-    }
     .videoPic {
         margin-bottom: 5px;
     }
@@ -272,13 +265,6 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
     }
 }
 @media only screen and(min-width: 320px) and(max-width: 619px) {
-    .clubslist .result {
-        padding-top: 25px;
-        padding-bottom: 25px; 
-    }
-    .owl-carousel.clubslist {
-        height: 195px;
-    }
     .videoPic {
         margin-bottom: 5px;
     }
