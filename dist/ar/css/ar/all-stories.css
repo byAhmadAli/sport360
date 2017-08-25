@@ -472,10 +472,16 @@ h3 p {
     margin-right: 120px;
     margin-left: 183px;
     margin-top: 50px;
+    margin-bottom: 10px;
   }
   .club-title-section {
     margin-top: 25px;
     margin-bottom: 15px;
+  }
+  .tag_title {
+    font-size: 38px;
+    font-weight: 900;
+    margin-bottom: 10px;
   }
   .pic-link {
     margin-bottom: 15px;
