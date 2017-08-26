@@ -286,7 +286,7 @@
 }
 
 [class^="col-"], [class*=" col-"] {
-  padding: 0 15px;
+  padding: 0 10px;
 }
 
 .relatednews [class^="col-"], .relatednews [class*=" col-"] {
@@ -330,6 +330,9 @@
   margin: 0;
 }
 
+/*[class^="col-"], [class*=" col-"] {
+     padding: 0 10px; 
+}*/
 .club-title .separator {
   font-size: 15px;
   font-family: "Roboto";
@@ -460,7 +463,7 @@ ul.stories .story {
 
 .article-head {
   font-size: 14px;
-  padding-top: 18px;
+  padding-top: 0px;
   margin-right: 18px;
   margin-bottom: 30px;
   font-family: 'roboto';
@@ -518,7 +521,8 @@ h2.relatedmaintitle {
   font-weight: bold;
   font-size: 34px;
   color: #202020;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
+  margin-right: 10px;
 }
 
 .v-item {
@@ -678,7 +682,7 @@ h2.relatedmaintitle {
 }
 
 .head-related {
-  width: 690px;
+  width: 718px;
   margin-right: 1px;
 }
 
@@ -707,6 +711,10 @@ h2.relatedmaintitle {
 
 .show_icon {
   display: none;
+}
+
+.club-title {
+  margin-top: 20px;
 }
 
 .under_line {
@@ -742,6 +750,7 @@ h2.relatedmaintitle {
 
 .pull-right {
   margin-top: 10px;
+  margin-right: 10px;
 }
 
 .head-related-mobile {
@@ -777,6 +786,11 @@ h2.relatedmaintitle {
 }
 
 @media only screen and (min-width: 620px) and (max-width: 991px) {
+  .pic {
+    position: relative;
+    display: block;
+    margin-left: 0px;
+  }
   .articlemaintitle {
     font-family: 'Roboto';
     font-weight: 900;
@@ -793,7 +807,7 @@ h2.relatedmaintitle {
     line-height: 1.2;
   }
   .main_img {
-    width: 690px;
+    width: 720px;
   }
   .related_img {
     width: 360px;
@@ -809,7 +823,7 @@ h2.relatedmaintitle {
   .relatednews .related {
     height: 328px;
     width: 690px;
-    margin-right: 3px;
+    margin-right: 13px;
   }
 }
 

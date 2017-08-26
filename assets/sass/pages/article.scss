@@ -363,8 +363,16 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
 .no-padding {
     padding: 0px;
 }
+.video-row {
+    border-top: 1px solid #b7b7b7;
+    padding-top: 40px;
+    margin-top: 23px;
+}
 .owl-carousel.clubslist {
     height: 169px;
+}
+.clubslist .owl-item img {
+    width: 30%;
 }
 .mainkiller {
     margin-#{$default-float}: 20px;
@@ -537,21 +545,6 @@ h2.maintitle {
     font-size: 18px;
 }
 
-
-/*.subtitle {
-    font-size: 22.5px;
-    font-weight: 900;
-}*/
-
-h2.relatedmaintitle {
-    font-family: 'Roboto';
-    font-weight: bold;
-    font-size: 34px;
-    color: #202020;
-    padding-bottom: 16px;
-    padding-top: 15px;
-}
-
 .comment-unit {
     margin-bottom: 15px;
 }
@@ -579,6 +572,7 @@ h2.relatedmaintitle {
 }
 .pull-#{$default-float} {
     margin-top: 10px;
+    margin-#{$default-float}: 10px;
 }
 
 .slider {
@@ -595,8 +589,9 @@ h2.relatedmaintitle {
     font-weight: bold;
     font-size: 34px;
     color: #202020;
-    padding-bottom: 16px;
+    padding-bottom: 0px;
     padding-top: 15px;
+    margin-#{$default-float}: 25px;
 }
 
 .main-button {
@@ -605,6 +600,9 @@ h2.relatedmaintitle {
     font-weight: bold;
     text-align: center !important;
 }
+[class^="col-"], [class*=" col-"] {
+    padding: 0 10px; 
+}
 
 .main-button span {
     display: table;
@@ -612,12 +610,12 @@ h2.relatedmaintitle {
 }
 
 .related-head {
+    width: 718px;
     background: white;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
 }
 
 .head-related {
-    width: 690px;
     margin-#{$default-float}: 1px;
 }
 
@@ -646,12 +644,17 @@ h2.relatedmaintitle {
     padding-bottom: 12px !important;
     padding-top: 12px !important;
 }
-
+.club-title{
+    margin-top: 20px;
+}
 .commentAdd {
     padding-#{$default-float}:0px;
 }
 .commenter {
     margin-#{$default-float}:10px;
+}
+.main_img {
+    width: 640px;
 }
 /** tablet **/
 
@@ -672,7 +675,7 @@ h2.relatedmaintitle {
         line-height: 1.2;
     }
     .main_img {
-        width: 690px;
+        width: 750px;
     }
     .related_img {
         width: 360px !important;
@@ -688,11 +691,14 @@ h2.relatedmaintitle {
     .relatednews .related {
         height: 328px;
         width: 670px;
-        margin-#{$default-float}: 3px;
+        margin-#{$default-float}: 25px;
     }
 }
 
 @media only screen and (max-width: 420px) {
+    .related-head {
+        width: 278px;
+    }
     .articlemaintitle {
         font-family: 'Roboto';
         font-weight: 900;
@@ -741,6 +747,9 @@ h2.relatedmaintitle {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 619px) {
+    .related-head {
+        width: 278px;
+    }
     .articlemaintitle {
         font-family: 'Roboto';
         font-weight: 900;

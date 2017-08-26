@@ -593,8 +593,18 @@
   padding: 0px;
 }
 
+.video-row {
+  border-top: 1px solid #b7b7b7;
+  padding-top: 40px;
+  margin-top: 23px;
+}
+
 .owl-carousel.clubslist {
   height: 169px;
+}
+
+.clubslist .owl-item img {
+  width: 30%;
 }
 
 .mainkiller {
@@ -766,19 +776,6 @@ h2.maintitle {
   font-size: 18px;
 }
 
-/*.subtitle {
-    font-size: 22.5px;
-    font-weight: 900;
-}*/
-h2.relatedmaintitle {
-  font-family: 'Roboto';
-  font-weight: bold;
-  font-size: 34px;
-  color: #202020;
-  padding-bottom: 16px;
-  padding-top: 15px;
-}
-
 .comment-unit {
   margin-bottom: 15px;
 }
@@ -807,6 +804,7 @@ h2.relatedmaintitle {
 
 .pull-left {
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 .slider {
@@ -823,8 +821,9 @@ h2.relatedmaintitle {
   font-weight: bold;
   font-size: 34px;
   color: #202020;
-  padding-bottom: 16px;
+  padding-bottom: 0px;
   padding-top: 15px;
+  margin-left: 25px;
 }
 
 .main-button {
@@ -834,18 +833,22 @@ h2.relatedmaintitle {
   text-align: center !important;
 }
 
+[class^="col-"], [class*=" col-"] {
+  padding: 0 10px;
+}
+
 .main-button span {
   display: table;
   margin: 0 auto;
 }
 
 .related-head {
+  width: 718px;
   background: white;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .head-related {
-  width: 690px;
   margin-left: 1px;
 }
 
@@ -875,12 +878,20 @@ h2.relatedmaintitle {
   padding-top: 12px !important;
 }
 
+.club-title {
+  margin-top: 20px;
+}
+
 .commentAdd {
   padding-left: 0px;
 }
 
 .commenter {
   margin-left: 10px;
+}
+
+.main_img {
+  width: 640px;
 }
 
 /** tablet **/
@@ -901,7 +912,7 @@ h2.relatedmaintitle {
     line-height: 1.2;
   }
   .main_img {
-    width: 690px;
+    width: 750px;
   }
   .related_img {
     width: 360px !important;
@@ -917,11 +928,14 @@ h2.relatedmaintitle {
   .relatednews .related {
     height: 328px;
     width: 670px;
-    margin-left: 3px;
+    margin-left: 25px;
   }
 }
 
 @media only screen and (max-width: 420px) {
+  .related-head {
+    width: 278px;
+  }
   .articlemaintitle {
     font-family: 'Roboto';
     font-weight: 900;
@@ -970,6 +984,9 @@ h2.relatedmaintitle {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 619px) {
+  .related-head {
+    width: 278px;
+  }
   .articlemaintitle {
     font-family: 'Roboto';
     font-weight: 900;

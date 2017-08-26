@@ -12674,7 +12674,7 @@ div.level > ul > li {
     margin-bottom: 15px;
   }
   .datetime {
-    float: right;
+    float: left;
     font-size: 12px;
     color: #252525;
     margin-right: 140px;
