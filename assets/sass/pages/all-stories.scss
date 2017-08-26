@@ -120,11 +120,11 @@ h3 p {
 }
 .killermain {
     margin-top: 26px;
-    margin-left: 10px;
+    margin-#{$default-float}: 10px;
 }
 .killermainsmd{
     margin-top: 26px;
-    margin-right: 15px;
+    margin-#{$opposite-direction}: 15px;
 }
 .sec-item {
     margin-top: 70px;
@@ -160,7 +160,7 @@ h3 p {
     color: #d7262c;
 }
 .secAds {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 .slider {
@@ -213,7 +213,7 @@ h3 p {
         width: 720px;
     }
     .v-item {
-        margin-left: 0px;
+        margin-#{$default-float}: 0px;
         margin-top: 0px;
         margin-bottom: 15px;
         height: 305px;
@@ -233,11 +233,17 @@ h3 p {
     }
     .killermain {
         margin-top: 26px;
-        margin-left: 40px;
+        margin-#{$default-float}: 40px;
     }
     .killermainsmd {
         margin-top: 26px;
-        margin-right: 50px;
+        margin-#{$opposite-direction}: 50px;
+    }
+    .tag_title {
+        font-size: 30px;
+        font-weight: 900;
+        margin-bottom: 15px;
+        margin-top: 20px;
     }
 }
 @media only screen and (max-width: 619px) and (min-width: 320px) {
@@ -248,6 +254,12 @@ h3 p {
     }
     .club-title-section {
         margin-top: 25px;
+    }
+    .tag_title {
+        font-size: 22px;
+        font-weight: 900;
+        margin-bottom: 15px;
+        margin-top: 20px;
     }
 }
 @media only screen and (max-width: 420px) {
@@ -261,5 +273,11 @@ h3 p {
     }
     .killsmall {
          margin-top: 30px;
+    }
+    .tag_title {
+        font-size: 22px;
+        font-weight: 900;
+        margin-bottom: 15px;
+        margin-top: 20px;
     }
 }

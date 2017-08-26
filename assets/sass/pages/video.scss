@@ -63,7 +63,7 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
 .club-title span {
     font-size: 15px;
     font-family: "Roboto";
-    color: #727272;
+    color: #dfdfdf;
     line-height: 1.2;
     margin-#{$opposite-direction}: 12px;
 }
@@ -100,11 +100,13 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
 }
 
 .main-container {
-    margin-top: 16px;
+    margin-top: 10px;
     padding-bottom: 16px;
     margin-#{$default-float}: 1px;
 }
-
+.starter {
+    margin-top: 38px;
+}
 .videostarter {
     background: #252525;
 }
@@ -479,8 +481,18 @@ h2.relatedmaintitle {
 .commenter {
     margin-#{$default-float}:10px;
 }
+/*.pull-#{$opposite-direction} {
+    float: #{$opposite-direction};
+    padding-#{$opposite-direction}: 15px;
+}*/
 /** tablet **/
-
+.mainkiller {
+    margin-#{$default-float}: 15px;
+}
+.fa-caret-down {
+    padding-right: 10px;
+    font-size: 14px; 
+}
 @media only screen and (min-width: 620px) and (max-width: 991px) {
     .articlemaintitle {
         font-family: 'Roboto';
@@ -494,7 +506,7 @@ h2.relatedmaintitle {
     .club-title span {
         font-size: 14px;
         font-family: "Roboto";
-        color: #727272;
+        color: #dfdfdf;
         line-height: 1.2;
     }
     .main_img {
@@ -531,7 +543,7 @@ h2.relatedmaintitle {
     .club-title span {
         font-size: 14px;
         font-family: "Roboto";
-        color: #727272;
+        color: #dfdfdf;
         line-height: 1.2;
     }
     .v-item {
@@ -579,7 +591,7 @@ h2.relatedmaintitle {
     .club-title span {
         font-size: 14px;
         font-family: "Roboto";
-        color: #727272;
+        color: #dfdfdf;
         line-height: 1.2;
     }
     .v-item {

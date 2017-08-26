@@ -41,9 +41,11 @@ $url_9: url(../../assets/fonts/icomoon.woff?235t6z);
 $url_10: url(../../assets/fonts/icomoon.eot?#iefix235t6z);
 $url_11: url(../../assets/fonts/icomoon.ttf?235t6z);
 $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
+
 .tag_title {
     font-size: 38px;
     font-weight: 900;
+    margin-bottom: 15px;
 }
 
 .tag_title p {
@@ -100,7 +102,7 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
     background: #fff;
     box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
     height: 364px;
-    margin-top: 26px;
+    margin-top: 18px;
 }
 
 .s-item h3 {
@@ -134,11 +136,11 @@ h3 p {
 
 .killermain {
     margin-top: 26px;
-    margin-left: 10px;
+    margin-#{$default-float}: 10px;
 }
 .killermainsmd{
     margin-top: 26px;
-    margin-right: 15px;
+    margin-#{$opposite-direction}: 15px;
 }
 .sec-item {
     margin-top: 70px;
@@ -182,10 +184,9 @@ h3 p {
 }
 
 .secAds {
-    margin-top: 40px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom:40px;
 }
-
 .slider {
     margin-top: 55px;
     margin-bottom: 55px;
@@ -204,12 +205,16 @@ h3 p {
 }
 .pic-link {
     margin-bottom: 10px;
-    margin-top: 26px;
+    margin-top: 16px;
 }
 .pragraph{
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 0px !important;
+}
+.ads {
+    margin-top: 37px;
+    margin-bottom: 25px;
 }
 @media only screen and (width: 412px) {
     .v-item img {
@@ -241,7 +246,7 @@ h3 p {
         width: 720px;
     }
     .v-item {
-        margin-left: 0px;
+        margin-#{$default-float}: 0px;
         margin-top: 0px;
         margin-bottom: 15px;
         height: 305px;
@@ -261,11 +266,17 @@ h3 p {
     }
     .killermain {
         margin-top: 26px;
-        margin-left: 40px;
+        margin-#{$default-float}: 40px;
     }
     .killermainsmd {
         margin-top: 26px;
-        margin-right: 50px;
+        margin-#{$opposite-direction}: 50px;
+    }
+    .tag_title {
+        font-size: 30px;
+        font-weight: 900;
+        margin-bottom: 15px;
+        margin-top: 20px;
     }
 }
 
@@ -274,10 +285,16 @@ h3 p {
         margin-#{$opposite-direction}: 15px;
         margin-#{$default-float}: 15px;
         margin-top: 30px;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .club-title-section {
         margin-top: 15px;
+    }
+    .tag_title {
+        font-size: 22px;
+        font-weight: 900;
+        margin-bottom: 15px;
+        margin-top: 20px;
     }
 }
 
@@ -286,6 +303,7 @@ h3 p {
         margin-#{$opposite-direction}: 15px;
         margin-#{$default-float}: 15px;
         margin-top: 30px;
+        margin-bottom: 20px;
     }
     .club-title-section {
         margin-top: 15px;
@@ -297,4 +315,10 @@ h3 p {
     margin-bottom: 10px;
     margin-top: 10px;
    }
+   .tag_title {
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
 }
