@@ -326,9 +326,14 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
 }
 
 .sub-row {
-    margin: 24px auto;
+    margin: 33px auto 24px;
 }
 
+.head-related-mobile {
+    margin-left: 1px;
+    margin-right: 1px;
+    /* width: 289px; */
+}
 .centerdiv {
     text-align: center;
     margin: 30px auto;
@@ -697,9 +702,9 @@ h2.relatedmaintitle {
 }
 
 @media only screen and (max-width: 420px) {
-    .related-head {
+    /*.related-head {
         width: 278px;
-    }
+    }*/
     .articlemaintitle {
         font-family: 'Roboto';
         font-weight: 900;
@@ -748,9 +753,9 @@ h2.relatedmaintitle {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 619px) {
-    .related-head {
+    /*.related-head {
         width: 278px;
-    }
+    }*/
     .articlemaintitle {
         font-family: 'Roboto';
         font-weight: 900;
