@@ -589,6 +589,18 @@
   font-size: 14px;
 }
 
+.no-padding {
+  padding: 0px;
+}
+
+.owl-carousel.clubslist {
+  height: 169px;
+}
+
+.mainkiller {
+  margin-left: 20px;
+}
+
 .facebook-comment {
   width: 100%;
   height: 50px;
@@ -621,10 +633,6 @@
 .img-profile {
   width: 45px;
   height: 45px;
-}
-
-.no-padding {
-  padding: 0px;
 }
 
 .commentor-name {
