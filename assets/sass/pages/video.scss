@@ -51,6 +51,15 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
     }
 }
 
+.owl-nav{
+    margin-top: 10px;
+}
+.owl-carousel .owl-item img{
+    width: 30%;
+}
+.owl-carousel.clubslist{
+    height: 169px;
+}
 .ads{
     margin-top: 34px;
     margin-bottom: 40px;
@@ -243,11 +252,17 @@ ul.stories .story{
 }
 
 .video-row {
-    margin-top: 40px;
+    border-top: 1px solid #b7b7b7;
+    padding-top: 40px;
+    margin-top: 23px;
 }
 
 .relatednews {
-    margin-top: 50px;
+    margin-top: 45px;
+    .row{
+        margin-right: -7.5px;
+        margin-left: -7.5px;
+    }
 }
 
 h2.relatedmaintitle {
@@ -255,8 +270,7 @@ h2.relatedmaintitle {
     font-weight: bold;
     font-size: 34px;
     color: #202020;
-    padding-bottom: 16px;
-    padding-top: 15px;
+    padding-bottom: 20px;
 }
 
 .v-item {
@@ -286,7 +300,16 @@ h2.relatedmaintitle {
 }
 
 .sub-row {
-    margin: 36px auto;
+    margin: 33px auto 24px;
+    &.show-hide-comments{
+        margin: 25px auto;
+    }
+    &.comments{
+        margin: 25px auto 20px;
+    }
+    &.comments-list{
+        margin: 20px auto;
+    }
 }
 
 .facebook-comment {
@@ -298,6 +321,7 @@ h2.relatedmaintitle {
     font-size: 18px;
     font-weight: bolder;
     font-family: 'Roboto';
+    border-radius: 4px;
 }
 
 .comments-header {
@@ -333,7 +357,7 @@ h2.relatedmaintitle {
     font-size: 15px;
     font-family: "Roboto";
     border-color: rgb(225, 225, 225);
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .commentor-name {
@@ -477,6 +501,9 @@ h2.relatedmaintitle {
 
 .commentAdd {
     padding-#{$default-float}:0px;
+    p.comment{
+        margin-bottom: 10px;
+    }
 }
 .commenter {
     margin-#{$default-float}:10px;
