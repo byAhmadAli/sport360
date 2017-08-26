@@ -453,7 +453,7 @@ hr {
 }
 
 .btn-select.btn-default, .btn-select.btn-default.active {
-  background-color: #ebebeb;
+  background-color: #c2c2c2;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
