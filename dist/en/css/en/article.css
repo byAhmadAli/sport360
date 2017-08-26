@@ -939,6 +939,15 @@ h2.relatedmaintitle {
 }
 
 @media only screen and (max-width: 420px) {
+  .detilslink {
+    display: inline-block;
+    border: solid 1px #000;
+    border-radius: 5px;
+    padding: 5px 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #252525;
+  }
   h2.relatedmaintitle {
     font-family: 'Roboto';
     font-weight: bold;
