@@ -289,6 +289,15 @@ body {
   background: #252525;
 }
 
+.ads {
+  margin-top: 37px;
+  margin-bottom: 32px;
+}
+
+.starter .form-group {
+  margin: 0 auto 25px;
+}
+
 .video_title {
   color: white;
   font-weight: 900;
@@ -299,11 +308,14 @@ body {
   border-top: 1px solid white;
 }
 
-/*.sort {
-    font-size: 14px;
-    font-weight: 400;
-    color: white;
-}*/
+.col-form-label {
+  padding: 8px 0;
+  max-width: 8%;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+
 .selection {
   width: 170px !important;
 }
@@ -336,7 +348,7 @@ body {
 .killermain {
   margin-top: 15px;
   margin-bottom: 30px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 
 .killermaintwo {
@@ -369,13 +381,12 @@ body {
   background: white;
 }
 
-.col-form-label {
-  max-width: 9%;
-  font-size: 14px;
-  font-weight: 400;
-  color: white;
-}
-
+/*.col-form-label{
+    max-width: 9%;
+    font-size: 14px;
+    font-weight: 400;
+    color:white;
+}*/
 .sort {
   max-width: 9% !important;
 }
@@ -386,13 +397,17 @@ body {
   min-width: 180px;
   width: 100%;
   border-radius: 0;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  height: 37px;
 }
 
 .btn-select .btn-select-value {
   background-color: #453D3D !important;
   color: white;
-  padding: 6px 12px;
+  padding: 8px 12px 7px;
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
   display: block;
   position: absolute;
   right: 0;
@@ -408,7 +423,7 @@ body {
 .btn-select .btn-select-arrow {
   float: left;
   line-height: 20px;
-  padding: 6px 10px;
+  padding: 4px 12px;
   top: 0;
 }
 
@@ -457,12 +472,30 @@ body {
 }
 
 .btn-select.btn-default, .btn-select.btn-default.active {
-  background-color: #e6e6e6;
+  background-color: #ebebeb;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 /* Default End */
 /** tablet **/
 @media only screen and (min-width: 620px) and (max-width: 991px) {
+  .video_title {
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+  }
+  .mobbanner {
+    max-width: 90%;
+    margin-left: 120px;
+    margin-right: 183px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+  .starter .form-group {
+    margin: 0 auto 20px;
+  }
   .col-form-label {
     max-width: 12%;
   }
@@ -489,6 +522,20 @@ body {
 }
 
 @media only screen and (max-width: 420px) {
+  .video_title {
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+  }
+  hr {
+    margin-top: 0px;
+  }
+  .mobbanner {
+    margin-bottom: 10px;
+  }
+  .starter .form-group {
+    margin: 0 auto 45px;
+  }
   .col-form-label {
     max-width: 27%;
   }
@@ -515,6 +562,20 @@ body {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 619px) {
+  .video_title {
+    color: white;
+    font-weight: 900;
+    font-size: 22px;
+  }
+  hr {
+    margin-top: 0px;
+  }
+  .mobbanner {
+    margin-bottom: 10px;
+  }
+  .starter .form-group {
+    margin: 0 auto 45px;
+  }
   .col-form-label {
     max-width: 27%;
   }
