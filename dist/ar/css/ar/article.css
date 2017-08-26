@@ -940,9 +940,14 @@ h2.relatedmaintitle {
 }
 
 @media only screen and (max-width: 420px) {
-  /*.related-head {
-        width: 278px;
-    }*/
+  h2.relatedmaintitle {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 34px;
+    color: #202020;
+    padding-bottom: 0px;
+    margin-left: 0px;
+  }
   .articlemaintitle {
     font-family: 'Roboto';
     font-weight: 900;
@@ -991,9 +996,14 @@ h2.relatedmaintitle {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 619px) {
-  /*.related-head {
-        width: 278px;
-    }*/
+  h2.relatedmaintitle {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 34px;
+    color: #202020;
+    padding-bottom: 0px;
+    margin-left: 0px;
+  }
   .articlemaintitle {
     font-family: 'Roboto';
     font-weight: 900;
