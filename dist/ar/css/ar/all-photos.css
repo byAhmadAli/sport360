@@ -297,33 +297,102 @@
   height: 350px;
   margin-top: 0px;
   margin-bottom: 50px;
+  height: 100%;
+  overflow: hidden;
+  clear: both;
+  max-height: 334px;
+  margin: 0;
+}
+
+.v-item h3 {
+  padding: 8px 12px;
+}
+
+.v-item h3 a {
+  font-size: 15px;
+  line-height: 100%;
+}
+
+/* new line */
+.v-item h3 em {
+  margin: 10px 0 0;
 }
 
 .killermain {
-  margin-top: 50px;
+  margin-top: 38px;
+  margin-right: 10px;
+}
+
+.killermaintwo {
+  margin-top: 38px;
+  margin-left: 10px;
+}
+
+.picon {
+  background: url(../../images/picons.png) center center no-repeat;
+  width: 34px;
+  height: 34px;
+  top: 15px;
+  left: 17px;
+}
+
+.picon-s {
+  width: 34px;
+  height: 34px;
+  top: 11px;
+  left: 17px;
 }
 
 .col-form-label {
-  max-width: 9%;
-  font-size: 14px;
-  font-weight: 400;
+  /*max-width: 9%;
+    font-size: 14px;
+    font-weight: 400;*/
+  padding: 8px 0;
+  max-width: 8%;
 }
 
 .sort {
   max-width: 9% !important;
 }
 
+.photoitem {
+  margin-bottom: 17px;
+  -moz-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.07);
+  -webkit-box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.07);
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.07);
+}
+
+.photoitem h4 {
+  padding: 10px 8px 10px 5px;
+}
+
+.photoitem h4 a {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.starter .form-group {
+  margin: 0 auto 34px;
+}
+
+/* new line */
 .btn-select {
   position: relative;
   padding: 0;
   min-width: 180px;
   width: 100%;
   border-radius: 0;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px;*/
+  margin-bottom: 0px;
+  height: 37px;
 }
 
 .btn-select .btn-select-value {
-  padding: 6px 12px;
+  /*padding: 6px 12px;*/
+  padding: 8px 12px 7px;
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
   display: block;
   position: absolute;
   right: 0;
@@ -339,7 +408,8 @@
 .btn-select .btn-select-arrow {
   float: left;
   line-height: 20px;
-  padding: 6px 10px;
+  /*padding: 6px 10px;*/
+  padding: 4px 12px;
   top: 0;
 }
 
@@ -373,11 +443,10 @@
 }
 
 /* Default Start */
-.btn-select.btn-default, .btn-select.btn-default:active, .btn-select.btn-default.active {
-  border-color: #ccc;
-  border-radius: 3px;
-}
-
+/*.btn-select.btn-default, .btn-select.btn-default:active, .btn-select.btn-default.active {
+    border-color: #ccc;
+    border-radius: 3px;
+}*/
 .btn-select.btn-default ul li.selected {
   background-color: #ccc;
 }
@@ -388,20 +457,35 @@
 }
 
 .btn-select.btn-default, .btn-select.btn-default.active {
-  background-color: #e6e6e6;
+  /*background-color: #e6e6e6;*/
+  background-color: #ebebeb;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
 }
 
 /** tablet **/
 @media only screen and (min-width: 620px) and (max-width: 991px) {
+  .starter .form-group {
+    margin: 0 auto 36px;
+  }
   .col-form-label {
     max-width: 12%;
   }
   .sort {
     max-width: 12% !important;
   }
+  .mobbanner {
+    margin: 40px auto 15px;
+  }
+  .photo_title {
+    font-size: 30px;
+  }
+  hr {
+    margin-top: 5px;
+  }
   .killermain {
-    margin-bottom: 50px;
-    margin-top: 0px;
+    margin: 20px auto 35px;
   }
   .btn-select {
     position: relative;
@@ -415,6 +499,9 @@
 
 /** mobile **/
 @media only screen and (max-width: 420px) {
+  .starter .form-group {
+    margin: 0 auto 46px;
+  }
   .col-form-label {
     max-width: 27%;
   }
@@ -437,9 +524,16 @@
 
 /** mobile **/
 @media only screen and (min-width: 320px) and (max-width: 619px) {
+  .starter .form-group {
+    margin: 0 auto 46px;
+  }
+  .v-item {
+    margin: 0 auto 17px;
+    height: inherit;
+    max-height: none;
+  }
   .killermain {
-    margin-bottom: 50px;
-    margin-top: 0px;
+    margin: 10px auto 25px;
   }
   .col-form-label {
     max-width: 27%;
@@ -458,5 +552,26 @@
     width: 100%;
     border-radius: 0;
     margin-bottom: 30px;
+  }
+  .mobbanner {
+    margin: 40px auto 12px;
+  }
+  .photo_title {
+    font-size: 22px;
+  }
+  .starter .form-group {
+    margin: 0 auto 45px;
+  }
+  .v-item .pic img {
+    width: 100%;
+  }
+  .row > div[class*='col-xl'], .row > div[class*='col-sm'] {
+    padding: 0 15px;
+  }
+  .row > div.col-md-12 {
+    padding: 0 10px;
+  }
+  hr {
+    margin: 8px auto 15px;
   }
 }
