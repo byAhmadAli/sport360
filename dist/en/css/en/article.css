@@ -1105,3 +1105,7 @@ h2.relatedmaintitle {
   padding: 0px !important;
   color: #727272 !important;
 }
+
+.owl-stage-outer {
+  height: auto !important;
+}
