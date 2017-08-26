@@ -851,14 +851,14 @@ h2.relatedmaintitle {
     margin-#{$default-float}: 10px !important;
     margin-right: 10px !important;
     padding: 0px !important;
-    color: #000;
+    color: #000!important;
     &:hover{
-        color: #d7262c;
+        color: #d7262c!important;
     }
 }
 .ob-rec-description{
     margin-#{$default-float}: 10px !important;
     margin-right: 10px !important;
     padding: 0px !important;
-    color: #727272;
+    color: #727272!important;
 }

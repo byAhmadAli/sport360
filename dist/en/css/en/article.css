@@ -1092,10 +1092,16 @@ h2.relatedmaintitle {
   margin-left: 10px !important;
   margin-right: 10px !important;
   padding: 0px !important;
+  color: #000 !important;
+}
+
+.ob-rec-text:hover {
+  color: #d7262c !important;
 }
 
 .ob-rec-description {
   margin-left: 10px !important;
   margin-right: 10px !important;
   padding: 0px !important;
+  color: #727272 !important;
 }
