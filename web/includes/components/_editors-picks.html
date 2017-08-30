@@ -1,0 +1,39 @@
+<div class="section overlay">
+	<h2 class="overlay-title">Editor’s Picks</h2>
+	<div class="big-slider" data-direction="{{direction}}">
+		<div class="col-md-4">
+			{{> _card-with-badge}}
+		</div>
+		<div class="col-sm-6 col-md-4">
+			{{> _card}}
+		</div>
+		<div class="col-sm-6 col-md-4">
+			{{> _card}}
+		</div>
+		<div class="col-sm-6 col-md-4">
+			{{> _card}}
+		</div>
+		<div class="col-sm-6 col-md-4">
+			{{> _card}}
+		</div>
+		<div class="col-sm-6 col-md-4">
+			{{> _card}}
+		</div>
+		<div class="col-sm-6 col-md-4">
+			{{> _card}}
+		</div>
+	</div>
+	<span class="slick-arrows big-{{defaultFloat}} big-prev">
+		<i class="icon icon-arrow-{{defaultFloat}}"></i>
+	</span>
+	<span class="slick-arrows big-{{oppositeDirection}} big-next">
+		<i class="icon icon-arrow-{{oppositeDirection}}"></i>
+	</span>
+	<div class="col-md-12 hidden-sm hidden-md hidden-lg show-more-container">
+		<div class="show-more">
+			<a href="#">
+				<i class="icon icon-arrow-bottom"></i> show more
+			</a>
+		</div>
+	</div>
+</div>

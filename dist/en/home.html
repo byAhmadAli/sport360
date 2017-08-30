@@ -20,7 +20,11 @@
     <button id="burgerMenu" class="burger-menu" type="button">
       <span class="icon icon-menu"></span>
     </button>
-    <a class="navbar-brand" href="#">Navbar</a>
+    <h1 class="navbar-brand">
+      <a href="#">
+        <img src="images/logo-sport-360-header-desktop.png" alt="sport-360" />
+      </a>
+    </h1>
   </div>
   <div class="navbar-form pull-left">
     <form class="form-inline">
@@ -33,11 +37,21 @@
   <div class="navbar-actions-menu pull-right">
     <ul class="nav navbar-nav">
       <li>
-        <a class="nav-link" href="#">
-          <i class="icon icon-"></i> upload</a>
+        <a class="nav-link hidden-sm hidden-md hidden-lg" href="#">
+          <i class="icon icon-search"></i>
+        </a>
       </li>
       <li>
-        <a class="btn btn-primary" href="#">login / signup</a>
+        <a class="nav-link" href="#">
+          <i class="icon icon-upload"></i> <span class="hidden-xs">upload</span>
+        </a>
+      </li>
+      <li>
+        <a class="btn btn-primary small" href="#">
+          <span class="hidden-xs">login / signup</span>
+          <span class="hidden-sm hidden-md hidden-lg">login</span>
+
+        </a>
       </li>
     </ul>
   </div>
@@ -57,16 +71,87 @@
       </a>
     </li>
   </ul>
+  <ul class="menu-items">
+    <li class="title">Categories</li>
+    <li>
+      <a href="#">
+        <i class="icon icon-football"></i>
+        <span class="title">Football</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="icon icon-cricket"></i>
+        <span class="title">Cricket</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="icon icon-tennis"></i>
+        <span class="title">Tennis</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="icon icon-formula-one"></i>
+        <span class="title">Formula One</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="icon icon-health-fitness"></i>
+        <span class="title">Health & Fitness</span>
+      </a>
+    </li>
+  </ul>
+  <ul class="other">
+    <li>Login to create Playlists and Subscribe to Channels</li>
+    <li class="list-btn">
+      <a href="#" class="btn btn-primary small">Login / Signup</a>
+    </li>
+  </ul>
+  <ul class="other social-section">
+    <li class="title">
+      Share 360TV
+      <ul class="social-items">
+        <li>
+          <a href="#" class="social facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="social envelope">
+            <i class="icon icon-envelope"></i>
+          </a>
+        </li>
+      </ul>
+    </li>
+    <li class="list-btn">
+      <a href="#" class="btn btn-default">
+        <i class="icon icon-phone"></i>
+        Mobile App
+      </a>
+    </li>
+  </ul>
+  <ul class="other">
+    <li>
+      <a href="#" class="link">Switch to Arabic Version</a>
+    </li>
+  </ul>
 </div>
+	<div class="editors-picks">
 	<div class="container">
-
-	<div class="row">
-		<div class="section">
-			<h2>Editor’s Picks</h2>
-			<div class="slider">
-				
-				<div class="col-md-4">
-					<div class="card big">
+		<div class="row">
+			<div class="section overlay">
+	<h2 class="overlay-title">Editor’s Picks</h2>
+	<div class="big-slider" data-direction="ltr">
+		<div class="col-md-4">
+			<div class="card big">
 	<div class="card-image">
 		<a href="#">
 			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
@@ -84,12 +169,12 @@
 			</a>
 		</h3>
 		<div class="author">
-	 <div class="author-details">
-		 <div class="avatar">
+	<div class="author-details">
+		<div class="avatar">
 		 	<a href="#">
 		 		<img src="images/avatar.jpg" alt="Imani Salib">
 		 	</a>
-		 </div>
+		</div>
 	 	<span class="author-name">
 	 		<a href="#">Imani Salib</a>
 	 	</span>
@@ -105,15 +190,15 @@
 			 	</span>
 			 	<span class="profile-followers">12K followers</span>
 			 	<span class="profile-follower">
-			 		<a href="#" class="btn btn-primary">follow</a>
+			 		<a href="#" class="btn btn-primary small">follow</a>
 			 	</span>
 	 		</div>
 	 		<div class="profile-bottom-section">
 	 			<p>Fresh news about the sport world, live streams, intreviews, regular updates.</p>
 	 		</div>
 	 	</div>
-	 </div>
-	 <div class="post-action">
+	</div>
+	<div class="post-action">
 	 	<a href="#" class="dropdown-toggle" id="menu1" data-toggle="dropdown">
 	 		<i class="icon icon-ellipse-v"></i>
 	 	</a>
@@ -143,22 +228,17 @@
 				</a>
 			</li>
 		</ul>
-	 </div>
+	</div>
 </div>
 	</div>
 </div>
-				</div>
-				
-				<div class="col-md-4">
-					<div class="card big">
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<div class="card big">
 	<div class="card-image">
 		<a href="#">
 			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
 			<span class="time">3:26</span>
-			<span class="badge">
-				<span class="sep"></span>
-			</span>
-			<span class="badge back"></span>
 		</a>
 	</div>
 	<div class="card-details">
@@ -168,12 +248,12 @@
 			</a>
 		</h3>
 		<div class="author">
-	 <div class="author-details">
-		 <div class="avatar">
+	<div class="author-details">
+		<div class="avatar">
 		 	<a href="#">
 		 		<img src="images/avatar.jpg" alt="Imani Salib">
 		 	</a>
-		 </div>
+		</div>
 	 	<span class="author-name">
 	 		<a href="#">Imani Salib</a>
 	 	</span>
@@ -189,15 +269,15 @@
 			 	</span>
 			 	<span class="profile-followers">12K followers</span>
 			 	<span class="profile-follower">
-			 		<a href="#" class="btn btn-primary">follow</a>
+			 		<a href="#" class="btn btn-primary small">follow</a>
 			 	</span>
 	 		</div>
 	 		<div class="profile-bottom-section">
 	 			<p>Fresh news about the sport world, live streams, intreviews, regular updates.</p>
 	 		</div>
 	 	</div>
-	 </div>
-	 <div class="post-action">
+	</div>
+	<div class="post-action">
 	 	<a href="#" class="dropdown-toggle" id="menu1" data-toggle="dropdown">
 	 		<i class="icon icon-ellipse-v"></i>
 	 	</a>
@@ -227,22 +307,17 @@
 				</a>
 			</li>
 		</ul>
-	 </div>
+	</div>
 </div>
 	</div>
 </div>
-				</div>
-				
-				<div class="col-md-4">
-					<div class="card big">
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<div class="card big">
 	<div class="card-image">
 		<a href="#">
 			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
 			<span class="time">3:26</span>
-			<span class="badge">
-				<span class="sep"></span>
-			</span>
-			<span class="badge back"></span>
 		</a>
 	</div>
 	<div class="card-details">
@@ -252,12 +327,12 @@
 			</a>
 		</h3>
 		<div class="author">
-	 <div class="author-details">
-		 <div class="avatar">
+	<div class="author-details">
+		<div class="avatar">
 		 	<a href="#">
 		 		<img src="images/avatar.jpg" alt="Imani Salib">
 		 	</a>
-		 </div>
+		</div>
 	 	<span class="author-name">
 	 		<a href="#">Imani Salib</a>
 	 	</span>
@@ -273,15 +348,15 @@
 			 	</span>
 			 	<span class="profile-followers">12K followers</span>
 			 	<span class="profile-follower">
-			 		<a href="#" class="btn btn-primary">follow</a>
+			 		<a href="#" class="btn btn-primary small">follow</a>
 			 	</span>
 	 		</div>
 	 		<div class="profile-bottom-section">
 	 			<p>Fresh news about the sport world, live streams, intreviews, regular updates.</p>
 	 		</div>
 	 	</div>
-	 </div>
-	 <div class="post-action">
+	</div>
+	<div class="post-action">
 	 	<a href="#" class="dropdown-toggle" id="menu1" data-toggle="dropdown">
 	 		<i class="icon icon-ellipse-v"></i>
 	 	</a>
@@ -311,22 +386,17 @@
 				</a>
 			</li>
 		</ul>
-	 </div>
+	</div>
 </div>
 	</div>
 </div>
-				</div>
-				
-				<div class="col-md-4">
-					<div class="card big">
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<div class="card big">
 	<div class="card-image">
 		<a href="#">
 			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
 			<span class="time">3:26</span>
-			<span class="badge">
-				<span class="sep"></span>
-			</span>
-			<span class="badge back"></span>
 		</a>
 	</div>
 	<div class="card-details">
@@ -336,12 +406,12 @@
 			</a>
 		</h3>
 		<div class="author">
-	 <div class="author-details">
-		 <div class="avatar">
+	<div class="author-details">
+		<div class="avatar">
 		 	<a href="#">
 		 		<img src="images/avatar.jpg" alt="Imani Salib">
 		 	</a>
-		 </div>
+		</div>
 	 	<span class="author-name">
 	 		<a href="#">Imani Salib</a>
 	 	</span>
@@ -357,15 +427,15 @@
 			 	</span>
 			 	<span class="profile-followers">12K followers</span>
 			 	<span class="profile-follower">
-			 		<a href="#" class="btn btn-primary">follow</a>
+			 		<a href="#" class="btn btn-primary small">follow</a>
 			 	</span>
 	 		</div>
 	 		<div class="profile-bottom-section">
 	 			<p>Fresh news about the sport world, live streams, intreviews, regular updates.</p>
 	 		</div>
 	 	</div>
-	 </div>
-	 <div class="post-action">
+	</div>
+	<div class="post-action">
 	 	<a href="#" class="dropdown-toggle" id="menu1" data-toggle="dropdown">
 	 		<i class="icon icon-ellipse-v"></i>
 	 	</a>
@@ -395,22 +465,17 @@
 				</a>
 			</li>
 		</ul>
-	 </div>
+	</div>
 </div>
 	</div>
 </div>
-				</div>
-				
-				<div class="col-md-4">
-					<div class="card big">
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<div class="card big">
 	<div class="card-image">
 		<a href="#">
 			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
 			<span class="time">3:26</span>
-			<span class="badge">
-				<span class="sep"></span>
-			</span>
-			<span class="badge back"></span>
 		</a>
 	</div>
 	<div class="card-details">
@@ -420,12 +485,12 @@
 			</a>
 		</h3>
 		<div class="author">
-	 <div class="author-details">
-		 <div class="avatar">
+	<div class="author-details">
+		<div class="avatar">
 		 	<a href="#">
 		 		<img src="images/avatar.jpg" alt="Imani Salib">
 		 	</a>
-		 </div>
+		</div>
 	 	<span class="author-name">
 	 		<a href="#">Imani Salib</a>
 	 	</span>
@@ -441,15 +506,15 @@
 			 	</span>
 			 	<span class="profile-followers">12K followers</span>
 			 	<span class="profile-follower">
-			 		<a href="#" class="btn btn-primary">follow</a>
+			 		<a href="#" class="btn btn-primary small">follow</a>
 			 	</span>
 	 		</div>
 	 		<div class="profile-bottom-section">
 	 			<p>Fresh news about the sport world, live streams, intreviews, regular updates.</p>
 	 		</div>
 	 	</div>
-	 </div>
-	 <div class="post-action">
+	</div>
+	<div class="post-action">
 	 	<a href="#" class="dropdown-toggle" id="menu1" data-toggle="dropdown">
 	 		<i class="icon icon-ellipse-v"></i>
 	 	</a>
@@ -479,19 +544,960 @@
 				</a>
 			</li>
 		</ul>
-	 </div>
+	</div>
 </div>
 	</div>
 </div>
-				</div>
-				
-			</div>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="time">3:26</span>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Wimbledon video highlights - Venus Williams and Gabrine…
+			</a>
+		</h3>
+		<div class="author">
+	<div class="author-details">
+		<div class="avatar">
+		 	<a href="#">
+		 		<img src="images/avatar.jpg" alt="Imani Salib">
+		 	</a>
+		</div>
+	 	<span class="author-name">
+	 		<a href="#">Imani Salib</a>
+	 	</span>
+	 	<span class="post-time">3 minutes ago</span>
+	 	<span class="post-views">12K views</span>
+	 	<div class="profile-details">
+	 		<div class="profile-top-section" style="background-image: url('images/cover-photo.jpg');">
+	 			<span class="profile-avatar">
+				 	<img src="images/avatar.jpg" alt="Imani Salib">
+				 </span>
+	 			<span class="profile-name">
+			 		<a href="#">Imani Salib</a>
+			 	</span>
+			 	<span class="profile-followers">12K followers</span>
+			 	<span class="profile-follower">
+			 		<a href="#" class="btn btn-primary small">follow</a>
+			 	</span>
+	 		</div>
+	 		<div class="profile-bottom-section">
+	 			<p>Fresh news about the sport world, live streams, intreviews, regular updates.</p>
+	 		</div>
+	 	</div>
+	</div>
+	<div class="post-action">
+	 	<a href="#" class="dropdown-toggle" id="menu1" data-toggle="dropdown">
+	 		<i class="icon icon-ellipse-v"></i>
+	 	</a>
+		<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-share"></i> 
+					<span>Share</span>
+				</a>
+			</li>
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-list-add"></i> 
+					<span>Add to Playlist</span>
+				</a>
+			</li>
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-time"></i> 
+					<span>Add to Watch later</span>
+				</a>
+			</li>
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-star"></i> 
+					<span>Add to Favorites</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+	</div>
+</div>
+		</div>
+		<div class="col-sm-6 col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="time">3:26</span>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Wimbledon video highlights - Venus Williams and Gabrine…
+			</a>
+		</h3>
+		<div class="author">
+	<div class="author-details">
+		<div class="avatar">
+		 	<a href="#">
+		 		<img src="images/avatar.jpg" alt="Imani Salib">
+		 	</a>
+		</div>
+	 	<span class="author-name">
+	 		<a href="#">Imani Salib</a>
+	 	</span>
+	 	<span class="post-time">3 minutes ago</span>
+	 	<span class="post-views">12K views</span>
+	 	<div class="profile-details">
+	 		<div class="profile-top-section" style="background-image: url('images/cover-photo.jpg');">
+	 			<span class="profile-avatar">
+				 	<img src="images/avatar.jpg" alt="Imani Salib">
+				 </span>
+	 			<span class="profile-name">
+			 		<a href="#">Imani Salib</a>
+			 	</span>
+			 	<span class="profile-followers">12K followers</span>
+			 	<span class="profile-follower">
+			 		<a href="#" class="btn btn-primary small">follow</a>
+			 	</span>
+	 		</div>
+	 		<div class="profile-bottom-section">
+	 			<p>Fresh news about the sport world, live streams, intreviews, regular updates.</p>
+	 		</div>
+	 	</div>
+	</div>
+	<div class="post-action">
+	 	<a href="#" class="dropdown-toggle" id="menu1" data-toggle="dropdown">
+	 		<i class="icon icon-ellipse-v"></i>
+	 	</a>
+		<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-share"></i> 
+					<span>Share</span>
+				</a>
+			</li>
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-list-add"></i> 
+					<span>Add to Playlist</span>
+				</a>
+			</li>
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-time"></i> 
+					<span>Add to Watch later</span>
+				</a>
+			</li>
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-star"></i> 
+					<span>Add to Favorites</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+	</div>
+</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="section">
-			<div class="col-md-3">
-				<div class="card small">
+	<span class="slick-arrows big-left big-prev">
+		<i class="icon icon-arrow-left"></i>
+	</span>
+	<span class="slick-arrows big-right big-next">
+		<i class="icon icon-arrow-right"></i>
+	</span>
+	<div class="col-md-12 hidden-sm hidden-md hidden-lg show-more-container">
+		<div class="show-more">
+			<a href="#">
+				<i class="icon icon-arrow-bottom"></i> show more
+			</a>
+		</div>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+<div class="promoted-section">
+	<div class="container">
+		<div class="row">
+			<div class="section">
+	<h2>Sport News</h2>
+	<p>Promoted by Sport's World Magazine</p>
+	<div class="promoted-slider" data-direction="ltr">
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="live">live</span>
+			<a href="#" class="log">
+				<i class="icon icon-logout"></i>
+			</a>
+
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Zlatan Ibrahimovic, Luis Suarez and Robert Lewandowski
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Sport360 Highlights
+			</a>
+		</h3>
+		<p>120k subscribers</p>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big best-of">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<div class="more">
+				<span class="count">10</span>
+				<span class="text">videos</span>
+			</div>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Best of UEFA championship highlights
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="live">live</span>
+			<a href="#" class="log">
+				<i class="icon icon-logout"></i>
+			</a>
+
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Zlatan Ibrahimovic, Luis Suarez and Robert Lewandowski
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Sport360 Highlights
+			</a>
+		</h3>
+		<p>120k subscribers</p>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big best-of">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<div class="more">
+				<span class="count">10</span>
+				<span class="text">videos</span>
+			</div>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Best of UEFA championship highlights
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="live">live</span>
+			<a href="#" class="log">
+				<i class="icon icon-logout"></i>
+			</a>
+
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Zlatan Ibrahimovic, Luis Suarez and Robert Lewandowski
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Sport360 Highlights
+			</a>
+		</h3>
+		<p>120k subscribers</p>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big best-of">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<div class="more">
+				<span class="count">10</span>
+				<span class="text">videos</span>
+			</div>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Best of UEFA championship highlights
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+	</div>
+	<span class="slick-arrows promoted-left promoted-prev">
+		<i class="icon icon-arrow-left"></i>
+	</span>
+	<span class="slick-arrows promoted-right promoted-next">
+		<i class="icon icon-arrow-right"></i>
+	</span>
+	<div class="col-md-12 hidden-sm hidden-md hidden-lg show-more-container">
+		<div class="show-more">
+			<a href="#">
+				<i class="icon icon-arrow-bottom"></i> show more
+			</a>
+		</div>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+<div class="promoted-section hot">
+	<div class="container">
+		<div class="row">
+			<div class="section">
+	<h2>Sport News</h2>
+	<p>Promoted by Sport's World Magazine</p>
+	<div class="promoted-slider" data-direction="ltr">
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="live">live</span>
+			<a href="#" class="log">
+				<i class="icon icon-logout"></i>
+			</a>
+
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Zlatan Ibrahimovic, Luis Suarez and Robert Lewandowski
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Sport360 Highlights
+			</a>
+		</h3>
+		<p>120k subscribers</p>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big best-of">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<div class="more">
+				<span class="count">10</span>
+				<span class="text">videos</span>
+			</div>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Best of UEFA championship highlights
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="live">live</span>
+			<a href="#" class="log">
+				<i class="icon icon-logout"></i>
+			</a>
+
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Zlatan Ibrahimovic, Luis Suarez and Robert Lewandowski
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Sport360 Highlights
+			</a>
+		</h3>
+		<p>120k subscribers</p>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big best-of">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<div class="more">
+				<span class="count">10</span>
+				<span class="text">videos</span>
+			</div>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Best of UEFA championship highlights
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="live">live</span>
+			<a href="#" class="log">
+				<i class="icon icon-logout"></i>
+			</a>
+
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Zlatan Ibrahimovic, Luis Suarez and Robert Lewandowski
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Sport360 Highlights
+			</a>
+		</h3>
+		<p>120k subscribers</p>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big best-of">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<div class="more">
+				<span class="count">10</span>
+				<span class="text">videos</span>
+			</div>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Best of UEFA championship highlights
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+	</div>
+	<span class="slick-arrows promoted-left promoted-prev">
+		<i class="icon icon-arrow-left"></i>
+	</span>
+	<span class="slick-arrows promoted-right promoted-next">
+		<i class="icon icon-arrow-right"></i>
+	</span>
+	<div class="col-md-12 hidden-sm hidden-md hidden-lg show-more-container">
+		<div class="show-more">
+			<a href="#">
+				<i class="icon icon-arrow-bottom"></i> show more
+			</a>
+		</div>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+<div class="promoted-section black">
+	<div class="container">
+		<div class="row">
+			<div class="section">
+	<h2>Sport News</h2>
+	<p>Promoted by Sport's World Magazine</p>
+	<div class="promoted-slider" data-direction="ltr">
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="live">live</span>
+			<a href="#" class="log">
+				<i class="icon icon-logout"></i>
+			</a>
+
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Zlatan Ibrahimovic, Luis Suarez and Robert Lewandowski
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Sport360 Highlights
+			</a>
+		</h3>
+		<p>120k subscribers</p>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big best-of">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<div class="more">
+				<span class="count">10</span>
+				<span class="text">videos</span>
+			</div>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Best of UEFA championship highlights
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="live">live</span>
+			<a href="#" class="log">
+				<i class="icon icon-logout"></i>
+			</a>
+
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Zlatan Ibrahimovic, Luis Suarez and Robert Lewandowski
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Sport360 Highlights
+			</a>
+		</h3>
+		<p>120k subscribers</p>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big best-of">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<div class="more">
+				<span class="count">10</span>
+				<span class="text">videos</span>
+			</div>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Best of UEFA championship highlights
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="live">live</span>
+			<a href="#" class="log">
+				<i class="icon icon-logout"></i>
+			</a>
+
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Zlatan Ibrahimovic, Luis Suarez and Robert Lewandowski
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Sport360 Highlights
+			</a>
+		</h3>
+		<p>120k subscribers</p>
+	</div>
+</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card big best-of">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<div class="more">
+				<span class="count">10</span>
+				<span class="text">videos</span>
+			</div>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Best of UEFA championship highlights
+			</a>
+		</h3>
+	</div>
+</div>
+		</div>
+	</div>
+	<span class="slick-arrows promoted-left promoted-prev">
+		<i class="icon icon-arrow-left"></i>
+	</span>
+	<span class="slick-arrows promoted-right promoted-next">
+		<i class="icon icon-arrow-right"></i>
+	</span>
+	<div class="col-md-12 hidden-sm hidden-md hidden-lg show-more-container">
+		<div class="show-more">
+			<a href="#">
+				<i class="icon icon-arrow-bottom"></i> show more
+			</a>
+		</div>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+<div class="trending small-cards">
+	<div class="container">
+		<div class="row">
+			<div class="section overlay">
+	<h2 class="overlay-title">Trending</h2>
+	<a href="#" class="see-all">See all</a>
+	<div class="col-xs-6 col-sm-4 col-md-3">
+		<div class="card small">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="time hidden-xs">3:26</span>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Indy 500: Dubai-born Ed Jones looks ahead to bigges...
+			</a>
+		</h3>
+		<div class="author">
+	<div class="author-details">
+		<div class="avatar hidden-xs">
+		 	<a href="#">
+		 		<img src="images/avatar.jpg" alt="Imani Salib">
+		 	</a>
+		</div>
+	 	<span class="author-name">
+	 		<a href="#">Imani Salib</a>
+	 	</span>
+	 	<span class="post-time">3 minutes ago</span>
+	 	<span class="post-views">12K views</span>
+	</div>
+</div>
+	</div>
+</div>
+	</div>
+	<div class="col-xs-6 col-sm-4 col-md-3">
+		<div class="card small">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="time hidden-xs">3:26</span>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Indy 500: Dubai-born Ed Jones looks ahead to bigges...
+			</a>
+		</h3>
+		<div class="author">
+	<div class="author-details">
+		<div class="avatar hidden-xs">
+		 	<a href="#">
+		 		<img src="images/avatar.jpg" alt="Imani Salib">
+		 	</a>
+		</div>
+	 	<span class="author-name">
+	 		<a href="#">Imani Salib</a>
+	 	</span>
+	 	<span class="post-time">3 minutes ago</span>
+	 	<span class="post-views">12K views</span>
+	</div>
+</div>
+	</div>
+</div>
+	</div>
+	<div class="col-xs-6 col-sm-4 col-md-3">
+		<div class="card small">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="time hidden-xs">3:26</span>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Indy 500: Dubai-born Ed Jones looks ahead to bigges...
+			</a>
+		</h3>
+		<div class="author">
+	<div class="author-details">
+		<div class="avatar hidden-xs">
+		 	<a href="#">
+		 		<img src="images/avatar.jpg" alt="Imani Salib">
+		 	</a>
+		</div>
+	 	<span class="author-name">
+	 		<a href="#">Imani Salib</a>
+	 	</span>
+	 	<span class="post-time">3 minutes ago</span>
+	 	<span class="post-views">12K views</span>
+	</div>
+</div>
+	</div>
+</div>
+	</div>
+	<div class="col-xs-6 col-sm-4 col-md-3 hidden-sm">
+		<div class="card small">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="time hidden-xs">3:26</span>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Indy 500: Dubai-born Ed Jones looks ahead to bigges...
+			</a>
+		</h3>
+		<div class="author">
+	<div class="author-details">
+		<div class="avatar hidden-xs">
+		 	<a href="#">
+		 		<img src="images/avatar.jpg" alt="Imani Salib">
+		 	</a>
+		</div>
+	 	<span class="author-name">
+	 		<a href="#">Imani Salib</a>
+	 	</span>
+	 	<span class="post-time">3 minutes ago</span>
+	 	<span class="post-views">12K views</span>
+	</div>
+</div>
+	</div>
+</div>
+	</div>
+	<div class="col-md-12 show-more-container">
+		<div class="show-more">
+			<a href="#">
+				<i class="icon icon-arrow-bottom"></i> show more
+			</a>
+		</div>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+<div class="recommended small-cards">
+	<div class="container">
+		<div class="row">
+			<div class="section overlay">
+	<h2 class="overlay-title">Recommended</h2>
+	<a href="#" class="see-all">See all</a>
+	<div class="col-sm-4 col-md-3">
+		<div class="card small">
 	<div class="card-image">
 		<a href="#">
 			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
@@ -505,12 +1511,12 @@
 			</a>
 		</h3>
 		<div class="author">
-	 <div class="author-details">
-		 <div class="avatar">
+	<div class="author-details">
+		<div class="avatar">
 		 	<a href="#">
 		 		<img src="images/avatar.jpg" alt="Imani Salib">
 		 	</a>
-		 </div>
+		</div>
 	 	<span class="author-name">
 	 		<a href="#">Imani Salib</a>
 	 	</span>
@@ -526,15 +1532,15 @@
 			 	</span>
 			 	<span class="profile-followers">12K followers</span>
 			 	<span class="profile-follower">
-			 		<a href="#" class="btn btn-primary">follow</a>
+			 		<a href="#" class="btn btn-primary small">follow</a>
 			 	</span>
 	 		</div>
 	 		<div class="profile-bottom-section">
 	 			<p>Fresh news about the sport world, live streams, intreviews, regular updates.</p>
 	 		</div>
 	 	</div>
-	 </div>
-	 <div class="post-action">
+	</div>
+	<div class="post-action">
 	 	<a href="#" class="dropdown-toggle" id="menu1" data-toggle="dropdown">
 	 		<i class="icon icon-ellipse-v"></i>
 	 	</a>
@@ -564,17 +1570,512 @@
 				</a>
 			</li>
 		</ul>
-	 </div>
+	</div>
 </div>
 	</div>
 </div>
-			</div>
+	</div>
+	<div class="col-sm-4 col-md-3">
+		<div class="card small">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="time">3:26</span>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Indy 500: Dubai-born Ed Jones looks ahead to bigges...
+			</a>
+		</h3>
+		<div class="author">
+	<div class="author-details">
+		<div class="avatar">
+		 	<a href="#">
+		 		<img src="images/avatar.jpg" alt="Imani Salib">
+		 	</a>
+		</div>
+	 	<span class="author-name">
+	 		<a href="#">Imani Salib</a>
+	 	</span>
+	 	<span class="post-time">3 minutes ago</span>
+	 	<span class="post-views">12K views</span>
+	 	<div class="profile-details">
+	 		<div class="profile-top-section" style="background-image: url('images/cover-photo.jpg');">
+	 			<span class="profile-avatar">
+				 	<img src="images/avatar.jpg" alt="Imani Salib">
+				 </span>
+	 			<span class="profile-name">
+			 		<a href="#">Imani Salib</a>
+			 	</span>
+			 	<span class="profile-followers">12K followers</span>
+			 	<span class="profile-follower">
+			 		<a href="#" class="btn btn-primary small">follow</a>
+			 	</span>
+	 		</div>
+	 		<div class="profile-bottom-section">
+	 			<p>Fresh news about the sport world, live streams, intreviews, regular updates.</p>
+	 		</div>
+	 	</div>
+	</div>
+	<div class="post-action">
+	 	<a href="#" class="dropdown-toggle" id="menu1" data-toggle="dropdown">
+	 		<i class="icon icon-ellipse-v"></i>
+	 	</a>
+		<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-share"></i> 
+					<span>Share</span>
+				</a>
+			</li>
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-list-add"></i> 
+					<span>Add to Playlist</span>
+				</a>
+			</li>
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-time"></i> 
+					<span>Add to Watch later</span>
+				</a>
+			</li>
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-star"></i> 
+					<span>Add to Favorites</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+	</div>
+</div>
+	</div>
+	<div class="col-sm-4 col-md-3">
+		<div class="card small">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="time">3:26</span>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Indy 500: Dubai-born Ed Jones looks ahead to bigges...
+			</a>
+		</h3>
+		<div class="author">
+	<div class="author-details">
+		<div class="avatar">
+		 	<a href="#">
+		 		<img src="images/avatar.jpg" alt="Imani Salib">
+		 	</a>
+		</div>
+	 	<span class="author-name">
+	 		<a href="#">Imani Salib</a>
+	 	</span>
+	 	<span class="post-time">3 minutes ago</span>
+	 	<span class="post-views">12K views</span>
+	 	<div class="profile-details">
+	 		<div class="profile-top-section" style="background-image: url('images/cover-photo.jpg');">
+	 			<span class="profile-avatar">
+				 	<img src="images/avatar.jpg" alt="Imani Salib">
+				 </span>
+	 			<span class="profile-name">
+			 		<a href="#">Imani Salib</a>
+			 	</span>
+			 	<span class="profile-followers">12K followers</span>
+			 	<span class="profile-follower">
+			 		<a href="#" class="btn btn-primary small">follow</a>
+			 	</span>
+	 		</div>
+	 		<div class="profile-bottom-section">
+	 			<p>Fresh news about the sport world, live streams, intreviews, regular updates.</p>
+	 		</div>
+	 	</div>
+	</div>
+	<div class="post-action">
+	 	<a href="#" class="dropdown-toggle" id="menu1" data-toggle="dropdown">
+	 		<i class="icon icon-ellipse-v"></i>
+	 	</a>
+		<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-share"></i> 
+					<span>Share</span>
+				</a>
+			</li>
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-list-add"></i> 
+					<span>Add to Playlist</span>
+				</a>
+			</li>
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-time"></i> 
+					<span>Add to Watch later</span>
+				</a>
+			</li>
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-star"></i> 
+					<span>Add to Favorites</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+	</div>
+</div>
+	</div>
+	<div class="col-sm-4 col-md-3 hidden-sm">
+		<div class="card small">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="time">3:26</span>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Indy 500: Dubai-born Ed Jones looks ahead to bigges...
+			</a>
+		</h3>
+		<div class="author">
+	<div class="author-details">
+		<div class="avatar">
+		 	<a href="#">
+		 		<img src="images/avatar.jpg" alt="Imani Salib">
+		 	</a>
+		</div>
+	 	<span class="author-name">
+	 		<a href="#">Imani Salib</a>
+	 	</span>
+	 	<span class="post-time">3 minutes ago</span>
+	 	<span class="post-views">12K views</span>
+	 	<div class="profile-details">
+	 		<div class="profile-top-section" style="background-image: url('images/cover-photo.jpg');">
+	 			<span class="profile-avatar">
+				 	<img src="images/avatar.jpg" alt="Imani Salib">
+				 </span>
+	 			<span class="profile-name">
+			 		<a href="#">Imani Salib</a>
+			 	</span>
+			 	<span class="profile-followers">12K followers</span>
+			 	<span class="profile-follower">
+			 		<a href="#" class="btn btn-primary small">follow</a>
+			 	</span>
+	 		</div>
+	 		<div class="profile-bottom-section">
+	 			<p>Fresh news about the sport world, live streams, intreviews, regular updates.</p>
+	 		</div>
+	 	</div>
+	</div>
+	<div class="post-action">
+	 	<a href="#" class="dropdown-toggle" id="menu1" data-toggle="dropdown">
+	 		<i class="icon icon-ellipse-v"></i>
+	 	</a>
+		<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-share"></i> 
+					<span>Share</span>
+				</a>
+			</li>
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-list-add"></i> 
+					<span>Add to Playlist</span>
+				</a>
+			</li>
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-time"></i> 
+					<span>Add to Watch later</span>
+				</a>
+			</li>
+			<li role="presentation">
+				<a role="menuitem" href="#">
+					<i class="icon icon-star"></i> 
+					<span>Add to Favorites</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+	</div>
+</div>
+	</div>
+	<div class="col-md-12 show-more-container">
+		<div class="show-more">
+			<a href="#">
+				<i class="icon icon-arrow-bottom"></i> show more
+			</a>
 		</div>
 	</div>
 </div>
-	<div class="footer">
-		<p class="text-center">© 2017 Qudwa</p>
+		</div>
 	</div>
+</div>
+<div class="recently-uploaded small-cards">
+	<div class="container">
+		<div class="row">
+			<div class="section overlay">
+	<h2 class="overlay-title">Recently Uploaded</h2>
+	<a href="#" class="see-all">See all</a>
+	<div class="col-xs-6 col-sm-4 col-md-3">
+		<div class="card small">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="time hidden-xs">3:26</span>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Indy 500: Dubai-born Ed Jones looks ahead to bigges...
+			</a>
+		</h3>
+		<div class="author">
+	<div class="author-details">
+		<div class="avatar hidden-xs">
+		 	<a href="#">
+		 		<img src="images/avatar.jpg" alt="Imani Salib">
+		 	</a>
+		</div>
+	 	<span class="author-name">
+	 		<a href="#">Imani Salib</a>
+	 	</span>
+	 	<span class="post-time">3 minutes ago</span>
+	 	<span class="post-views">12K views</span>
+	</div>
+</div>
+	</div>
+</div>
+	</div>
+	<div class="col-xs-6 col-sm-4 col-md-3">
+		<div class="card small">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="time hidden-xs">3:26</span>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Indy 500: Dubai-born Ed Jones looks ahead to bigges...
+			</a>
+		</h3>
+		<div class="author">
+	<div class="author-details">
+		<div class="avatar hidden-xs">
+		 	<a href="#">
+		 		<img src="images/avatar.jpg" alt="Imani Salib">
+		 	</a>
+		</div>
+	 	<span class="author-name">
+	 		<a href="#">Imani Salib</a>
+	 	</span>
+	 	<span class="post-time">3 minutes ago</span>
+	 	<span class="post-views">12K views</span>
+	</div>
+</div>
+	</div>
+</div>
+	</div>
+	<div class="col-xs-6 col-sm-4 col-md-3">
+		<div class="card small">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="time hidden-xs">3:26</span>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Indy 500: Dubai-born Ed Jones looks ahead to bigges...
+			</a>
+		</h3>
+		<div class="author">
+	<div class="author-details">
+		<div class="avatar hidden-xs">
+		 	<a href="#">
+		 		<img src="images/avatar.jpg" alt="Imani Salib">
+		 	</a>
+		</div>
+	 	<span class="author-name">
+	 		<a href="#">Imani Salib</a>
+	 	</span>
+	 	<span class="post-time">3 minutes ago</span>
+	 	<span class="post-views">12K views</span>
+	</div>
+</div>
+	</div>
+</div>
+	</div>
+	<div class="col-xs-6 col-sm-4 col-md-3 hidden-sm">
+		<div class="card small">
+	<div class="card-image">
+		<a href="#">
+			<img src="images/card-thumbnail.jpg" alt="Wimbledon video highlights - Venus Williams and Gabrine…"/>
+			<span class="time hidden-xs">3:26</span>
+		</a>
+	</div>
+	<div class="card-details">
+		<h3>
+			<a href="#">
+				Indy 500: Dubai-born Ed Jones looks ahead to bigges...
+			</a>
+		</h3>
+		<div class="author">
+	<div class="author-details">
+		<div class="avatar hidden-xs">
+		 	<a href="#">
+		 		<img src="images/avatar.jpg" alt="Imani Salib">
+		 	</a>
+		</div>
+	 	<span class="author-name">
+	 		<a href="#">Imani Salib</a>
+	 	</span>
+	 	<span class="post-time">3 minutes ago</span>
+	 	<span class="post-views">12K views</span>
+	</div>
+</div>
+	</div>
+</div>
+	</div>
+	<div class="col-md-12 show-more-container">
+		<div class="show-more">
+			<a href="#">
+				<i class="icon icon-arrow-bottom"></i> show more
+			</a>
+		</div>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+<div class="featured-channels">
+	<div class="container">
+		<div class="row">
+			<div class="section overlay">
+	<h2 class="overlay-title">Featured Channels</h2>
+	<div class="col-xs-6 col-sm-4 col-md-2">
+		<div class="channel small">
+	<div class="avatar">
+		<img src="images/avatar.jpg" alt="Imani Salib">
+		<span class="big-badge big"><span>PREMIUM</span></span>
+	</div>
+	<div class="channel-details">
+		<h3>ImaniSalib</h3>
+		<p>32K followers</p>
+	</div>
+	<a href="#" class="btn btn-primary small">Subscribe</a>
+</div>
+	</div>
+	<div class="col-xs-6 col-sm-4 col-md-2">
+		<div class="channel small">
+	<div class="avatar">
+		<img src="images/avatar.jpg" alt="Imani Salib">
+	</div>
+	<div class="channel-details">
+		<h3>ImaniSalib</h3>
+		<p>32K followers</p>
+	</div>
+	<a href="#" class="btn btn-primary small">Subscribe</a>
+</div>
+	</div>
+	<div class="col-xs-6 col-sm-4 col-md-2">
+		<div class="channel small">
+	<div class="avatar">
+		<img src="images/avatar.jpg" alt="Imani Salib">
+	</div>
+	<div class="channel-details">
+		<h3>ImaniSalib</h3>
+		<p>32K followers</p>
+	</div>
+	<a href="#" class="btn btn-primary small">Subscribe</a>
+</div>
+	</div>
+	<div class="col-xs-6 col-sm-4 col-md-2">
+		<div class="channel small">
+	<div class="avatar">
+		<img src="images/avatar.jpg" alt="Imani Salib">
+	</div>
+	<div class="channel-details">
+		<h3>ImaniSalib</h3>
+		<p>32K followers</p>
+	</div>
+	<a href="#" class="btn btn-primary small">Subscribe</a>
+</div>
+	</div>
+	<div class="col-xs-6 col-sm-4 col-md-2">
+		<div class="channel small">
+	<div class="avatar">
+		<img src="images/avatar.jpg" alt="Imani Salib">
+	</div>
+	<div class="channel-details">
+		<h3>ImaniSalib</h3>
+		<p>32K followers</p>
+	</div>
+	<a href="#" class="btn btn-primary small">Subscribe</a>
+</div>
+	</div>
+	<div class="col-xs-6 col-sm-4 col-md-2">
+		<div class="channel small">
+	<div class="avatar">
+		<img src="images/avatar.jpg" alt="Imani Salib">
+	</div>
+	<div class="channel-details">
+		<h3>ImaniSalib</h3>
+		<p>32K followers</p>
+	</div>
+	<a href="#" class="btn btn-primary small">Subscribe</a>
+</div>
+	</div>
+	<div class="col-md-12 show-more-container">
+		<div class="show-more">
+			<a href="#">
+				<i class="icon icon-arrow-bottom"></i> show more
+			</a>
+		</div>
+	</div>
+</div>
+		</div>
+	</div>
+</div>
+
+
+	<div class="footer">
+	<div class="logo">
+		<a href="#">
+			<img src="images/logo-sport-360-header-desktop.png" alt="sport-360" />
+		</a>
+	</div>
+	<ul class="footer-menu">
+		<li>
+			<a href="#">Terms & Conditions</a>
+		</li>
+		<li>
+			<a href="#">Privacy Policy</a>
+		</li>
+		<li>
+			<a href="#">Contact Us</a>
+		</li>
+		<li>
+			<a href="#">About Us</a>
+		</li>
+	</ul>
+</div>
 	<script type="text/javascript" src="../js/libs/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="../js/libs/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 

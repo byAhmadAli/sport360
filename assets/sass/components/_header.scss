@@ -9,6 +9,12 @@
 	z-index: 99999999;
 	width: 100%;
 	#{$default-float}: 0;
+	top: 0;
+	@media (max-width: 375px){
+		padding-right: 24px;
+    	padding-left: 24px;
+    	margin-bottom: 0;
+	}
 	.burger-menu{
 		padding: 17px 0;
 		margin: 0;
@@ -37,7 +43,6 @@
 		width: 640px;
 		height: 42px;
 		background-color: rgba(255, 255, 255, 0.1);
-		margin-#{$opposite-direction}: 224px;
 		position: relative;
 		padding: 0;
 		.form-control{
@@ -89,18 +94,51 @@
 				}
 			}
 		}
+		@media (max-width: 1201px){
+            width: 560px;
+        }
+        @media (max-width: 769px){
+        	width: 320px;
+        }
+		@media (max-width: 375px){
+			display: none;
+		}
+	}
+	.navbar-header{
+		@media (max-width: 375px){
+			float: #{$default-float};
+		}
 	}
 	.navbar-actions-menu{
 		text-align: #{$opposite-direction};
 		padding: 16px 0;
+		@media (max-width: 375px){
+			padding: 0;
+		}
 		.navbar-nav{
+			@media (max-width: 375px){
+				margin: 16px 0;
+			}
 			li{
+				@media (max-width: 375px){
+					float: #{$default-float};
+				}					
 				a{
 					color: rgba(255, 255, 255, 0.7);
 					text-transform: capitalize;
 					font-size: 16px;
 					font-weight: 600;
 					padding: 3px 16px;
+					@media (max-width: 375px){
+						padding: 0;
+						padding-top: 3px;
+						padding-bottom: 3px; 
+						padding-#{$opposite-direction}: 15px;
+					}
+					i{
+						float: #{$default-float};
+						margin-#{$opposite-direction}: 8px;
+					}
 					&:hover{
 						color: rgba(255, 255, 255, 1);
 					}
@@ -128,88 +166,267 @@
 	background-color: #fff;
 	box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.1);
 	transition: all 0.3s ease-in-out;
+	@media (max-width: 375px){
+		width: 0;
+		overflow-x: hidden; 
+	}
 	&.opened{
 		width: 200px;
-		overflow: hidden;
-		.menu-items{
-			li{
-				a{
-					white-space: nowrap;
-					padding: 8px 16px;
-					text-decoration: none;
-					i{
-						margin-#{$opposite-direction}: 16px;
-						float: #{$default-float}
+		@media (max-width: 375px){
+			width: 100%	;
+		}
+		overflow-y: scroll;
+		overflow-x: hidden;
+		ul{
+			margin-top: 16px;
+			padding-top: 16px;
+			border-top: 2px solid #f5f6f7;
+			&:first-child{
+				margin: 0;
+				border: none;
+			}
+			&.menu-items{
+				li{
+					a{
+						white-space: nowrap;
+						padding: 8px 16px;
+						text-decoration: none;
+						i{
+							margin-#{$opposite-direction}: 16px;
+							float: #{$default-float}
+						}
+						.title{
+							position: static;
+							font-size: 14px;
+							font-weight: bold;
+							line-height: 2;
+							background-color: transparent;
+							padding: 0;
+							color: $gray-base;
+							font-family: Roboto;
+							height: auto;
+							font-weight: normal;
+							transition: none;
+							display: block;
+						}
 					}
-					.title{
-						position: static;
-						font-size: 14px;
-						font-weight: bold;
-						line-height: 2;
-						background-color: transparent;
-						padding: 0;
-						color: $gray-base;
-						font-family: Roboto;
-						height: auto;
-						font-weight: normal;
-						transition: none;
+					&.active{
+						a{
+							.title{
+								color: $brand-primary;
+							}
+						}
+					}
+					&.title{
 						display: block;
 					}
 				}
-				&.active{
-					a{
-						.title{
-							color: $brand-primary;
+			}
+			&.other{
+				display: block;
+			}
+			&.social-items{
+				display: block;
+			}
+		}
+	}
+	ul{
+		float: #{$default-float};
+		width: 100%;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		&.other{
+			padding-#{$default-float}: 16px;
+			padding-right: 16px;
+			display: none;
+			li{
+				font-family: Roboto;
+				font-size: 12px;
+				line-height: 1.33;
+				a{
+					&.link{
+						font-size: 14px;
+						line-height: 1.5;
+						color: #b80009;
+						padding: 9px 0 10px;
+						margin-bottom: 28px;
+						display: block;
+						&:hover{
+							color: darken(#b80009, 15%);
+						}
+					}
+				}
+				&.list-btn{
+					margin: 26px 0 24px;
+					.btn{
+						padding: 0 14px;
+					}
+				}
+			}
+			&.social-section{
+				li{
+					&.title{
+						font-size: 12px;
+						line-height: 1.75;
+						color: #999;
+						text-transform: uppercase;
+						padding: 9px 0 10px;
+						font-family: Roboto;
+						float: #{$default-float};
+						.social-items{
+							list-style: none;
+							margin: 0;
+							padding: 0;
+							margin-top: 18px;
+							li{
+								float: #{$default-float};
+								a{
+									&.social{
+										width: 40px;
+										height: 40px;
+										border-radius: 50%;
+										padding: 9px;
+										margin-right: 8px;
+										font-size: 20px;
+	    								display: block;
+										i{
+											color: #fff;
+										}
+										&.facebook{
+											background-color: #3b5998;
+											&:hover{
+												background-color: darken(#3b5998, 15%);
+											}
+										}
+										&.twitter{
+											background-color: #1da1f2;
+											&:hover{
+												background-color: darken(#1da1f2, 15%);
+											}
+										}
+										&.envelope{
+											background-color: #ee1c26;
+											&:hover{
+												background-color: darken(#ee1c26, 15%);
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+					&.list-btn{
+						float: #{$default-float};
+						margin: 24px 0 8px;
+						.btn{
+							padding: 14.5px 14.5px 9px;
+							i{
+								font-size: 20px;
+								margin-right: 10.5px;
+								color: rgba(45, 45, 46, 0.3);
+								float: #{$default-float};
+							}
 						}
 					}
 				}
 			}
 		}
-	}
-	.menu-items{
-		list-style: none;
-		margin: 0;
-		padding: 0;
-		li{
-			a{
-				transition: all 0.3s ease-in-out;
-				padding: 17px;
-				font-size: 22px;
-				line-height: 16px;
-				float: #{$default-float};
-				width: 100%;
-				color: $gray-base;
-				position: relative;
-				.title{
-					position: absolute;
-					#{$default-float}: 67px;
-					background-color: rgba(45, 45, 46, 0.7);
-					padding: 5px 16px;
-					font-size: 12px;
-					font-weight: 500;
-					line-height: 1.75;
-					color: #fff;
-					font-family: Roboto;
-					bottom: 0;
-					top: 0;
-					margin: auto;
-					height: 32px;
-					display: none;
+		&.menu-items{
+			li{
+				a{
+					transition: all 0.3s ease-in-out;
+					padding: 17px;
+					font-size: 22px;
+					line-height: 16px;
+					float: #{$default-float};
+					width: 100%;
+					color: $gray-base;
+					position: relative;
 					
-				}
-				&:hover{
-					background-color: #f5f6f7;
+					i{
+						color: rgba(45, 45, 46, 0.5);
+					}
 					.title{
-						display: block;
+						position: absolute;
+						#{$default-float}: 67px;
+						background-color: rgba(45, 45, 46, 0.7);
+						padding: 5px 16px;
+						font-size: 12px;
+						font-weight: 500;
+						line-height: 1.75;
+						color: #fff;
+						font-family: Roboto;
+						bottom: 0;
+						top: 0;
+						margin: auto;
+						height: 32px;
+						display: none;
+						white-space: nowrap;
+					}
+					&:hover{
+						background-color: #f5f6f7;
+						.title{
+							display: block;
+						}
+					}
+				}
+				&.active{
+					a{
+						color: $brand-primary;
+						background-color: rgba(45, 127, 223, 0.05);
+						i{
+							color: $brand-primary;
+						}
+					}
+				}
+				&.title{
+					font-size: 12px;
+					line-height: 1.75;
+					color: #999;
+					text-transform: uppercase;
+					padding: 9px 16px 10px;
+					font-family: Roboto;
+					display: none;
+					.social-items{
+						list-style: none;
+						margin: 0;
+						padding: 0;
+						li{
+							a{
+								&.social{
+									width: 40px;
+									height: 40px;
+									border-radius: 50%;
+									padding: 9px;
+									margin-right: 8px;
+									i{
+										color: #fff;
+									}
+									&.facebook{
+										background-color: #3b5998;
+										&:hover{
+											background-color: darken(#3b5998, 15%);
+										}
+									}
+									&.twitter{
+										background-color: #1da1f2;
+										&:hover{
+											background-color: darken(#1da1f2, 15%);
+										}
+									}
+									&.envelope{
+										background-color: #ee1c26;
+										&:hover{
+											background-color: darken(#ee1c26, 15%);
+										}
+									}
+								}
+							}
+						}
 					}
 				}
 			}
-			&.active{
-				a{
-					color: $brand-primary;
-					background-color: rgba(45, 127, 223, 0.05);
-				}
-			}	
 		}
 	}
 }

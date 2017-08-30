@@ -1,0 +1,46 @@
+<div class="section">
+	<h2>Sport News</h2>
+	<p>Promoted by Sport's World Magazine</p>
+	<div class="promoted-slider" data-direction="{{direction}}">
+		<div class="col-md-4">
+			{{> _card-promoted}}
+		</div>
+		<div class="col-md-4">
+			{{> _card-promoted-highlights}}
+		</div>
+		<div class="col-md-4">
+			{{> _card-best-of}}
+		</div>
+		<div class="col-md-4">
+			{{> _card-promoted}}
+		</div>
+		<div class="col-md-4">
+			{{> _card-promoted-highlights}}
+		</div>
+		<div class="col-md-4">
+			{{> _card-best-of}}
+		</div>
+		<div class="col-md-4">
+			{{> _card-promoted}}
+		</div>
+		<div class="col-md-4">
+			{{> _card-promoted-highlights}}
+		</div>
+		<div class="col-md-4">
+			{{> _card-best-of}}
+		</div>
+	</div>
+	<span class="slick-arrows promoted-{{defaultFloat}} promoted-prev">
+		<i class="icon icon-arrow-{{defaultFloat}}"></i>
+	</span>
+	<span class="slick-arrows promoted-{{oppositeDirection}} promoted-next">
+		<i class="icon icon-arrow-{{oppositeDirection}}"></i>
+	</span>
+	<div class="col-md-12 hidden-sm hidden-md hidden-lg show-more-container">
+		<div class="show-more">
+			<a href="#">
+				<i class="icon icon-arrow-bottom"></i> show more
+			</a>
+		</div>
+	</div>
+</div>

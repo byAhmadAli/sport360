@@ -22,11 +22,10 @@
 }
 .slick-list {
     position: relative;
-    overflow: hidden;
     display: block;
     margin: 0;
     padding: 0;
-
+    z-index: 99;
     &:focus {
         outline: none;
     }
@@ -102,6 +101,3 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
-.slick-slide:not(.slick-active){
-    opacity: 0 !important;
-} 

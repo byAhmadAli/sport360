@@ -3,7 +3,11 @@
     <button id="burgerMenu" class="burger-menu" type="button">
       <span class="icon icon-menu"></span>
     </button>
-    <a class="navbar-brand" href="#">Navbar</a>
+    <h1 class="navbar-brand">
+      <a href="#">
+        <img src="images/logo-sport-360-header-desktop.png" alt="sport-360" />
+      </a>
+    </h1>
   </div>
   <div class="navbar-form pull-{{defaultFloat}}">
     <form class="form-inline">
@@ -16,28 +20,23 @@
   <div class="navbar-actions-menu pull-{{oppositeDirection}}">
     <ul class="nav navbar-nav">
       <li>
-        <a class="nav-link" href="#">
-          <i class="icon icon-"></i> upload</a>
+        <a class="nav-link hidden-sm hidden-md hidden-lg" href="#">
+          <i class="icon icon-search"></i>
+        </a>
       </li>
       <li>
-        <a class="btn btn-primary" href="#">login / signup</a>
+        <a class="nav-link" href="#">
+          <i class="icon icon-upload"></i> <span class="hidden-xs">upload</span>
+        </a>
+      </li>
+      <li>
+        <a class="btn btn-primary small" href="#">
+          <span class="hidden-xs">login / signup</span>
+          <span class="hidden-sm hidden-md hidden-lg">login</span>
+
+        </a>
       </li>
     </ul>
   </div>
 </nav>
-<div class="main-menu">
-  <ul class="menu-items">
-    <li class="active">
-      <a href="#">
-        <i class="icon icon-home"></i>
-        <span class="title">Home</span>
-      </a>
-    </li>
-    <li>
-      <a href="#">
-        <i class="icon icon-chart-line"></i>
-        <span class="title">Trending</span>
-      </a>
-    </li>
-  </ul>
-</div>
+{{> _main-menu}}
