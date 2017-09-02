@@ -342,7 +342,7 @@
 
 .articlemaintitle {
   font-family: 'Roboto';
-  font-weight: bold;
+  font-weight: 700;
   font-size: 38px;
   color: black;
   padding-bottom: 10px;
@@ -624,7 +624,7 @@
   border: 1px solid;
   border-color: #c2c2c2;
   font-size: 18px;
-  font-weight: bolder;
+  font-weight: 700er;
   font-family: 'Roboto';
   border-radius: 4px;
 }
@@ -757,7 +757,7 @@
 
 h2.maintitle {
   font-family: 'Roboto';
-  font-weight: bold;
+  font-weight: 700;
   font-size: 34px;
   color: #202020;
   padding-bottom: 10px;
@@ -778,7 +778,7 @@ h2.maintitle {
 }
 
 .relatedtext {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
 }
 
@@ -824,7 +824,7 @@ h2.maintitle {
 
 h2.relatedmaintitle {
   font-family: 'Roboto';
-  font-weight: bold;
+  font-weight: 700;
   font-size: 34px;
   color: #202020;
   padding-bottom: 0px;
@@ -834,7 +834,7 @@ h2.relatedmaintitle {
 .main-button {
   font-family: 'roboto';
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center !important;
 }
 
@@ -945,12 +945,12 @@ h2.relatedmaintitle {
     border-radius: 5px;
     padding: 5px 5px;
     font-size: 12px;
-    font-weight: bold;
+    font-weight: 700;
     color: #252525;
   }
   h2.relatedmaintitle {
     font-family: 'Roboto';
-    font-weight: bold;
+    font-weight: 700;
     font-size: 34px;
     color: #202020;
     padding-bottom: 0px;
@@ -1006,7 +1006,7 @@ h2.relatedmaintitle {
 @media only screen and (min-width: 320px) and (max-width: 619px) {
   h2.relatedmaintitle {
     font-family: 'Roboto';
-    font-weight: bold;
+    font-weight: 700;
     font-size: 34px;
     color: #202020;
     padding-bottom: 0px;

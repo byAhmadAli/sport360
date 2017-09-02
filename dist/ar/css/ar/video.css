@@ -372,7 +372,7 @@
 
 .videomaintitle {
   font-family: 'Roboto';
-  font-weight: bold;
+  font-weight: 700;
   font-size: 38px;
   color: white;
   padding-bottom: 33px;
@@ -382,7 +382,7 @@
 
 h2.maintitle {
   font-family: 'Roboto';
-  font-weight: bold;
+  font-weight: 700;
   font-size: 34px;
   color: #202020;
   padding-bottom: 16px;
@@ -518,7 +518,7 @@ ul.stories .story {
 
 h2.relatedmaintitle {
   font-family: 'Roboto';
-  font-weight: bold;
+  font-weight: 700;
   font-size: 34px;
   color: #202020;
   padding-bottom: 0px;
@@ -574,14 +574,14 @@ h2.relatedmaintitle {
   border: 1px solid;
   border-color: #c2c2c2;
   font-size: 18px;
-  font-weight: bolder;
+  font-weight: 700er;
   font-family: 'Roboto';
   border-radius: 4px;
 }
 
 .comments-header {
   size: 14px;
-  font-weight: bolder;
+  font-weight: 700er;
   font-family: 'Roboto';
 }
 
@@ -616,7 +616,7 @@ h2.relatedmaintitle {
 
 .commentor-name {
   font-size: 13px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .facebook-like-comment {
@@ -647,7 +647,7 @@ h2.relatedmaintitle {
 .main-button {
   font-family: 'roboto';
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center !important;
 }
 
@@ -830,7 +830,7 @@ h2.relatedmaintitle {
 @media only screen and (max-width: 420px) {
   h2.relatedmaintitle {
     font-family: 'Roboto';
-    font-weight: bold;
+    font-weight: 700;
     font-size: 34px;
     color: #202020;
     padding-bottom: 0px;
@@ -886,7 +886,7 @@ h2.relatedmaintitle {
 @media only screen and (min-width: 320px) and (max-width: 619px) {
   h2.relatedmaintitle {
     font-family: 'Roboto';
-    font-weight: bold;
+    font-weight: 700;
     font-size: 34px;
     color: #202020;
     padding-bottom: 0px;

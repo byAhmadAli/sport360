@@ -5,6 +5,7 @@
  */
 /* FONT PATH
  * -------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Roboto:regular,thin,light,medium,700,black);
 @font-face {
   font-family: 'FontAwesome';
   src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
@@ -11297,7 +11298,7 @@ h2.maintitle {
 h2.clubs {
   font-family: 'Roboto';
   font-weight: 900;
-  font-size: 26px;
+  font-size: 34px;
   color: #202020;
   padding-bottom: 10px;
   padding-top: 5px;
@@ -11305,9 +11306,9 @@ h2.clubs {
 
 h2.more {
   font-family: 'Roboto';
-  font-weight: bold;
+  font-weight: 700;
   font-size: 34px;
-  color: #252525;
+  color: #202020;
   margin-bottom: 5px;
   margin-top: 5px;
   /*padding-bottom: 10px;
@@ -11315,7 +11316,7 @@ h2.more {
 }
 
 h2.maintitlevideo {
-  font-size: 28px;
+  font-size: 37px;
   font-weight: 900;
   color: white;
   margin-top: 30px;
@@ -11331,31 +11332,31 @@ h2.score {
 }
 
 h3.most {
-  font-size: 27px !important;
+  font-size: 26px !important;
   font-weight: 900;
   margin-top: 16px;
+  color: #202020;
 }
 
 h3.title {
-  font-weight: 600;
-  font-size: 33px;
-  color: #ffffff;
   position: absolute;
-  padding-top: 0px;
-  padding-right: 0px;
-  padding-bottom: 15px;
-  padding-left: 20px;
+  padding-top: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  padding-left: 24px;
   margin: 0;
   width: 100%;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.3);
-  background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.2) 100%);
+  /*background: rgba(0, 0, 0, 0.3);
+        background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%);*/
+  text-shadow: 0px 0px 0px black, 0 0 100px black, 0px 0px 100px black;
 }
 
 h3.title a {
+  line-height: 40px;
   color: #ffffff;
+  font-weight: 900;
   font-size: 34px;
-  font-weight: bold;
 }
 
 h3.title a:hover {
@@ -11484,7 +11485,7 @@ ul.stories {
 ul.stories .story {
   background: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  height: 90px;
+  height: 93px;
   margin-bottom: 20px;
   position: relative;
   overflow: hidden;
@@ -11495,22 +11496,27 @@ ul.stories .story h4 {
   line-height: 18px;
   margin-left: 130px;
   max-width: 260px;
-  padding: 5px 10px;
+  padding: 10px 10px;
 }
 
 ul.stories .story h4 a {
   font-size: 15px;
-  color: black;
-  font-weight: bold;
+  color: #202020;
+  font-weight: 700;
 }
 
 ul.stories .story .img-pic {
   float: left;
-  width: 130px;
+  width: 134px;
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+li .img-pic img {
+  width: 134px !important;
+  height: 93px !important;
 }
 
 .images {
@@ -11528,16 +11534,17 @@ ul.stories .story .img-pic {
 }
 
 .v-item h3 {
-  padding-top: 4px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-top: 7px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-bottom: 14px;
   line-height: 16px;
 }
 
 .v-item h3 a {
   font-size: 16px;
   color: #202020;
-  font-weight: bold;
+  font-weight: 700;
   line-height: 20px;
 }
 
@@ -11558,14 +11565,14 @@ ul.stories .story .img-pic {
 .photoitem h4 {
   font-size: 15px;
   line-height: 18px;
-  margin-left: 159px;
-  padding: 10px 10px;
+  margin-left: 148px;
+  padding: 12px 12px;
 }
 
 .photoitem h4 a {
   font-size: 15px;
-  color: #000;
-  font-weight: bold;
+  color: #202020;
+  font-weight: 700;
 }
 
 .photoitem .img-holder {
@@ -11599,7 +11606,7 @@ img {
   padding: 15px 25px;
   color: #202020;
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 700;
   display: inline-block;
   margin: 60px auto;
   border-radius: 5px;
@@ -11859,6 +11866,10 @@ li.subscribe > div a:hover {
   color: #ffffff;
 }
 
+.subscribe-btn:hover {
+  color: #f74253 !important;
+}
+
 .subscribe-btn > img > span {
   font-family: Roboto;
   font-weight: medium;
@@ -12048,7 +12059,7 @@ li.subscribe > div a:hover {
 #menu div#navcontainer > ul.menunavcontainer > li a {
   color: #000;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #menu div#navcontainer > ul > li a:hover {
@@ -12201,6 +12212,7 @@ li.subscribe > div a:hover {
 }
 
 .owl-carousel .owl-item .club img {
+  width: 50%;
   margin: 10px auto;
 }
 
@@ -12265,7 +12277,7 @@ li.subscribe > div a:hover {
   width: 33%;
   text-align: center;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 700;
   color: #252525;
 }
 
@@ -12315,7 +12327,7 @@ li.subscribe > div a:hover {
   float: left;
   font-size: 12px;
   color: #252525;
-  margin-right: 80px;
+  /*margin-right: 80px;*/
 }
 
 .datetime i {
@@ -12332,8 +12344,9 @@ li.subscribe > div a:hover {
   border: solid 1px #000;
   border-radius: 5px;
   padding: 5px 15px;
+  margin-left: 70px;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 700;
   color: #252525;
 }
 
@@ -12667,6 +12680,9 @@ div.level > ul > li {
 }
 
 @media only screen and (min-width: 620px) and (max-width: 991px) {
+  .detilslink {
+    margin-left: 0px;
+  }
   .all {
     margin-bottom: 10px;
   }
@@ -12797,7 +12813,7 @@ div.level > ul > li {
     height: 40%;
     text-align: center;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 700;
     color: #252525;
   }
   .images {
@@ -12860,7 +12876,7 @@ div.level > ul > li {
     color: #ffffff;
     font-size: 30px;
     font-weight: 900;
-    line-height: 18px;
+    line-height: 36px;
   }
   h3.title em {
     font-size: 14px;
@@ -12894,7 +12910,7 @@ div.level > ul > li {
   div.stories .story h4 a {
     font-size: 16px;
     color: #000;
-    font-weight: bold;
+    font-weight: 700;
   }
   div.stories .story .img-pic {
     float: left;
@@ -12972,6 +12988,16 @@ div.level > ul > li {
 }
 
 @media only screen and (max-width: 420px) {
+  ul.stories .story h4 {
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 130px;
+    max-width: 260px;
+    padding: 5px 10px;
+  }
+  .detilslink {
+    margin-left: 0px;
+  }
   .all {
     margin-top: 5px;
     margin-bottom: 15px;
@@ -13023,7 +13049,7 @@ div.level > ul > li {
   }
   h2.more {
     font-family: Roboto;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 28px;
     color: #252525;
     padding-bottom: 14px;
@@ -13079,7 +13105,7 @@ div.level > ul > li {
     width: 33%;
     text-align: center;
     font-size: 15px;
-    font-weight: bold;
+    font-weight: 700;
     color: #252525;
   }
   #masthead .logo {
@@ -13150,7 +13176,7 @@ div.level > ul > li {
   ul.stories .story {
     background: #ffffff;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-    height: 90px;
+    height: 93px;
     margin-bottom: 15px;
     position: relative;
     overflow: hidden;
@@ -13164,7 +13190,7 @@ div.level > ul > li {
   h3.title a {
     color: #ffffff;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 700;
   }
   h3.title em {
     font-size: 14px;
@@ -13178,12 +13204,22 @@ div.level > ul > li {
   .v-item h3 a {
     font-size: 20px;
     color: #000;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 24px;
   }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 619px) {
+  ul.stories .story h4 {
+    font-size: 14px;
+    line-height: 18px;
+    margin-left: 130px;
+    max-width: 260px;
+    padding: 5px 10px;
+  }
+  .detilslink {
+    margin-left: 70px;
+  }
   .all {
     margin-top: 5px;
     margin-bottom: 15px;
@@ -13235,7 +13271,7 @@ div.level > ul > li {
   }
   h2.more {
     font-family: Roboto;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 28px;
     color: #252525;
     padding-bottom: 14px;
@@ -13355,7 +13391,7 @@ div.level > ul > li {
   ul.stories .story {
     background: #ffffff;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-    height: 110px;
+    height: 93px;
     margin-bottom: 15px;
     position: relative;
     overflow: hidden;
@@ -13363,7 +13399,7 @@ div.level > ul > li {
   ul.stories .story h4 a {
     font-size: 14px;
     color: #000;
-    font-weight: bold;
+    font-weight: 700;
   }
   .img-pic > a > img {
     height: 100%;

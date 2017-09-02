@@ -289,6 +289,15 @@
   margin-bottom: 20px;
 }
 
+.videoPic h3.title {
+  padding: 20px 20px;
+  line-height: 36px;
+}
+
+a.seeall:hover {
+  background: #cc1f27  !important;
+}
+
 .seeall {
   margin-top: 10px;
   display: block;
@@ -296,10 +305,14 @@
   padding: 15px;
   text-align: center;
   background: #fff;
-  color: black;
+  color: #202020;
   font-weight: 600;
   font-size: 18px;
   border-radius: 5px;
+}
+
+.seeall:hover {
+  color: #fff !important;
 }
 
 .blackvideos {
@@ -408,6 +421,10 @@
 }
 
 @media only screen and (min-width: 620px) and (max-width: 991px) {
+  .videoPic h3.title {
+    padding: 20px 20px;
+    line-height: 18px;
+  }
   .pic-md-link {
     margin-left: 10px;
     margin-top: 19px;
@@ -468,6 +485,10 @@
 }
 
 @media only screen and (max-width: 420px) {
+  .videoPic h3.title {
+    padding: 10px 10px;
+    line-height: 18px;
+  }
   .videoPic {
     margin-bottom: 5px;
   }
@@ -523,6 +544,10 @@
 }
 
 @media only screen and (min-width: 320px) and (max-width: 619px) {
+  .videoPic h3.title {
+    padding: 10px 10px;
+    line-height: 18px;
+  }
   .videoPic {
     margin-bottom: 5px;
   }
