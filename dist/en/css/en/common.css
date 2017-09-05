@@ -11870,6 +11870,10 @@ a.subscribe-btn:hover {
   color: #ffffff;
 }
 
+.subscribe-btn:hover {
+  color: #ffffff !important;
+}
+
 .subscribe-btn > img > span {
   font-family: Roboto;
   font-weight: medium;

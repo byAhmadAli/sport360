@@ -644,6 +644,9 @@ a.subscribe-btn {
 .subscribe-btn {
     background-color: $color_alizarin_crimson_approx;
     color: $white;
+    &:hover {
+        color: $white !important;
+    }
     > img > span {
         font-family: $font_1;
         font-weight: medium;
