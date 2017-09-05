@@ -1184,36 +1184,41 @@ div {
         background: $color_mine_shaft_approx;
         display: inline-block;
         &:first-child {
-            animation: move .6s .1s linear infinite;
+            animation: loadingC .6s .1s linear infinite;
             /*animation: move 1s ease-in-out infinite alternate;*/
             background: $color_mine_shaft_approx;
             margin-#{$default-float}: 0;
         }
         &:nth-child(2) {
-            animation: move .6s .2s linear infinite;
+            animation: loadingC .6s .2s linear infinite;
            /* animation: move 1s ease-in-out -0.25s infinite alternate;*/
             margin-#{$default-float}: 35px;
             background: $color_mine_shaft_approx;
         }
         &:nth-child(3) {
-            animation: move .6s .3s linear infinite;
+            animation: loadingC .6s .3s linear infinite;
            /* animation: move 1s ease-in-out -0.5s infinite alternate;*/
             margin-#{$default-float}: 70px;
             background: $color_mine_shaft_approx;
         }
         &:nth-child(4) {
-            animation: move .6s .4s linear infinite;
+            animation: loadingC .6s .4s linear infinite;
             /*animation: move 1s ease-in-out -0.75s infinite alternate;*/
             margin-#{$default-float}: 105px;
             background: $color_mine_shaft_approx;
         }
         &:nth-child(5) {
-            animation: move .6s .5s linear infinite;
+            animation: loadingC .6s .5s linear infinite;
            /* animation: move 1s ease-in-out -0.75s infinite alternate;*/
             margin-#{$default-float}: 140px;
             background: $color_mine_shaft_approx;
         }
     }
+}
+@keyframes loadingC {
+    0% {transform: translate(0,0);}
+    50% {transform: translate(0,15px);}
+    100% {transform: translate(0,0);}
 }
 @-moz-keyframes move {
     0% {
