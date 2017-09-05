@@ -11861,13 +11861,13 @@ li.subscribe > div a:hover {
   color: #000;
 }
 
+a.subscribe-btn:hover {
+  background: #f74253 !important;
+}
+
 .subscribe-btn {
   background-color: #ec1a2e;
   color: #ffffff;
-}
-
-.subscribe-btn:hover {
-  color: #f74253 !important;
 }
 
 .subscribe-btn > img > span {

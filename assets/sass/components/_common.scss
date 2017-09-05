@@ -636,12 +636,14 @@ li.subscribe > div {
         color: $black;
     }
 }
+a.subscribe-btn {
+    &:hover {
+        background: rgb(247, 66, 83)  !important;
+    }
+}
 .subscribe-btn {
     background-color: $color_alizarin_crimson_approx;
     color: $white;
-    &:hover {
-        color: rgb(247, 66, 83) !important;
-    }
     > img > span {
         font-family: $font_1;
         font-weight: medium;
