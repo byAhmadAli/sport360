@@ -420,6 +420,15 @@ a.seeall:hover {
   height: 195px;
 }
 
+.owl-carousel .owl-item .club img {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.owl-carousel.clubslist .owl-item .club img {
+  height: 87px;
+}
+
 @media only screen and (min-width: 620px) and (max-width: 991px) {
   .videoPic h3.title {
     padding: 20px 20px;

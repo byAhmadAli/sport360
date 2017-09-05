@@ -12212,7 +12212,6 @@ li.subscribe > div a:hover {
 }
 
 .owl-carousel .owl-item .club img {
-  width: 50%;
   margin: 10px auto;
 }
 
@@ -12233,10 +12232,6 @@ li.subscribe > div a:hover {
 
 .owl-carousel.clubslist .owl-item {
   border: none;
-}
-
-.owl-carousel.clubslist .owl-item .club img {
-  height: 87px;
 }
 
 .owl-carousel.clubslist .owl-nav .owl-prev {
