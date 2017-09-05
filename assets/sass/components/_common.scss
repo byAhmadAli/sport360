@@ -962,6 +962,9 @@ li.subscribe > div {
         }
         .owl-item {
             border: none;
+            .club img {
+               height: 87px;
+            }
         }
         .owl-nav {
             .owl-prev {

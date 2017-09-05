@@ -12235,6 +12235,10 @@ li.subscribe > div a:hover {
   border: none;
 }
 
+.owl-carousel.clubslist .owl-item .club img {
+  height: 87px;
+}
+
 .owl-carousel.clubslist .owl-nav .owl-prev {
   position: absolute;
   left: 0;
