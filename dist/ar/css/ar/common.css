@@ -11546,6 +11546,7 @@ li .img-pic img {
   color: #202020;
   font-weight: 700;
   line-height: 20px;
+  display: block;
 }
 
 .v-item h3 a:hover {

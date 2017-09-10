@@ -359,7 +359,8 @@ li .img-pic img {
 		    font-size: 16px;
 		    color: #202020;
 			font-weight: 700;
-			line-height: 20px;
+            line-height: 20px;
+            display: block;
 		    &:hover {
 			    color: #d7262c;
 			}
