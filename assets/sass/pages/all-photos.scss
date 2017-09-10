@@ -22,7 +22,10 @@ hr {
     max-height:334px; 
     margin:0
 }
-.v-item h3{ padding:8px 12px}
+.v-item img {
+    height: 225px;
+}
+.v-item h3{ padding:12px 12px}
 .v-item h3 a{ font-size:15px; line-height:100%} /* new line */
 .v-item h3 em{ margin:10px 0 0}
 .killermain {
