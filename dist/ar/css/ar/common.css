@@ -11546,7 +11546,7 @@ li .img-pic img {
   color: #202020;
   font-weight: 700;
   line-height: 20px;
-  display: block;
+  display: inline-block;
 }
 
 .v-item h3 a:hover {
@@ -12348,7 +12348,7 @@ a.subscribe-btn:hover {
   border: solid 1px #000;
   border-radius: 5px;
   padding: 5px 15px;
-  margin-right: 70px;
+  margin-right: 77px;
   font-size: 12px;
   font-weight: 700;
   color: #252525;
