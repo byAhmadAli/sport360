@@ -105,7 +105,18 @@ $(document).ready(function () {
         $("#read-more").hide();
         $(".aricle-cntent").css("padding-bottom", "10px");
     });
-
+   $(".facebook-comment").click(function () {
+        var x = document.getElementById('myDIV');
+        if (x.style.display === 'none' || x.style.display=== "") {
+            x.style.display = 'block';
+            $(".faup").css("display", "inline-block");
+            $(".fadown").css("display", "none");
+        } else {
+            x.style.display = 'none';
+            $(".faup").css("display", "none");
+            $(".fadown").css("display", "inline-block");
+        }
+    });
     $(".more_icon").click(function () {
         $('.more_icon').css("display", "none");
         $('.show_icon').css("display", "inline-block");

@@ -360,9 +360,18 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
     color: black;
     font-weight: 600;
 }
-.fa-caret-down {
+#myDIV{
+    display :none;
+}
+.fadown {
     padding-right: 10px;
     font-size: 14px;
+    display:inline-block;
+}
+.faup {
+    padding-right: 10px;
+    font-size: 14px;
+    display:none;
 }
 
 .no-padding {

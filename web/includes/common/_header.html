@@ -35,7 +35,7 @@
             <li class="subscribe hidden-sm-down">
                 <div class="navbar-btn navbar-btn-{{oppositeDirection}}">
                     <a class="btn subscribe-btn" href="#" title="subscribe" target="_blank">
-                    <img src="images/envelope_dektop.png"/><span>&nbsp;&nbsp Subscribe</span></a>
+                    <img src="images/envelope_dektop.png"/><span>&nbsp;&nbsp {{home.sub}}</span></a>
                 </div>
             </li>
             <li class="search">
@@ -78,17 +78,17 @@
             <div class="row">
                 <div class="col-5 col-sm-5 levelOne level">
                     <ul>
-                        <li class="news">NEWS</li>
+                        <li class="news">{{home.news}}</li>
                         <div class="dropdown-divider"></div>
-                        <li class="photos">PHOTOS</li>
+                        <li class="photos">{{home.photo}}</li>
                         <div class="dropdown-divider"></div>
-                        <li class="videos">VIDEOS</li>
+                        <li class="videos">{{home.vid}}</li>
                         <div class="dropdown-divider"></div>
-                        <li class="livescore">LIVESCORES</li>
+                        <li class="livescore">{{home.livescore}}</li>
                         <div class="dropdown-divider"></div>
-                        <li class="other">OTHER</li>
+                        <li class="other">{{home.other}}</li>
                         <div class="dropdown-divider"></div>
-                        <li class="subsc">SUBSCRIPE</li>
+                        <li class="subsc">{{home.subscribe}}</li>
                         <div class="dropdown-divider"></div>
                         <li class="socilamedia">
                             <img src="images/face_social.png" class="fti" />
@@ -102,19 +102,19 @@
                 </div>
                 <div class="col-7 col-sm-7 levelTwo level">
                     <ul id="news">
-                        <li id="football">FOOTBALL<i class="fa fa-angle-{{oppositeDirection}}"></i></li>
+                        <li id="football">{{home.foot}}<i class="fa fa-angle-{{oppositeDirection}}"></i></li>
                         <div class="dropdown-divider two"></div>
-                        <li id="tenis">TENIS<i class="fa fa-angle-{{oppositeDirection}}"></i></li>
+                        <li id="tenis">{{home.tns}}<i class="fa fa-angle-{{oppositeDirection}}"></i></li>
                         <div class="dropdown-divider two"></div>
-                        <li>CRICKET<i class="fa fa-angle-{{oppositeDirection}}"></i></li>
+                        <li>{{home.crct}}<i class="fa fa-angle-{{oppositeDirection}}"></i></li>
                         <div class="dropdown-divider two"></div>
-                        <li>FITNES</li>
+                        <li>{{home.ftns}}</li>
                         <div class="dropdown-divider two"></div>
-                        <li>FORMULA ONE<i class="fa fa-angle-{{oppositeDirection}}"></i></li>
+                        <li>{{home.form}}<i class="fa fa-angle-{{oppositeDirection}}"></i></li>
                         <div class="dropdown-divider two"></div>
-                        <li>RUGBY<i class="fa fa-angle-{{oppositeDirection}}"></i></li>
+                        <li>{{home.rgb}}<i class="fa fa-angle-{{oppositeDirection}}"></i></li>
                         <div class="dropdown-divider two"></div>
-                        <li>NBA<i class="fa fa-angle-{{oppositeDirection}}"></i></li>
+                        <li>{{home.nba}}<i class="fa fa-angle-{{oppositeDirection}}"></i></li>
                         <div class="dropdown-divider two"></div>
                         <li>UFC<i class="fa fa-angle-{{oppositeDirection}}"></i></li>
                         <div class="dropdown-divider two"></div>
@@ -155,7 +155,7 @@
                         <div class="dropdown-divider two"></div>
                         <li>OTHER 2</li>
                         <div class="dropdown-divider two"></div>
-                        <li>SUBSCRIPE 2</li>
+                        <li>{{home.subscribe}} 2</li>
                         <div class="dropdown-divider two"></div>
                         <li></li>
                     </ul>
@@ -170,7 +170,7 @@
                         <div class="dropdown-divider two"></div>
                         <li>OTHER 3</li>
                         <div class="dropdown-divider two"></div>
-                        <li>SUBSCRIPE 3</li>
+                        <li>{{home.subscribe}} 3</li>
                         <div class="dropdown-divider two"></div>
                         <li></li>
                     </ul>
@@ -185,7 +185,7 @@
                         <div class="dropdown-divider two"></div>
                         <li>OTHER 4</li>logo
                         <div class="dropdown-divider two"></div>
-                        <li>SUBSCRIPE 4</li>
+                        <li>{{home.subscribe}} 4</li>
                         <div class="dropdown-divider two"></div>
                         <li></li>
                     </ul>
@@ -194,7 +194,7 @@
                         <div class="dropdown-divider two"></div>
                         <li>PODCAST</li>
                         <div class="dropdown-divider two"></div>
-                        <li>OPINION</li>
+                        <li>{{home.opnion}}</li>
                         <div class="dropdown-divider two"></div>
                         <li>INTERVIEWS</li>
                         <div class="dropdown-divider two"></div>
@@ -257,12 +257,12 @@
             <ul class="topics">
                 <div id="navcontainer">
                     <ul class="menunavcontainer">
-                        <li><a href="#" class="news"><strong>NEWS</strong></a></li>
-                        <li><a href="#"><strong>PHOTOS</strong></a></li>
-                        <li><a href="#"><strong>VIDEOS</strong></a></li>
-                        <li><a href="#"><strong>LIVESCORES</strong></a></li>
-                        <li><a href="#"><strong>EVENTS</strong></a></li>
-                        <li><a href="#"><strong>CALENDAR</strong></a></li>
+                        <li><a href="#" class="news"><strong>{{home.news}}</strong></a></li>
+                        <li><a href="#"><strong>{{home.photo}}</strong></a></li>
+                        <li><a href="#"><strong>{{home.vid}}</strong></a></li>
+                        <li><a href="#"><strong>{{home.livescore}}</strong></a></li>
+                        <li><a href="#"><strong>{{home.events}}</strong></a></li>
+                        <li><a href="#"><strong>{{home.calnd}}</strong></a></li>
                         <img class="fafacebook" src="images/facebook_menu.png" />
                         <img src="images/twitter_menu.png" />
                         <img src="images/instagram_menu.png" />
@@ -272,152 +272,152 @@
                 <hr>
 
                 <li>
-                    <a href="/news" title="">Football</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                    <a href="/news" title="">{{home.v3}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                     <ul>
-                        <li><a href="/news/uk" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/news/uk" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/news/world-0" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/news/world-0" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/news/world" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/news/world" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/news/uk/politics" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/news/uk/politics" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/news/people" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/news/people" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/news/science" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/news/science" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/news/business" title="">Business</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/news/business" title="">{{home.bs}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/news/media" title="">Media</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/news/media" title="">{{home.md}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="#e/news/obituaries" title="">Obituaries</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="#e/news/obituaries" title="">{{home.obt}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
                     </ul>
                 </li>
 
                 <li>
-                    <a href="/voices" title="">Tennes</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                    <a href="/voices" title="">{{home.tens}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                     <ul>
-                        <li><a href="#e/news/homelesshelpline" title="">Charity Appeal</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="#e/news/homelesshelpline" title="">{{home.ch}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/author/robert-fisk" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/author/robert-fisk" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/author/mark-steel" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/author/mark-steel" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/author/grace-dent" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/author/grace-dent" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="#e/author/janet-street-porter" title="Janet Street-Porter">Janet Street-Porter</a>
+                        <li><a href="#e/author/janet-street-porter" title="Janet Street-Porter">{{home.jnt}}</a>
                             <span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/author/holly-baxter" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/author/holly-baxter" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="#e/author/john-rentoul" title="">John Rentoul</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="#e/author/john-rentoul" title="">{{home.john}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/voices/campaigns" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/voices/campaigns" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/voices/comment" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/voices/comment" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/voices/editorials" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/voices/editorials" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/voices/letters" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/voices/letters" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/voices/campaigns/GiantsClub" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
-                        </li>
-                    </ul>
-                </li>
-
-                <li>
-                    <a href="/sport" title="" class="active-trail active">NBA</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
-                    <ul>
-                        <li><a href="/sport/rugby/rugby-union/lionstour" title=""> Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
-                        </li>
-                        <li class="hot_topic"><a href="/topic/football-transfers" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
-                        </li>
-                        <li><a href="/sport/football" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
-                        </li>
-                        <li><a href="/sport/rugby/rugby-union" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
-                        </li>
-                        <li><a href="/sport/cricket" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
-                        </li>
-                        <li><a href="/sport/tennis" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
-                        </li>
-                        <li><a href="/sport/motor-racing" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
-                        </li>
-                        <li><a href="/sport/us-sport" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
-                        </li>
-                        <li><a href="/sport/general/rugby-league" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/voices/campaigns/GiantsClub" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
                     </ul>
                 </li>
 
                 <li>
-                    <a href="#e/arts-entertainment" title="">Culture</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                    <a href="/sport" title="" class="active-trail active">{{home.nba}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                     <ul>
-                        <li><a href="/arts-entertainment/books" title="">Books</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/sport/rugby/rugby-union/lionstour" title=""> {{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/arts-entertainment/films" title="">Film</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li class="hot_topic"><a href="/topic/football-transfers" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/arts-entertainment/tv" title="">TV</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/sport/football" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/arts-entertainment/music" title="">Music</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/sport/rugby/rugby-union" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/arts-entertainment/art" title="">Art</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/sport/cricket" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/arts-entertainment/theatre-dance" title="">Theatre + dance</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/sport/tennis" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/arts-entertainment/comedy" title="">Comedy</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/sport/motor-racing" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="http://tickets.independent.co.uk?utm_source=nav&amp;utm_medium=Encore" title="">Tickets</a>
+                        <li><a href="/sport/us-sport" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        </li>
+                        <li><a href="/sport/general/rugby-league" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        </li>
+                    </ul>
+                </li>
+
+                <li>
+                    <a href="#e/arts-entertainment" title="">{{home.culture}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                    <ul>
+                        <li><a href="/arts-entertainment/books" title="">{{home.book}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        </li>
+                        <li><a href="/arts-entertainment/films" title="">{{home.film}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        </li>
+                        <li><a href="/arts-entertainment/tv" title="">{{home.tv}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        </li>
+                        <li><a href="/arts-entertainment/music" title="">{{home.music}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        </li>
+                        <li><a href="/arts-entertainment/art" title="">{{home.art}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        </li>
+                        <li><a href="/arts-entertainment/theatre-dance" title="">{{home.dance}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        </li>
+                        <li><a href="/arts-entertainment/comedy" title="">{{home.comedy}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        </li>
+                        <li><a href="http://tickets.independent.co.uk?utm_source=nav&amp;utm_medium=Encore" title="">{{home.tickets}}</a>
                             <span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/life-style" title="">Rugby</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                    <a href="/life-style" title="">{{home.reg}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                     <ul>
-                        <li><a href="/travel" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/travel" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/life-style/motoring" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/life-style/motoring" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/life-style/food-and-drink" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/life-style/food-and-drink" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/life-style/health-and-families" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/life-style/health-and-families" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/life-style/fashion" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/life-style/fashion" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/student" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/student" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="http://courses.independent.co.uk/" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="http://courses.independent.co.uk/" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/life-style/love-sex" title="">Opinion</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/life-style/love-sex" title="">{{home.opn}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
                         <li><a href="http://directory.independent.co.uk/?utm_source=independent&amp;utm_medium=navbar&amp;utm_campaign=touchlocal"
-                                title="">Business directory</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                                title="">{{home.bd}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
                         <li><a href="http://www.independentescapes.com/?utm_source=independent&amp;utm_medium=navbar&amp;utm_term=navbar&amp;utm_campaign=secretescapes"
-                                title="">Secret Escapes</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                                title="">{{home.sec}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="/life-style/gadgets-and-tech" title="">Tech</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                    <a href="/life-style/gadgets-and-tech" title="">{{home.tech}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                     <ul>
-                        <li class="hot_topic"><a href="/topic/iphone" title="">iPhone</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li class="hot_topic"><a href="/topic/iphone" title="">{{home.ip}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/life-style/gadgets-and-tech/news" title="">Tech news</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/life-style/gadgets-and-tech/news" title="">{{home.tecnews}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/life-style/gadgets-and-tech/features" title="">Tech culture</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/life-style/gadgets-and-tech/features" title="">{{home.techcult}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
                         <li><a href="/life-style/gadgets-and-tech/gaming" title="">Gaming</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
                     </ul>
                 </li>
 
-                <li class="socila"><a href="/life-style/gadgets-and-tech" class="sub"><strong>SUBSCRIPE</strong></a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                <li class="socila"><a href="/life-style/gadgets-and-tech" class="sub"><strong>{{home.subscribe}}</strong></a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                     <ul>
-                        <li class="hot_topic"><a href="/topic/iphone" title="">Newsletter</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li class="hot_topic"><a href="/topic/iphone" title="">{{home.letter}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
-                        <li><a href="/life-style/gadgets-and-tech/news" title="">Subscription</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                        <li><a href="/life-style/gadgets-and-tech/news" title="">{{home.subsec}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
                         <li>
                             <a href="#"><img class="downloadapp" src="images/apps_icon.png" /></a>
@@ -428,7 +428,7 @@
 
             <ul class="topics">
                 <li>
-                    <a href="/video" title="">Video</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                    <a href="/video" title="">{{home.videos}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                     <ul>
                         <li><a href="/video/News" title="">News videos</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
@@ -504,7 +504,7 @@
                         </li>
                     </ul>
                 </li>
-                <li><a href="https://subscriptions.independent.co.uk" title="">Subscribe</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
+                <li><a href="https://subscriptions.independent.co.uk" title="">{{home.sub}}</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                     <ul>
                         <li><a href="https://subscriptions.independent.co.uk" title="">Subscription offers</a><span class="toggle"><span class="icon-arrow-{{oppositeDirection}}"></span></span>
                         </li>
