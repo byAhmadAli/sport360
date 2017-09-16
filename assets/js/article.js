@@ -47,6 +47,28 @@ $(document).ready(function () {
             }
         }
     });
+    $('#owl-carousel-2').owlCarousel({
+        rtl: !url,
+        loop: true,
+        autoplay: true,
+        nav: true,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 1,
+                nav: true
+            },
+            600: {
+                items: 2,
+                nav: false
+            },
+            1000: {
+                items: 3,
+                nav: true,
+                loop: false
+            }
+        }
+    });
     $('.owl-carousel').owlCarousel({
         rtl: !url,
         loop: true,
@@ -117,6 +139,7 @@ $(document).ready(function () {
             $(".fadown").css("display", "inline-block");
         }
     });
+
     $(".more_icon").click(function () {
         $('.more_icon').css("display", "none");
         $('.show_icon').css("display", "inline-block");

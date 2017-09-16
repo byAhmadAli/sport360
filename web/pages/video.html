@@ -81,7 +81,7 @@
                 <div class="fade-out" id="fade-out">
                     <p class="firstparagraph">{{home.titleone}}</p>
                     <p class="paragraph" id="paragraph-seemore-pointer">
-                       {{home.titletwo}}
+                        {{home.titletwo}}
                     </p>
 
                     <div class="row continue">
@@ -108,7 +108,7 @@
                         <li class="under_line">{{home.relate2}}</li>
                     </ul>
                     <p class="paragraph">
-                     {{home.p4}}
+                        {{home.p4}}
                     </p>
                     <p class="paragraph">
                         {{home.p5}}
@@ -117,7 +117,7 @@
                         {{home.p6}}
                     </p>
                     <p class="paragraph">
-                   {{home.p7}}
+                        {{home.p7}}
                     </p>
                     <img src="images/liverpool-preger.png" class="secondimg" />
                     <p class="article-head">{{home.head}}</p>
@@ -164,32 +164,38 @@
 
             <!-- <hr class="hidden-md-down"> -->
 
-            <!-- for md, sm and xs devices -->
-            <div class="relatednews hidden-lg-up">
-                <h2 class="relatedmaintitle">{{home.mostPopular}}</h2>
-                <div class="row related">
-                    <div class="col-md-6 col-sm-6 col-xs-6 most-mobile" style="width: 50%">
-                        <div class="v-item">
-                            <span class="pic">  
-                                        <figure class="no-margin">
-                                            <a href="#"> <img src="images/related-1.png" class="related_img"/></a>
-                                        </figure>
-                                        <span class="picon-s"></span></span>
-                            <h3><a href="#e" class="ellipsis4line">{{home.mostsmall}}</a><em>{{home.time}}</em></h3>
+                <!-- for md, sm and xs devices-->
+                <div class="relatednews hidden-lg-up">
+                        <h2 class="relatedmaintitle">{{home.mostPopular}}</h2>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <!-- for md,sm,xs devices -->
+                                <div class="owl-carousel clubslist">
+                                    <div>
+                                        <div class="v-item">
+                                            <span class="pic">  
+                                                                <figure class="no-margin">
+                                                                    <a href="#"> 
+                                                                        <img src="images/related-2.png" class="related_img"/></a>
+                                                                </figure>
+                                                                <span class="vicon-s"></span></span>
+                                            <h3><a href="#e" class="ellipsis4line">{{home.mostsmall2}}</a><em>{{home.time}}</em></h3>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="v-item">
+                                            <span class="pic">  
+                                                                <figure class="no-margin">
+                                                                    <a href="#"> <img src="images/related-1.png" class="related_img"/></a>
+                                                                </figure>
+                                                                <span class="picon-s"></span></span>
+                                            <h3><a href="#e" class="ellipsis4line">{{home.mostsmall}}</a><em>{{home.time}}</em></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-ssm-6 col-xs-6 most-mobile" style="width: 50%">
-                        <div class="v-item">
-                            <span class="pic">  
-                                        <figure class="no-margin">
-                                            <a href="#"> <img src="images/related-2.png" class="related_img"/></a>
-                                        </figure>
-                                        <span class="vicon-s"></span></span>
-                            <h3><a href="#e" class="ellipsis4line">{{home.mostsmall2}}</a><em>{{home.time}}</em></h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
 
             <div class="video-row hidden-sm-down">
@@ -314,54 +320,59 @@
                 <hr class="separator">
             </div>
             <div class="show-hide-comments sub-row">
-                <button class="facebook-comment">{{home.comment}} <i class="fa fa-caret-down" aria-hidden="true"></i></button>
+                <button class="facebook-comment">{{home.comment}} 
+                        <i class="fa fa-caret-down fadown" aria-hidden="true"></i>
+                        <i class="fa fa-caret-up faup" aria-hidden="true"></i> 
+                </button>
             </div>
-            <div class="comments sub-row">
-                <span class="comments-header">2 {{home.comment}}</span>
-                <hr class="separator" />
-            </div>
+            <div id="myDIV">
+                <div class="comments sub-row">
+                    <span class="comments-header">2 {{home.comment}}</span>
+                    <hr class="separator" />
+                </div>
 
-            <div class="comments-list sub-row">
-                <div class="row">
-                    <div class="col-md-1 no-padding" style="width:20%">
-                        <img src="images/publisher-img.png" class="rounded-circle img-profile" />
-                    </div>
-                    <div class="col-md-11 commentAdd" style="width:80% ;">
-                        <textarea placeholder="   {{home.addcomment}}" class="comment-add"></textarea>
+                <div class="comments-list sub-row">
+                    <div class="row">
+                        <div class="col-md-1 no-padding" style="width:20%">
+                            <img src="images/publisher-img.png" class="rounded-circle img-profile" />
+                        </div>
+                        <div class="col-md-11 commentAdd" style="width:80% ;">
+                            <textarea placeholder="   {{home.addcomment}}" class="comment-add"></textarea>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="sub-row">
-                <div class="row">
-                    <div class="col-md-1 no-padding" style="width:25%">
-                        <img src="images/commentor-image.png" class="rounded-circle img-profile">
+                <div class="sub-row">
+                    <div class="row">
+                        <div class="col-md-1 no-padding" style="width:25%">
+                            <img src="images/commentor-image.png" class="rounded-circle img-profile">
+                        </div>
+                        <div class="col-md-11 commentAdd" style="width:75% ; ">
+                            <span class="commentor-name">{{home.commentname}}</span>
+                            <p class="comment">{{home.commenttitle}} </p>
+                            <a href="#" class="facebook-like-comment">{{home.like}}</a>&nbsp;&nbsp;
+                            <a href="#" class="facebook-like-comment">{{home.reply}}</a>
+                            <span class="time">{{home.datetime}}</span>
+                        </div>
                     </div>
-                    <div class="col-md-11 commentAdd" style="width:75% ; ">
-                        <span class="commentor-name">{{home.commentname}}</span>
-                        <p class="comment">{{home.commenttitle}} </p>
-                        <a href="#" class="facebook-like-comment">{{home.like}}</a>&nbsp;&nbsp;
-                        <a href="#" class="facebook-like-comment">{{home.reply}}</a>
-                        <span class="time">{{home.datetime}}</span>
+                    <div class="row offset-1 verticalLine">
+
+                        <!--  <div class="offset-1 col-11 verticalLine"> -->
+
+                        <div class="col-md-1 no-padding commenter" style="width:20%;">
+                            <img src="images/commentor-image.png" class="rounded-circle img-profile">
+                        </div>
+                        <div class="col-xs-11 commenter" style="width:80%;">
+                            <span class="commentor-name">{{home.commentname}}</span>
+                            <p class="comment">{{home.commenttitle}} </p>
+                            <a href="#" class="facebook-like-comment">{{home.like}}</a>&nbsp;&nbsp;
+                            <a href="#" class="facebook-like-comment">{{home.reply}}</a>
+                            <span class="time">{{home.datetime}}</span>
+                        </div>
+
+                        <!--  </div> -->
+
                     </div>
-                </div>
-                <div class="row offset-1 verticalLine">
-
-                    <!--  <div class="offset-1 col-11 verticalLine"> -->
-
-                    <div class="col-md-1 no-padding commenter" style="width:20%;">
-                        <img src="images/commentor-image.png" class="rounded-circle img-profile">
-                    </div>
-                    <div class="col-xs-11 commenter" style="width:80%;">
-                        <span class="commentor-name">{{home.commentname}}</span>
-                        <p class="comment">{{home.commenttitle}} </p>
-                        <a href="#" class="facebook-like-comment">{{home.like}}</a>&nbsp;&nbsp;
-                        <a href="#" class="facebook-like-comment">{{home.reply}}</a>
-                        <span class="time">{{home.datetime}}</span>
-                    </div>
-
-                    <!--  </div> -->
-
                 </div>
             </div>
 

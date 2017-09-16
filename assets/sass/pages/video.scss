@@ -283,19 +283,36 @@ h2.relatedmaintitle {
     height: 270px;
     margin-top: 15px;
     margin-bottom: 6px;
-    margin-#{$default-float}: 0px !important;
+    margin-#{$default-float}: 20px !important;
 }
 
 .v-item h3 {
     margin-#{$default-float}: 10px !important;
     margin-#{$opposite-direction}: 10px !important;
     padding: 0px !important;
+    text-align: left;
 }
 
 .v-item h3 a {
     font-size: 14px;
     color: black;
     font-weight: 600;
+}
+.v-item em {
+    text-align: left;
+}
+#myDIV{
+    display :none;
+}
+.fadown {
+    padding-right: 10px;
+    font-size: 14px;
+    display:inline-block;
+}
+.faup {
+    padding-right: 10px;
+    font-size: 14px;
+    display:none;
 }
 
 .separator {
@@ -529,6 +546,9 @@ h2.relatedmaintitle {
     font-size: 14px; 
 }
 @media only screen and (min-width: 620px) and (max-width: 991px) {
+    .owl-carousel.clubslist {
+        height: 328px !important;
+    }
     .pic {
         position: relative;
         display: block;
@@ -553,7 +573,7 @@ h2.relatedmaintitle {
         width: 720px;
     }
     .related_img {
-        width: 360px;
+        width: 360px !important;
     }
     .v-item {
         background: #fff;
@@ -561,7 +581,12 @@ h2.relatedmaintitle {
         height: 270px;
         margin-top: 15px;
         margin-bottom: 6px;
+        margin-#{$default-float}: 20px !important;
+    }
+    .v-item h3 {
         margin-#{$default-float}: 0px !important;
+        margin-#{$opposite-direction}: 10px !important;
+        padding: 10px !important;
     }
     .relatednews .related {
         height: 328px;
@@ -571,6 +596,9 @@ h2.relatedmaintitle {
 }
 
 @media only screen and (max-width: 420px) {
+    .owl-carousel.clubslist {
+        height: 272px !important;
+    }
     h2.relatedmaintitle {
         font-family: 'Roboto';
         font-weight: 700;
@@ -602,6 +630,9 @@ h2.relatedmaintitle {
         margin-bottom: 6px;
         margin-#{$default-float}: 0px !important;
     }
+    .related_img {
+        width: 270px !important;
+    }
     .relatednews .related {
         padding-top: 0px;
         height: 270px;
@@ -613,13 +644,13 @@ h2.relatedmaintitle {
     .v-item h3 {
         margin-#{$default-float}: 0px !important;
         margin-#{$opposite-direction}: 10px !important;
-        padding: 0px !important;
+        padding: 15px !important;
     }
     .v-item h3 a {
         font-size: 12px;
         color: black;
         font-weight: 600;
-        line-height: 10px;
+        line-height: 18px;
     }
     .no-padding {
         padding: 15px;
@@ -627,6 +658,9 @@ h2.relatedmaintitle {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 619px) {
+    .owl-carousel.clubslist {
+        height: 272px !important;
+    }
     h2.relatedmaintitle {
         font-family: 'Roboto';
         font-weight: 700;
@@ -662,6 +696,9 @@ h2.relatedmaintitle {
         padding-#{$default-float}: 4px !important;
         padding-#{$opposite-direction}: 4px !important;
     }
+    .related_img {
+        width: 270px !important;
+    }
     .relatednews .related {
         padding-top: 0px;
         height: 270px;
@@ -669,13 +706,13 @@ h2.relatedmaintitle {
     .v-item h3 {
         margin-#{$default-float}: 0px !important;
         margin-#{$opposite-direction}: 10px !important;
-        padding: 0px !important;
+        padding: 15px !important;
     }
     .v-item h3 a {
         font-size: 12px;
         color: black;
         font-weight: 600;
-        line-height: 10px;
+        line-height: 18px;
     }
     .no-padding {
         padding: 15px;

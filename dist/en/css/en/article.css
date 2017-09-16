@@ -575,7 +575,7 @@
   height: 270px;
   margin-top: 15px;
   margin-bottom: 6px;
-  margin-left: 0px !important;
+  margin-left: 20px !important;
 }
 
 .v-item h3 {
@@ -588,6 +588,11 @@
   font-size: 14px;
   color: black;
   font-weight: 600;
+  text-align: left;
+}
+
+.v-item em {
+  text-align: left;
 }
 
 #myDIV {
@@ -913,6 +918,9 @@ h2.relatedmaintitle {
 
 /** tablet **/
 @media only screen and (min-width: 620px) and (max-width: 991px) {
+  .owl-carousel.clubslist {
+    height: 328px !important;
+  }
   .articlemaintitle {
     font-family: 'Roboto';
     font-weight: 900;
@@ -940,16 +948,27 @@ h2.relatedmaintitle {
     height: 270px;
     margin-top: 15px;
     margin-bottom: 6px;
+    margin-left: 20px !important;
+  }
+  .v-item h3 {
     margin-left: 0px !important;
+    margin-right: 10px !important;
+    padding: 10px !important;
   }
   .relatednews .related {
+    /*  height: 328px;
+        width: 670px;
+        margin-left: 25px;*/
     height: 328px;
-    width: 670px;
-    margin-left: 25px;
+    width: 720px;
+    margin-left: 0px;
   }
 }
 
 @media only screen and (max-width: 420px) {
+  .owl-carousel.clubslist {
+    height: 272px !important;
+  }
   .detilslink {
     display: inline-block;
     border: solid 1px #000;
@@ -982,6 +1001,9 @@ h2.relatedmaintitle {
     color: #727272;
     line-height: 1.2;
   }
+  .related_img {
+    width: 250px !important;
+  }
   .v-item {
     background: #fff;
     box-shadow: 0 0px 0px transparent !important;
@@ -990,10 +1012,10 @@ h2.relatedmaintitle {
     margin-bottom: 6px;
     margin-left: 0px !important;
   }
-  .relatednews .related {
-    padding-top: 0px;
-    height: 270px;
-  }
+  /*.relatednews .related {
+        padding-top: 0px;
+        height: 270px;
+    }*/
   .most-mobile {
     padding-left: 4px !important;
     padding-right: 4px !important;
@@ -1001,13 +1023,13 @@ h2.relatedmaintitle {
   .v-item h3 {
     margin-left: 0px !important;
     margin-right: 10px !important;
-    padding: 0px !important;
+    padding: 15px !important;
   }
   .v-item h3 a {
     font-size: 12px;
     color: black;
     font-weight: 600;
-    line-height: 10px;
+    line-height: 18px;
   }
   .no-padding {
     padding: 15px;
@@ -1015,6 +1037,9 @@ h2.relatedmaintitle {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 619px) {
+  .owl-carousel.clubslist {
+    height: 272px !important;
+  }
   h2.relatedmaintitle {
     font-family: 'Roboto';
     font-weight: 700;
@@ -1038,6 +1063,13 @@ h2.relatedmaintitle {
     color: #727272;
     line-height: 1.2;
   }
+  .related_img {
+    width: 250px !important;
+  }
+  /*.relatednews .related {
+        padding-top: 0px;
+        height: 270px;
+    }*/
   .v-item {
     background: #fff;
     box-shadow: 0 0px 0px transparent !important;
@@ -1049,22 +1081,22 @@ h2.relatedmaintitle {
   .v-item h3 {
     margin-left: 0px !important;
     margin-right: 10px !important;
-    padding: 0px !important;
+    padding: 15px !important;
   }
   .v-item h3 a {
     font-size: 12px;
     color: black;
     font-weight: 600;
-    line-height: 10px;
+    line-height: 18px;
   }
   .most-mobile {
     padding-left: 4px !important;
     padding-right: 4px !important;
   }
-  .relatednews .related {
-    padding-top: 0px;
-    height: 270px;
-  }
+  /* .relatednews .related {
+        padding-top: 0px;
+        height: 270px;
+    }*/
   .no-padding {
     padding: 15px;
   }

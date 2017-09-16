@@ -11,11 +11,11 @@ $(document).ready(function () {
         responsiveClass: true,
         responsive: {
             0: {
-                items: 3,
+                items: 1,
                 nav: true
             },
             600: {
-                items: 4,
+                items: 2,
                 nav: false
             },
             1000: {
@@ -39,6 +39,18 @@ $(document).ready(function () {
         $(".content").css("height", "100%");
         $("#read-more").hide();
         $('.text-center').css('margin-bottom', '20px');
+    });
+    $(".facebook-comment").click(function () {
+        var x = document.getElementById('myDIV');
+        if (x.style.display === 'none' || x.style.display=== "") {
+            x.style.display = 'block';
+            $(".faup").css("display", "inline-block");
+            $(".fadown").css("display", "none");
+        } else {
+            x.style.display = 'none';
+            $(".faup").css("display", "none");
+            $(".fadown").css("display", "inline-block");
+        }
     });
     $(".more_icon").click(function () {
         $('.more_icon').css("display", "none");
