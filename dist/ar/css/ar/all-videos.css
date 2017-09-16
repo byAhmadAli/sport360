@@ -330,8 +330,8 @@ body {
 
 .v-item h3 {
   padding-top: 15px;
-  padding-left: 0px;
-  padding-right: 10px;
+  padding-right: 0px;
+  padding-left: 10px;
   line-height: 16px;
 }
 
@@ -495,9 +495,9 @@ body {
     color: #ffffff;
     position: absolute;
     padding-top: 0px;
-    padding-right: 0px;
+    padding-left: 0px;
     padding-bottom: 15px;
-    padding-left: 20px;
+    padding-right: 20px;
     margin: 0;
     width: 100%;
     line-height: 24px;
@@ -512,8 +512,8 @@ body {
   }
   .mobbanner {
     max-width: 90%;
-    margin-left: 120px;
-    margin-right: 183px;
+    margin-right: 120px;
+    margin-left: 183px;
     margin-top: 50px;
     margin-bottom: 10px;
   }

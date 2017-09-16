@@ -267,8 +267,8 @@ ul.stories .story{
 .relatednews {
     margin-top: 45px;
     .row{
-        margin-right: -7.5px;
-        margin-left: -7.5px;
+        margin-#{$opposite-direction}: -7.5px;
+        margin-#{$default-float}: -7.5px;
     }
 }
 
@@ -295,7 +295,7 @@ h2.relatedmaintitle {
     margin-#{$default-float}: 10px !important;
     margin-#{$opposite-direction}: 10px !important;
     padding: 0px !important;
-    text-align: left;
+    text-align: #{$default-float};
 }
 
 .v-item h3 a {
@@ -304,18 +304,18 @@ h2.relatedmaintitle {
     font-weight: 600;
 }
 .v-item em {
-    text-align: left;
+    text-align: #{$default-float};
 }
 #myDIV{
     display :none;
 }
 .fadown {
-    padding-right: 10px;
+    padding-#{$opposite-direction}: 10px;
     font-size: 14px;
     display:inline-block;
 }
 .faup {
-    padding-right: 10px;
+    padding-#{$opposite-direction}: 10px;
     font-size: 14px;
     display:none;
 }
@@ -547,7 +547,7 @@ h2.relatedmaintitle {
     margin-#{$default-float}: 15px;
 }
 .fa-caret-down {
-    padding-right: 10px;
+    padding-#{$opposite-direction}: 10px;
     font-size: 14px; 
 }
 @media only screen and (min-width: 620px) and (max-width: 991px) {
@@ -557,7 +557,7 @@ h2.relatedmaintitle {
     .pic {
         position: relative;
         display: block;
-        margin-left: 0px;
+        margin-#{$default-float}: 0px;
     }
     .articlemaintitle {
         font-family: 'Roboto';
@@ -610,7 +610,7 @@ h2.relatedmaintitle {
         font-size: 34px;
         color: #202020;
         padding-bottom: 0px;
-        margin-left: 0px; 
+        margin-#{$default-float}: 0px; 
     }
     .videomaintitle {
         font-family: 'Roboto';
@@ -672,7 +672,7 @@ h2.relatedmaintitle {
         font-size: 34px;
         color: #202020;
         padding-bottom: 0px;
-        margin-left: 0px; 
+        margin-#{$default-float}: 0px; 
     }
     .videomaintitle {
         font-family: 'Roboto';
@@ -726,7 +726,7 @@ h2.relatedmaintitle {
 .ob-widget-items-container{
     display: flex!important;
     flex-wrap: wrap!important;
-    margin-right: -10px!important;
+    margin-#{$opposite-direction}: -10px!important;
     margin-#{$default-float}: -10px!important;
     box-sizing: inherit!important;
 }
@@ -760,7 +760,7 @@ h2.relatedmaintitle {
     text-align: #{$default-float};
     margin: 5px 0 0 !important;
     margin-#{$default-float}: 10px !important;
-    margin-right: 10px !important;
+    margin-#{$opposite-direction}: 10px !important;
     padding: 0px !important;
     color: #000!important;
     &:hover{
@@ -769,7 +769,7 @@ h2.relatedmaintitle {
 }
 .ob-rec-description{
     margin-#{$default-float}: 10px !important;
-    margin-right: 10px !important;
+    margin-#{$opposite-direction}: 10px !important;
     padding: 0px !important;
     color: #727272!important;
 }

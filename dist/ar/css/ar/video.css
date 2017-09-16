@@ -516,8 +516,8 @@ ul.stories .story {
 }
 
 .relatednews .row {
-  margin-right: -7.5px;
   margin-left: -7.5px;
+  margin-right: -7.5px;
 }
 
 h2.relatedmaintitle {
@@ -543,7 +543,7 @@ h2.relatedmaintitle {
   margin-right: 10px !important;
   margin-left: 10px !important;
   padding: 0px !important;
-  text-align: left;
+  text-align: right;
 }
 
 .v-item h3 a {
@@ -553,7 +553,7 @@ h2.relatedmaintitle {
 }
 
 .v-item em {
-  text-align: left;
+  text-align: right;
 }
 
 #myDIV {
@@ -561,13 +561,13 @@ h2.relatedmaintitle {
 }
 
 .fadown {
-  padding-right: 10px;
+  padding-left: 10px;
   font-size: 14px;
   display: inline-block;
 }
 
 .faup {
-  padding-right: 10px;
+  padding-left: 10px;
   font-size: 14px;
   display: none;
 }
@@ -806,7 +806,7 @@ h2.relatedmaintitle {
 }
 
 .fa-caret-down {
-  padding-right: 10px;
+  padding-left: 10px;
   font-size: 14px;
 }
 
@@ -817,7 +817,7 @@ h2.relatedmaintitle {
   .pic {
     position: relative;
     display: block;
-    margin-left: 0px;
+    margin-right: 0px;
   }
   .articlemaintitle {
     font-family: 'Roboto';
@@ -870,7 +870,7 @@ h2.relatedmaintitle {
     font-size: 34px;
     color: #202020;
     padding-bottom: 0px;
-    margin-left: 0px;
+    margin-right: 0px;
   }
   .videomaintitle {
     font-family: 'Roboto';
@@ -932,7 +932,7 @@ h2.relatedmaintitle {
     font-size: 34px;
     color: #202020;
     padding-bottom: 0px;
-    margin-left: 0px;
+    margin-right: 0px;
   }
   .videomaintitle {
     font-family: 'Roboto';
@@ -987,7 +987,7 @@ h2.relatedmaintitle {
 .ob-widget-items-container {
   display: flex !important;
   flex-wrap: wrap !important;
-  margin-right: -10px !important;
+  margin-left: -10px !important;
   margin-right: -10px !important;
   box-sizing: inherit !important;
 }
@@ -1024,7 +1024,7 @@ h2.relatedmaintitle {
   text-align: right;
   margin: 5px 0 0 !important;
   margin-right: 10px !important;
-  margin-right: 10px !important;
+  margin-left: 10px !important;
   padding: 0px !important;
   color: #000 !important;
 }
@@ -1035,7 +1035,7 @@ h2.relatedmaintitle {
 
 .ob-rec-description {
   margin-right: 10px !important;
-  margin-right: 10px !important;
+  margin-left: 10px !important;
   padding: 0px !important;
   color: #727272 !important;
 }

@@ -331,7 +331,7 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
 
 .head-related-mobile {
     margin-#{$default-float}: 1px;
-    margin-right: 1px;
+    margin-#{$opposite-direction}: 1px;
     /* width: 289px; */
 }
 .centerdiv {
@@ -359,21 +359,21 @@ $url_12: url(../../assets/fonts/icomoon.svg?235t6z#icomoon);
     font-size: 14px;
     color: black;
     font-weight: 600;
-    text-align: left;
+    text-align: #{$default-float};
 }
 .v-item em {
-    text-align: left;
+    text-align: #{$default-float};
 }
 #myDIV{
     display :none;
 }
 .fadown {
-    padding-right: 10px;
+    padding-#{$opposite-direction}: 10px;
     font-size: 14px;
     display:inline-block;
 }
 .faup {
-    padding-right: 10px;
+    padding-#{$opposite-direction}: 10px;
     font-size: 14px;
     display:none;
 }
@@ -870,7 +870,7 @@ h2.relatedmaintitle {
 .ob-widget-items-container{
     display: flex!important;
     flex-wrap: wrap!important;
-    margin-right: -10px!important;
+    margin-#{$opposite-direction}: -10px!important;
     margin-#{$default-float}: -10px!important;
     box-sizing: inherit!important;
 }
@@ -904,7 +904,7 @@ h2.relatedmaintitle {
     text-align: #{$default-float};
     margin: 5px 0 0 !important;
     margin-#{$default-float}: 10px !important;
-    margin-right: 10px !important;
+    margin-#{$opposite-direction}: 10px !important;
     padding: 0px !important;
     color: #000!important;
     &:hover{
@@ -913,7 +913,7 @@ h2.relatedmaintitle {
 }
 .ob-rec-description{
     margin-#{$default-float}: 10px !important;
-    margin-right: 10px !important;
+    margin-#{$opposite-direction}: 10px !important;
     padding: 0px !important;
     color: #727272!important;
 }

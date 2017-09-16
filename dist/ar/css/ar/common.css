@@ -12898,10 +12898,10 @@ div.level > ul > li {
     color: #252525;
     font-size: 28px;
   }
-  .fa-chevron-left {
+  .fa-chevron-right {
     display: none;
   }
-  .fa-chevron-right {
+  .fa-chevron-left {
     display: none;
   }
   .mobbanner {
@@ -13041,7 +13041,7 @@ div.level > ul > li {
   ul.stories .story h4 {
     font-size: 14px;
     line-height: 18px;
-    margin-left: 130px;
+    margin-right: 130px;
     max-width: 260px;
     padding: 5px 10px;
   }
@@ -13194,10 +13194,10 @@ div.level > ul > li {
     height: 480px;
     margin-top: 5px;
   }
-  .fa-chevron-left {
+  .fa-chevron-right {
     display: none;
   }
-  .fa-chevron-right {
+  .fa-chevron-left {
     display: none;
   }
   .mobbanner {
@@ -13263,7 +13263,7 @@ div.level > ul > li {
   ul.stories .story h4 {
     font-size: 14px;
     line-height: 18px;
-    margin-left: 130px;
+    margin-right: 130px;
     max-width: 260px;
     padding: 5px 10px;
   }
@@ -13409,10 +13409,10 @@ div.level > ul > li {
   .toggle-menu {
     margin-top: 7%;
   }
-  .fa-chevron-left {
+  .fa-chevron-right {
     display: none;
   }
-  .fa-chevron-right {
+  .fa-chevron-left {
     display: none;
   }
   .v {
