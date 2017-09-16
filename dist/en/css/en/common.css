@@ -12292,6 +12292,10 @@ a.subscribe-btn:hover {
   top: -100px;
 }
 
+.owl-nav .disabled {
+  color: gray;
+}
+
 .results {
   width: 880px;
 }

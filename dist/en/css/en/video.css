@@ -333,6 +333,10 @@
 /*[class^="col-"], [class*=" col-"] {
      padding: 0 10px; 
 }*/
+.related input {
+  cursor: pointer !important;
+}
+
 .club-title .separator {
   font-size: 15px;
   font-family: "Roboto";
