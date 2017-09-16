@@ -1092,7 +1092,7 @@ a.subscribe-btn {
     }
 }
 .detilslink {
-    /*float: #{$opposite-direction};*/
+    float: #{$opposite-direction};
     display: inline-block;
     border: solid 1px $black;
     //Instead of the line below you could use @include border-radius($radius, $vertical-radius)

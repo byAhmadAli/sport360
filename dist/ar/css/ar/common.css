@@ -12372,7 +12372,7 @@ a.subscribe-btn:hover {
 }
 
 .detilslink {
-  /*float: left;*/
+  float: left;
   display: inline-block;
   border: solid 1px #000;
   border-radius: 5px;
